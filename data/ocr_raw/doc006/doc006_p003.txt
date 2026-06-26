@@ -1,0 +1,53 @@
+EVM IMPORTANT NOTICE
+Texas Instruments (TI) provides the enclosed product(s) under the following conditions:
+
+This evaluation kit being sold by TI is intended for use for ENGINEERING DEVELOPMENT OR
+EVALUATION PURPOSES ONLY and is not considered by TI to be fit for commercial use. As such, the
+goods being provided may not be complete in terms of required design—, marketing—, and/or manufacturing—
+related protective considerations, including product safety measures typically found in the end product
+incorporating the goods. As a prototype, this product does not fall within the scope of the European Union
+directive on electromagnetic compatibility and therefore may not meet the technical requirements of the
+directive.
+
+Should this evaluation kit not meet the specifications indicated in the EVM User's Guide, the kit may be
+returned within 30 days from the date of delivery for a full refund. THE FOREGOING WARRANTY IS THE
+EXCLUSIVE WARRANTY MADE BY SELLER TO BUYER AND IS IN LIEU OF ALL OTHER WARRANTIES,
+EXPRESSED, IMPLIED, OR STATUTORY, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR
+FITNESS FOR ANY PARTICULAR PURPOSE.
+
+The user assumes all responsibility and liability for proper and safe handling of the goods. Further, the user
+indemnifies Tl from all claims arising from the handling or use of the goods. Please be aware that the
+products received may not be regulatory compliant or agency certified (FCC, UL, CE, etc.). Due to the open
+construction of the product, it is the user's responsibility to take any and all appropriate precautions with
+regard to electrostatic discharge.
+
+EXCEPT TO THE EXTENT OF THE INDEMNITY SET FORTH ABOVE, NEITHER PARTY SHALL BE
+LIABLE TO THE OTHER FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES.
+
+Tl currently deals with a variety of customers for products, and therefore our arrangement with the user is
+not exclusive.
+
+TI assumes no liability for applications assistance, customer product design, software performance,
+or infringement of patents or services described herein.
+
+Please read the EVM User's Guide and, specifically, the EVM Warnings and Restrictions notice in the EVM
+User's Guide prior to handling the product. This notice contains important safety information about
+temperatures and voltages. For further safety concerns, please contact the TI application engineer.
+
+Persons handling the product must have electronics training and observe good laboratory practice standards.
+
+No license is granted under any patent right or other intellectual property right of TI covering or relating to any
+machine, process, or combination in which such TI products or services might be or are used.
+
+Mailing Address:
+
+Texas Instruments
+Post Office Box 655303
+Dallas, Texas 75265
+
+Copyright © 2003 - 2004, Texas Instruments Incorporated
+
+bag TEXAS
+INSTRUMENTS
+www.ti.com

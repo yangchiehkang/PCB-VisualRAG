@@ -1,0 +1,57 @@
+NXP Semiconductors
+
+16. Contents
+
+AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+15.1
+15.2
+15.3
+
+16
+
+Introduction . .
+
+Reference designs. .
+ULT notebook design .
+Dongle design... . .
+Minimum BOM design
+
+Buck converter.
+
+Buck converter layout guidelin
+Buck converter schematic ...
+
+Low EMI emission . .
+ESD protection
+Reset circuitry
+Crystal oscillator .. .
+Bias, reference and tie-off.
+
+Video DAC bias ...
+Internal LDO......
+
+DP receiver interface
+VGA interface
+PCB stack up
+PTN3356 on notebook BOM . .
+
+HVQFN exposed center pad solder lands .
+
+References........
+Legal information. . .
+Definitions. .
+Disclaimers .
+Trademarks.
+Contents ....
+
+Please be aware that important notices concerning this document and the product(s)
+described herein, have been included in section ‘Legal information’.
+
+© NXP Semiconductors N.V. 2015. All rights reserved.
+For more information, please visit: http:/www.nxp.com
+For sales office addresses, please send an email to: salesaddresses@nxp.com
+Date of release: 29 January 2015
+Document identifier: AN11590

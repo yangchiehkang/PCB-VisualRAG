@@ -1,0 +1,31 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+6.2 866MHz LNA using BFU520A
+
+Veo 3.6V
+.
+220 pF
+220
+27 pF
+8.204
+3.3kQ 8.2kQ Murata,
+LW series
+229
+tal RF output
+(SMA)
+RFinput "39 820 our
+(SMA) gt
+15H
+Murata 2.7 pF
+LOW series |
+mW aaa-010451
+
+Fig 29. 866MHz LNA using BFU520A
+
+umto772 All iformation provided in this dacument is subject legal disclaimers
+
+NXP B.V. 2014, Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 23 of 29

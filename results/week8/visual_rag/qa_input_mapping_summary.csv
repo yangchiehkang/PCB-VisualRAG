@@ -1,0 +1,8 @@
+setting,total,mapped_page_id,mapped_image_path,gold_page_hits,used_run_file
+Gold Evidence,10,10,10,10,
+BM25,10,10,10,4,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+Full MV,10,10,10,1,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Hybrid Fusion,10,10,10,4,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv
+Budgeted MV,10,10,10,1,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Gold Masked,10,10,10,10,
+Random Masked,10,10,10,10,

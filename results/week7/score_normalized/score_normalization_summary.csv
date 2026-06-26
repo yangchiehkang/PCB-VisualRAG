@@ -1,0 +1,8 @@
+method,setting,input_file,output_file,query_count,total_rows,avg_candidates_per_query,bm25_norm_global_min,bm25_norm_global_max,mv_norm_global_min,mv_norm_global_max,status
+fullmv,fullmv_N10,results\week7\c2f_fixed_N\bm25_fullmv_N10_scores.csv,results\week7\score_normalized\bm25_fullmv_N10_normalized_scores.csv,30,300,10.0000,0.00000000,1.00000000,0.00000000,0.99999999,PASSED
+fullmv,fullmv_N20,results\week7\c2f_fixed_N\bm25_fullmv_N20_scores.csv,results\week7\score_normalized\bm25_fullmv_N20_normalized_scores.csv,30,600,20.0000,0.00000000,1.00000000,0.00000000,0.99999999,PASSED
+fullmv,fullmv_N50,results\week7\c2f_fixed_N\bm25_fullmv_N50_scores.csv,results\week7\score_normalized\bm25_fullmv_N50_normalized_scores.csv,30,1500,50.0000,0.00000000,1.00000000,0.00000000,1.00000000,PASSED
+fullmv,fullmv_N100,results\week7\c2f_fixed_N\bm25_fullmv_N100_scores.csv,results\week7\score_normalized\bm25_fullmv_N100_normalized_scores.csv,30,3000,100.0000,0.00000000,1.00000000,0.00000000,1.00000000,PASSED
+budgetmv,budgetmv_N20_M8_none,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_scores.csv,results\week7\score_normalized\bm25_budgetmv_N20_M8_none_normalized_scores.csv,30,600,20.0000,0.00000000,1.00000000,0.00000000,0.99999999,PASSED
+budgetmv,budgetmv_N20_M16_none,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M16_none_scores.csv,results\week7\score_normalized\bm25_budgetmv_N20_M16_none_normalized_scores.csv,30,600,20.0000,0.00000000,1.00000000,0.00000000,0.99999999,PASSED
+budgetmv,budgetmv_N50_M24_none,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_scores.csv,results\week7\score_normalized\bm25_budgetmv_N50_M24_none_normalized_scores.csv,30,1500,50.0000,0.00000000,1.00000000,0.00000000,0.99999999,PASSED

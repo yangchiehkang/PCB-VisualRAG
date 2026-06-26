@@ -1,0 +1,68 @@
+Run name: single_vector_visual_baseline_v1
+Evaluated queries: 30
+
+=== Overall Metrics ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 0.0833
+nDCG@3: 0.0506
+Recall@5: 0.0833
+nDCG@5: 0.0506
+Recall@10: 0.2500
+nDCG@10: 0.1041
+MRR: 0.0664
+
+=== Query Type = parameter_lookup ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 0.0000
+nDCG@3: 0.0000
+Recall@5: 0.0000
+nDCG@5: 0.0000
+Recall@10: 0.5000
+nDCG@10: 0.1781
+MRR: 0.0833
+
+=== Query Type = structure_legend_interpretation ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 0.0000
+nDCG@3: 0.0000
+Recall@5: 0.0000
+nDCG@5: 0.0000
+Recall@10: 0.4000
+nDCG@10: 0.1291
+MRR: 0.0533
+
+=== Query Type = component_localization ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 0.0000
+nDCG@3: 0.0000
+Recall@5: 0.0000
+nDCG@5: 0.0000
+Recall@10: 0.5000
+nDCG@10: 0.1445
+MRR: 0.0500
+
+=== Query Type = cross_page_consistency ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 0.1250
+nDCG@3: 0.0967
+Recall@5: 0.1250
+nDCG@5: 0.0967
+Recall@10: 0.1250
+nDCG@10: 0.0967
+MRR: 0.1250
+
+=== Query Type = similarity_based_interference ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 0.1176
+nDCG@3: 0.0665
+Recall@5: 0.1176
+nDCG@5: 0.0665
+Recall@10: 0.1765
+nDCG@10: 0.0851
+MRR: 0.0564

@@ -1,0 +1,62 @@
+[
+  {
+    "Method": "BM25",
+    "Run File": "results\\week7\\hybrid_fusion\\hybrid_fullmv_N50_alpha1p0_run.tsv",
+    "Evidence Hit@1": 0.4,
+    "Evidence Hit@5": 1.0,
+    "Evidence Hit@10": 1.0,
+    "Query Count": 10,
+    "Missing Query Count": 0,
+    "Status": "PASSED"
+  },
+  {
+    "Method": "Single-vector Visual",
+    "Run File": "",
+    "Evidence Hit@1": "",
+    "Evidence Hit@5": "",
+    "Evidence Hit@10": "",
+    "Query Count": 10,
+    "Missing Query Count": 10,
+    "Status": "MISSING_RUN"
+  },
+  {
+    "Method": "Full MV",
+    "Run File": "results\\week7\\c2f_fixed_N\\bm25_fullmv_N10_run.tsv",
+    "Evidence Hit@1": 0.1,
+    "Evidence Hit@5": 0.4,
+    "Evidence Hit@10": 1.0,
+    "Query Count": 10,
+    "Missing Query Count": 0,
+    "Status": "PASSED"
+  },
+  {
+    "Method": "Budgeted MV",
+    "Run File": "results\\week7\\c2f_fixed_N\\bm25_budgetmv_N20_M8_none_run.tsv",
+    "Evidence Hit@1": 0.1,
+    "Evidence Hit@5": 0.2,
+    "Evidence Hit@10": 0.4,
+    "Query Count": 10,
+    "Missing Query Count": 0,
+    "Status": "PASSED"
+  },
+  {
+    "Method": "BM25 + Budgeted MV",
+    "Run File": "results\\week7\\c2f_fixed_N\\bm25_budgetmv_N20_M8_none_run.tsv",
+    "Evidence Hit@1": 0.1,
+    "Evidence Hit@5": 0.2,
+    "Evidence Hit@10": 0.4,
+    "Query Count": 10,
+    "Missing Query Count": 0,
+    "Status": "PASSED"
+  },
+  {
+    "Method": "Hybrid Fusion",
+    "Run File": "results\\week7\\hybrid_fusion\\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv",
+    "Evidence Hit@1": 0.4,
+    "Evidence Hit@5": 1.0,
+    "Evidence Hit@10": 1.0,
+    "Query Count": 10,
+    "Missing Query Count": 0,
+    "Status": "PASSED"
+  }
+]

@@ -1,0 +1,5 @@
+N,evaluated_queries,hit_queries,miss_queries,coarse_recall
+10,30,8,22,0.2667
+20,30,8,22,0.2667
+50,30,8,22,0.2667
+100,30,8,22,0.2667

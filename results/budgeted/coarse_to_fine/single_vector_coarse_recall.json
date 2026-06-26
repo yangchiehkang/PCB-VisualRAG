@@ -1,0 +1,30 @@
+[
+  {
+    "N": 10,
+    "evaluated_queries": 30,
+    "hit_queries": 8,
+    "miss_queries": 22,
+    "coarse_recall": 0.26666666666666666
+  },
+  {
+    "N": 20,
+    "evaluated_queries": 30,
+    "hit_queries": 8,
+    "miss_queries": 22,
+    "coarse_recall": 0.26666666666666666
+  },
+  {
+    "N": 50,
+    "evaluated_queries": 30,
+    "hit_queries": 8,
+    "miss_queries": 22,
+    "coarse_recall": 0.26666666666666666
+  },
+  {
+    "N": 100,
+    "evaluated_queries": 30,
+    "hit_queries": 8,
+    "miss_queries": 22,
+    "coarse_recall": 0.26666666666666666
+  }
+]

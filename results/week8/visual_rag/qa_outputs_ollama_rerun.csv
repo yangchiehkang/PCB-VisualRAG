@@ -1,0 +1,89 @@
+case_id,query_id,setting,query,gold_page_id,page_id,rank,retrieval_score,is_gold_page,image_path,model,prompt,vlm_answer,evidence_description,confidence,raw_response,status,error
+q002__BM25,q002,BM25,Which page explains the breakaway and bevel requirements with dimensioned diagrams?,doc001_p002,doc001_p001,1,1.0,0,data\images\doc001\doc001_p001.png,llama3.2-vision,"You are answering a question about a PCB engineering document page.
+
+Use only the provided page image as evidence.
+If the page does not contain enough information, answer exactly:
+Not enough evidence.
+
+Question:
+Which page explains the breakaway and bevel requirements with dimensioned diagrams?
+
+Return your answer in this exact format:
+Short answer: <one concise answer>
+Evidence description: <what visible evidence supports the answer>
+Confidence: high / medium / low
+",Page 4,"The page contains a table with ""Breakaway Tab Required"" and ""Bevel"" sections, indicating that it provides information on breakaway and bevel requirements.",high,"Short answer: Page 4
+Evidence description: The page contains a table with ""Breakaway Tab Required"" and ""Bevel"" sections, indicating that it provides information on breakaway and bevel requirements.
+Confidence: high
+
+The page that explains the breakaway and bevel requirements with dimensioned diagrams is Page 4. This conclusion is based on the presence of a table on this page that includes sections for ""Breakaway Tab Required"" and ""Bevel"", which suggests that it provides detailed information on these topics. The table likely includes dimensioned diagrams to help engineers understand and apply the requirements effectively. Therefore, the confidence level",OK,
+q002__Hybrid_Fusion,q002,Hybrid Fusion,Which page explains the breakaway and bevel requirements with dimensioned diagrams?,doc001_p002,doc001_p001,1,1.0,0,data\images\doc001\doc001_p001.png,llama3.2-vision,"You are answering a question about a PCB engineering document page.
+
+Use only the provided page image as evidence.
+If the page does not contain enough information, answer exactly:
+Not enough evidence.
+
+Question:
+Which page explains the breakaway and bevel requirements with dimensioned diagrams?
+
+Return your answer in this exact format:
+Short answer: <one concise answer>
+Evidence description: <what visible evidence supports the answer>
+Confidence: high / medium / low
+",Page 4,"The page contains a table with ""Breakaway Tab Required"" and ""Bevel"" sections, indicating that it explains these requirements.",high,"Short answer: Page 4
+Evidence description: The page contains a table with ""Breakaway Tab Required"" and ""Bevel"" sections, indicating that it explains these requirements.
+Confidence: high
+
+The page is labeled as ""Page 4"" in the top-left corner, and it contains a table with two relevant sections: ""Breakaway Tab Required"" and ""Bevel"". These sections are likely to contain the required information about breakaway and bevel dimensions. Therefore, based on this evidence, I conclude that Page 4 is the page that explains the breakaway and bevel requirements with dimensioned diagrams.",OK,
+q007__Budgeted_MV,q007,Budgeted MV,Which page lists the bill of materials together with top and bottom assembly views?,doc002_p001,doc004_p019,1,0.35800615,0,data\images\doc004\doc004_p019.png,llama3.2-vision,"You are answering a question about a PCB engineering document page.
+
+Use only the provided page image as evidence.
+If the page does not contain enough information, answer exactly:
+Not enough evidence.
+
+Question:
+Which page lists the bill of materials together with top and bottom assembly views?
+
+Return your answer in this exact format:
+Short answer: <one concise answer>
+Evidence description: <what visible evidence supports the answer>
+Confidence: high / medium / low
+",Not enough evidence.,The provided page image does not contain any information about the bill of materials or top and bottom assembly views.,high,"Short answer: Not enough evidence.
+Evidence description: The provided page image does not contain any information about the bill of materials or top and bottom assembly views.
+Confidence: high
+
+The page appears to be a legal information page, specifically a section titled ""15. Legal information"" with various sections such as ""15.1 Definitions"", ""15.2 Disclaimers"", and ""15.3 Trademarks"". There is no mention of a bill of materials or top and bottom assembly views on this page. Therefore, it is not possible to determine which page lists this information based on the provided page image.",OK,
+q012__Full_MV,q012,Full MV,Which page contains the populated board and zoomed assembly view for the SOT323 emitter degeneration variant?,doc003_p011,doc005_p004,1,0.80202037,0,data\images\doc005\doc005_p004.png,llama3.2-vision,"You are answering a question about a PCB engineering document page.
+
+Use only the provided page image as evidence.
+If the page does not contain enough information, answer exactly:
+Not enough evidence.
+
+Question:
+Which page contains the populated board and zoomed assembly view for the SOT323 emitter degeneration variant?
+
+Return your answer in this exact format:
+Short answer: <one concise answer>
+Evidence description: <what visible evidence supports the answer>
+Confidence: high / medium / low
+","**Answer:** Not enough evidence.
+
+**Reasoning:**
+
+*   The provided page image does not contain any information about the SOT323 emitter degeneration variant.
+*   The page appears to be a general overview of the NCV7535 evaluation board, including operational guidelines and board configuration, but it does not provide any specific details about the SOT323 emitter degeneration variant.
+*   There is no mention of the SOT323 emitter degeneration variant in the text or images on the page.
+
+**Conclusion:**
+
+Based on the provided page image, it is not possible to determine which page contains the populated board and zoomed assembly",,,"**Answer:** Not enough evidence.
+
+**Reasoning:**
+
+*   The provided page image does not contain any information about the SOT323 emitter degeneration variant.
+*   The page appears to be a general overview of the NCV7535 evaluation board, including operational guidelines and board configuration, but it does not provide any specific details about the SOT323 emitter degeneration variant.
+*   There is no mention of the SOT323 emitter degeneration variant in the text or images on the page.
+
+**Conclusion:**
+
+Based on the provided page image, it is not possible to determine which page contains the populated board and zoomed assembly",OK,

@@ -1,0 +1,78 @@
+NXP Semiconductors
+
+UM10772
+
+7. Legal information
+
+How to use BFU5xx starter-
+
+7.1 Definitions
+
+Draft — The document is a draft version only. The content is still under
+internal review and subject to formal approval, which may result in
+modifications or additions. NXP Semiconductors does not give any
+representations or warranties as to the accuracy or completeness of
+information included herein and shall have no liability for the consequences
+of use of such information.
+
+7.2 Disclaimers
+
+General — Information in this document is believed to be accurate and
+reliable. However, NXP Semiconductors does not give any representations
+or warranties, expressed or implied, as to the accuracy or completeness of
+such information and shall have no liability for the consequences of use of
+‘such information.
+
+Right to make changes — NXP Semiconductors reserves the right to make
+changes to information published in this document, including without
+limitation specifications and product descriptions, at any time and without
+notice. This document supersedes and replaces all information supplied prior
+to the publication hereof,
+
+Suitability for use — NXP Semiconductors products are not designed,
+authorized or warranted to be suitable for use in medical, military, aircraft,
+space or life support equipment, nor in applications where failure or
+malfunction of a NXP Semiconductors product can reasonably be expected
+to result in personal injury, death or severe property or environmental
+damage. NXP Semiconductors accepts no liability for inclusion and/or use of
+
+umto772
+
+‘All information provided inthis dacument is subject legal
+
+NXP Semiconductors produets in such equipment or applications and
+therefore such inclusion and/or use is for the customer's own risk.
+
+Applications — Applications that are described herein for any of these
+products are for illustrative purposes only. NXP Semiconductors makes no
+representation or warranty that such applications will be suitable for the
+specified use without further testing or modification.
+
+7.3 Licenses
+
+NA
+
+<License statement text>
+
+7.4 Patents
+
+Notice is herewith given that the subject device uses one or more of the
+following patents and that each of these patents may have corresponding
+patents in other jurisdictions.
+
+NA
+
+7.5 Trademarks
+
+Notice: All referenced brands, product names, service names and
+trademarks are property of their respective owners.
+
+NIA.
+
+NXP B.V. 2014, Al rights reserved.
+
+User manual
+
+Rev. 1 — 21 January 2014
+
+28 of 29

@@ -1,0 +1,18 @@
+﻿budget_level,N,M,compression,run_name,role,notes
+Low-budget,10,8,None,w6_N10_M8_none,main,Extreme lightweight token budget without vector compression
+Low-budget,10,8,PQ,w6_N10_M8_pq,main,Extreme lightweight token budget with PQ compression
+Low-budget,10,8,OPQ+PQ,w6_N10_M8_opq_pq,main,Extreme lightweight token budget with OPQ plus PQ
+Low-budget,10,8,IVF+PQ,w6_N10_M8_ivf_pq,main,Extreme lightweight token budget with IVF plus PQ
+Low-budget,10,8,IVF+OPQ+PQ,w6_N10_M8_ivf_opq_pq,main,Extreme lightweight token budget with IVF plus OPQ plus PQ
+Mid-budget,10,16,None,w6_N10_M16_none,main,Best Week 5 trade-off without vector compression
+Mid-budget,10,16,PQ,w6_N10_M16_pq,main,Best Week 5 trade-off with PQ compression
+Mid-budget,10,16,OPQ+PQ,w6_N10_M16_opq_pq,main,Best Week 5 trade-off with OPQ plus PQ
+Mid-budget,10,16,IVF+PQ,w6_N10_M16_ivf_pq,main,Best Week 5 trade-off with IVF plus PQ
+Mid-budget,10,16,IVF+OPQ+PQ,w6_N10_M16_ivf_opq_pq,main,Best Week 5 trade-off with IVF plus OPQ plus PQ
+High-budget,10,24,None,w6_N10_M24_none,main,Conservative high-quality token budget without vector compression
+High-budget,10,24,PQ,w6_N10_M24_pq,main,Conservative high-quality token budget with PQ compression
+High-budget,10,24,OPQ+PQ,w6_N10_M24_opq_pq,main,Conservative high-quality token budget with OPQ plus PQ
+High-budget,10,24,IVF+PQ,w6_N10_M24_ivf_pq,main,Conservative high-quality token budget with IVF plus PQ
+High-budget,10,24,IVF+OPQ+PQ,w6_N10_M24_ivf_opq_pq,main,Conservative high-quality token budget with IVF plus OPQ plus PQ
+Reference,10,49,None,w6_N10_M49_none,reference,Full-token C2F reference from Week 5
+System-reference,N/A,full,None,full_mv_reference,reference,Full Multi-vector system-level reference

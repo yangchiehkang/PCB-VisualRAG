@@ -1,0 +1,108 @@
+ANALOG
+DEVICES
+
+iSensor™ Inclinometer/Accelerometer
+
+Evaluation Board
+
+ADIS1620x/PCB
+
+GENERAL DESCRIPTION
+
+The ADIS1620x/PCBs are simple evaluation boards that
+provide convenient access to the ADIS1620x family of products,
+using a standard 2 mm, 2 x 6, connector interface. These
+connectors can be accessed using a variety of cable options,
+including standard 1 mm ribbon cables. The ADIS1620x/PCB is
+designed to be evaluated in an existing digital platform (such as
+MCU, DSP, FPGA, PLD) or as part of the ADISEVAL system.
+Four mounting holes (sized for 2-56 or 2 mm screws) have been
+provided to secure the board during evaluation.
+
+CIRCUIT DESCRIPTION
+The schematic, layout, and parts list for the ADIS1620x/PCB
+can be found in
+
+Figure 1,
+Figure 2, and Table 1.
+
+The ADIS1620x’s digitized outputs can be accessed using the
+4-wire serial port interface (SPI) signals on J1: SCLK, CS, DOUT,
+and DIN. For specific information on using the ADIS1620x SPI
+interface, refer to the ADIS16201 data sheet. Auxiliary functions,
+such as the 12-bit ADC input, can be accessed using J2. C1
+provides additional power supply filtering but is generally not
+
+required.
+
+Table 1. Parts List
+
+Reference Designator _| Part Description
+ul ADIS1620xyCCZ'
+
+Ji, J2 12-pin, dual row, 2 mm connector
+a Power supply filtering, not installed
+
+1x=0,1,2,3,40r9,y=BorC
+
+SPECIAL NOTES ON HANDLING
+
+Note that the ADIS1620x/PCB is not reverse-polarity protected.
+Reversing the power supply or applying inappropriate voltages
+(that is, voltages outside the Absolute Maximum Ratings in the
+ADIS1620x data sheets) to any pin may damage the
+ADIS1620x/PCB.
+
+Table 2. Power Supply Levels
+
+Parameter Range
+Vee 3.0Vto3.6V
+Rev. PrA
+
+Evaluation boards are only intended for device evaluation and not for production purposes.
+Evaluation boards as supplied “as is” and without warranties of any kind, express, implied, or
+
+induding, but not limited to, any implied warranty of merchantability or fitness for a
+particular purpose. No license is granted by implication or otherwise under any patents or other
+intellectual property by application or use of evaluation boards. Information furnished by Analog
+Devices is believed to be accurate and reliable. However, no responsibility is assumed by Analog
+Devices forits use, nor for any infringements of patents or other tights of third parties that may result
+from its use. Analog Devices reserves the right to change devices or specifications at any time
+‘without notice. Trademarks and registered trademarks are the property of their respective owners.
+Evaluation boards are not authorized to be used inlife support devices or systems.
+
+ai ADISTEZO B
+1 : RESET ADC) ““ 1
+2 4] scux pachi@ 3
+3 cs DIO1 1
+4 2 tour piool® 2
+3 7
+) Go 6 — DIN neh 5
+aT) 12 10 13 Noe z
+aif von NC 8
+Nc 2
+124— 16 15
+COM vREF-— 10
+a 4) 7
+uF i, 3
+= 78 8
+~ 5
+9
+Figure 1. ADIS1620x/PCB Schematic
+i _ 2
+En U te oS)
+ET « Te oS]
+=a] te a
+7] So Sl
+=a te oe
+5 Ce oS
+° TM
+© __ Senso
+gg hio0s REVS
+
+Figure 2. ADIS1620x/PCB Layout (Top View)
+
+One Technology Way, P.O. Box 9106, Norwood, MA 02062-9106, U.S.A.
+Tel: 781.329.4700 www.analog.com
+Fax: 781.461.3113 ©2007 Analog Devices, Inc. All rights reserved.
+

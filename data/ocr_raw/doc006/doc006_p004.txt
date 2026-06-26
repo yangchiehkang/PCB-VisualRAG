@@ -1,0 +1,27 @@
+EVM WARNINGS AND RESTRICTIONS
+
+It is important to operate this EVM within the input voltage range of -0.7 V to 4 V and the output voltage range
+of -0.5 V to4 V.
+
+Exceeding the specified input range may cause unexpected operation and/or irreversible damage to the
+EVM. If there are questions concerning the input range, please contact a TI field representative prior to
+connecting the input power.
+
+Applying loads outside of the specified output range may result in unintended operation and/or possible
+permanent damage to the EVM. Please consult the EVM User's Guide prior to connecting any load to the
+EVM output. If there is uncertainty as to the load specification, please contact a TI field representative.
+
+During normal operation, some circuit components may have case temperatures greater than 60°C. The
+EVM is designed to operate properly with certain components above 60°C as long as the input and output
+ranges are maintained. These components include but are not limited to linear regulators, switching
+transistors, pass transistors, and current sense resistors. These types of devices can be identified using the
+EVM schematic located in the EVM User’s Guide. When placing measurement probes near these devices
+during operation, please be aware that these devices may be very warm to the touch.
+
+Mailing Address:
+
+Texas Instruments
+Post Office Box 655303
+Dallas, Texas 75265
+
+Copyright || 2003 - 2004, Texas Instruments Incorporated

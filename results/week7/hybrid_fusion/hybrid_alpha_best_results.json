@@ -1,0 +1,26 @@
+[
+  {
+    "Method": "Hybrid Full MV N=50",
+    "Setting": "hybrid_fullmv_N50",
+    "Best Alpha": 1.0,
+    "Recall@1": 0.13333333333333333,
+    "Recall@5": 0.6833333333333333,
+    "Recall@10": 0.8833333333333333,
+    "MRR@10": 0.4104629629629629,
+    "nDCG@10": 0.5241078324735737,
+    "Queries": 30,
+    "Run File": "results\\week7\\hybrid_fusion\\hybrid_fullmv_N50_alpha1p0_run.tsv"
+  },
+  {
+    "Method": "Hybrid Budgeted MV N=50 M=24",
+    "Setting": "hybrid_budgetmv_N50_M24",
+    "Best Alpha": 1.0,
+    "Recall@1": 0.13333333333333333,
+    "Recall@5": 0.6833333333333333,
+    "Recall@10": 0.8833333333333333,
+    "MRR@10": 0.4104629629629629,
+    "nDCG@10": 0.5241078324735737,
+    "Queries": 30,
+    "Run File": "results\\week7\\hybrid_fusion\\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv"
+  }
+]

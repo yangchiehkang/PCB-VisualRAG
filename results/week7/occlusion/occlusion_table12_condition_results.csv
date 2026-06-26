@@ -1,0 +1,4 @@
+Condition,Recall@10,MRR@10,nDCG@10,Avg Gold Page Score
+Original,1.0000,1.0000,1.0000,0.20149380
+Gold Mask,0.0000,0.0000,0.0000,0.00000000
+Random Mask,1.0000,1.0000,1.0000,0.20149380

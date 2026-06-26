@@ -1,0 +1,477 @@
+{
+  "table14": [
+    {
+      "Method": "BM25",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.8833,
+      "MRR@10": 0.4105,
+      "nDCG@10": 0.5241,
+      "Index Size": 3030,
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+    },
+    {
+      "Method": "BM25 + Full MV",
+      "Recall@1": 0.0667,
+      "Recall@5": 0.3,
+      "Recall@10": 0.8833,
+      "MRR@10": 0.2107,
+      "nDCG@10": 0.3628,
+      "Index Size": "10",
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+    },
+    {
+      "Method": "BM25 + Budgeted MV",
+      "Recall@1": 0.0333,
+      "Recall@5": 0.1333,
+      "Recall@10": 0.3667,
+      "MRR@10": 0.0956,
+      "nDCG@10": 0.1565,
+      "Index Size": "20",
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.0667,
+      "Recall@5": 0.1,
+      "Recall@10": 0.1333,
+      "MRR@10": 0.0881,
+      "nDCG@10": 0.0988,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    }
+  ],
+  "candidate_count": 43,
+  "all_candidates": [
+    {
+      "Method": "BM25",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.8833,
+      "MRR@10": 0.4105,
+      "nDCG@10": 0.5241,
+      "Index Size": 3030,
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+    },
+    {
+      "Method": "BM25 + Full MV",
+      "Recall@1": 0.0667,
+      "Recall@5": 0.3,
+      "Recall@10": 0.8833,
+      "MRR@10": 0.2107,
+      "nDCG@10": 0.3628,
+      "Index Size": "10",
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+    },
+    {
+      "Method": "BM25 + Full MV",
+      "Recall@1": 0.0667,
+      "Recall@5": 0.1667,
+      "Recall@10": 0.3333,
+      "MRR@10": 0.1211,
+      "nDCG@10": 0.1691,
+      "Index Size": "20",
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+    },
+    {
+      "Method": "BM25 + Full MV",
+      "Recall@1": 0.0667,
+      "Recall@5": 0.1,
+      "Recall@10": 0.1333,
+      "MRR@10": 0.0881,
+      "nDCG@10": 0.0988,
+      "Index Size": "50",
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+    },
+    {
+      "Method": "BM25 + Full MV",
+      "Recall@1": 0.0333,
+      "Recall@5": 0.1,
+      "Recall@10": 0.1333,
+      "MRR@10": 0.0644,
+      "nDCG@10": 0.0807,
+      "Index Size": "100",
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+    },
+    {
+      "Method": "BM25 + Budgeted MV",
+      "Recall@1": 0.0333,
+      "Recall@5": 0.1333,
+      "Recall@10": 0.3667,
+      "MRR@10": 0.0956,
+      "nDCG@10": 0.1565,
+      "Index Size": "20",
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+    },
+    {
+      "Method": "BM25 + Budgeted MV",
+      "Recall@1": 0.0,
+      "Recall@5": 0.1667,
+      "Recall@10": 0.3667,
+      "MRR@10": 0.0843,
+      "nDCG@10": 0.149,
+      "Index Size": "20",
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+    },
+    {
+      "Method": "BM25 + Budgeted MV",
+      "Recall@1": 0.0,
+      "Recall@5": 0.0333,
+      "Recall@10": 0.1,
+      "MRR@10": 0.017,
+      "nDCG@10": 0.0359,
+      "Index Size": "50",
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+    },
+    {
+      "Method": "BM25",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.8833,
+      "MRR@10": 0.4105,
+      "nDCG@10": 0.5241,
+      "Index Size": 3030,
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_main_results.csv"
+    },
+    {
+      "Method": "BM25 + Full MV",
+      "Recall@1": 0.0667,
+      "Recall@5": 0.3,
+      "Recall@10": 0.8833,
+      "MRR@10": 0.2107,
+      "nDCG@10": 0.3628,
+      "Index Size": "10",
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_main_results.csv"
+    },
+    {
+      "Method": "BM25 + Budgeted MV",
+      "Recall@1": 0.0333,
+      "Recall@5": 0.1333,
+      "Recall@10": 0.3667,
+      "MRR@10": 0.0956,
+      "nDCG@10": 0.1565,
+      "Index Size": "20",
+      "source_file": "results\\week7\\c2f_fixed_N\\bm25_c2f_main_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.0667,
+      "Recall@5": 0.2,
+      "Recall@10": 0.2,
+      "MRR@10": null,
+      "nDCG@10": 0.1464,
+      "Index Size": null,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_ablation_table.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.4,
+      "Recall@10": 0.6167,
+      "MRR@10": null,
+      "nDCG@10": 0.3389,
+      "Index Size": null,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_ablation_table.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.2333,
+      "Recall@5": 0.65,
+      "Recall@10": 0.75,
+      "MRR@10": null,
+      "nDCG@10": 0.4803,
+      "Index Size": null,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_ablation_table.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1667,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.7667,
+      "MRR@10": null,
+      "nDCG@10": 0.4926,
+      "Index Size": null,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_ablation_table.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.0333,
+      "Recall@5": 0.1667,
+      "Recall@10": 0.3333,
+      "MRR@10": null,
+      "nDCG@10": 0.1474,
+      "Index Size": null,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_ablation_table.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.2,
+      "Recall@5": 0.4333,
+      "Recall@10": 0.5,
+      "MRR@10": null,
+      "nDCG@10": 0.3408,
+      "Index Size": null,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_ablation_table.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.2,
+      "Recall@5": 0.6333,
+      "Recall@10": 0.7,
+      "MRR@10": null,
+      "nDCG@10": 0.4674,
+      "Index Size": null,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_ablation_table.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1667,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.8,
+      "MRR@10": null,
+      "nDCG@10": 0.5054,
+      "Index Size": null,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_ablation_table.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.0667,
+      "Recall@5": 0.1,
+      "Recall@10": 0.1333,
+      "MRR@10": 0.0881,
+      "nDCG@10": 0.0988,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.0667,
+      "Recall@5": 0.1333,
+      "Recall@10": 0.1667,
+      "MRR@10": 0.0992,
+      "nDCG@10": 0.1155,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.0667,
+      "Recall@5": 0.2,
+      "Recall@10": 0.2,
+      "MRR@10": 0.1278,
+      "nDCG@10": 0.1464,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.0667,
+      "Recall@5": 0.3,
+      "Recall@10": 0.4333,
+      "MRR@10": 0.1675,
+      "nDCG@10": 0.2289,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.4,
+      "Recall@10": 0.6167,
+      "MRR@10": 0.2555,
+      "nDCG@10": 0.3389,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.2333,
+      "Recall@5": 0.5833,
+      "Recall@10": 0.6833,
+      "MRR@10": 0.3649,
+      "nDCG@10": 0.4399,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.2333,
+      "Recall@5": 0.65,
+      "Recall@10": 0.75,
+      "MRR@10": 0.3971,
+      "nDCG@10": 0.4803,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.2333,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.75,
+      "MRR@10": 0.4356,
+      "nDCG@10": 0.5113,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1667,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.7667,
+      "MRR@10": 0.4056,
+      "nDCG@10": 0.4926,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.8167,
+      "MRR@10": 0.4038,
+      "nDCG@10": 0.5048,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.8833,
+      "MRR@10": 0.4105,
+      "nDCG@10": 0.5241,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.0,
+      "Recall@5": 0.0333,
+      "Recall@10": 0.1,
+      "MRR@10": 0.017,
+      "nDCG@10": 0.0359,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.0,
+      "Recall@5": 0.1,
+      "Recall@10": 0.2,
+      "MRR@10": 0.0448,
+      "nDCG@10": 0.0804,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.0333,
+      "Recall@5": 0.1667,
+      "Recall@10": 0.3333,
+      "MRR@10": 0.0931,
+      "nDCG@10": 0.1474,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1,
+      "Recall@5": 0.3333,
+      "Recall@10": 0.4,
+      "MRR@10": 0.1979,
+      "nDCG@10": 0.2465,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.2,
+      "Recall@5": 0.4333,
+      "Recall@10": 0.5,
+      "MRR@10": 0.2903,
+      "nDCG@10": 0.3408,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.3,
+      "Recall@5": 0.5,
+      "Recall@10": 0.6333,
+      "MRR@10": 0.3846,
+      "nDCG@10": 0.4432,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.2,
+      "Recall@5": 0.6333,
+      "Recall@10": 0.7,
+      "MRR@10": 0.3909,
+      "nDCG@10": 0.4674,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.6667,
+      "Recall@10": 0.7333,
+      "MRR@10": 0.3728,
+      "nDCG@10": 0.463,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1667,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.8,
+      "MRR@10": 0.4112,
+      "nDCG@10": 0.5054,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.8333,
+      "MRR@10": 0.4087,
+      "nDCG@10": 0.5099,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.8833,
+      "MRR@10": 0.4105,
+      "nDCG@10": 0.5241,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_all_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.8833,
+      "MRR@10": 0.4105,
+      "nDCG@10": 0.5241,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_best_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Recall@1": 0.1333,
+      "Recall@5": 0.6833,
+      "Recall@10": 0.8833,
+      "MRR@10": 0.4105,
+      "nDCG@10": 0.5241,
+      "Index Size": 301,
+      "source_file": "results\\week7\\hybrid_fusion\\hybrid_alpha_best_results.csv"
+    }
+  ]
+}

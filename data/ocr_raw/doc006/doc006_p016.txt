@@ -1,0 +1,45 @@
+2 Setup and Required Equipment
+
+2.2 Observing an Output
+
+In order to minimize the parasitic capacitance in high-speed measurements
+(probe capacitance), the 4x4 crosspoint switch EVM provides an offset
+power plane (layer 5). This power plane allows the user to offset the device
+so that the common-mode output is compatible with the 50 ohms to ground
+termination within the scope. Terminating the EVM within the scope
+eliminates any bandwidth limitations introduced by a probe.
+
+Direct connection to an oscilloscope with 50-Q internal terminations to
+ground is accomplished without requiring installation of resistors R5 — R16
+on the EVM. The outputs are available at J9-J16 for direct connection to
+oscilloscope inputs. All cabling used to source and measure signals must
+be electrically matched in length to prevent any skew between conductors
+of the differential inputs.
+
+Referring back to 2-1, power supply 1 is used to provide the required 3.3 V
+to the EVM. Power supply 2 is used to offset the EVM ground relative to the
+device under test (DUT) ground. With this power scheme, the common-
+mode voltage seen by either the SN65LVDS125A or the SN65LVDS250 is
+approximately equal to that of the oscilloscope, thus preventing significant
+common-mode current flow. Using dual supplies and offsetting the EVM
+ground relative to the DUT ground are simply steps required for the test and
+evaluation of devices. Actual designs include high-impedance receivers,
+which do not require the setup steps outlined above. If the EVM outputs are
+to be evaluated with a high-impedance probe, direct probing on the EVM is
+supported via installation of a 100-Q resistor across the solder pads (R5,
+R8, R11, and R14).
+
+Note: Power Supply 2
+
+.Power supply 2 must be able to sink current.
+
+2.3 Typical Test Results
+
+24
+
+Figure 2-3 is a typical result obtained with the EVM setup shown in Figure
+2-1. The inputs (J1-J8) were stimulated with a 2”°-1 PRBS signal at
+
+1.5 Gbps. The input levels for both clock and data were a differential
+voltage of 400 mV, with a common-mode voltage of 0 V (referenced to the
+ground of the pattern generator).

@@ -1,0 +1,8 @@
+category,metric,single_vector,full_multi_vector,ratio_full_vs_single,delta_full_minus_single
+performance,MRR@10,0.0,0.06444444444444444,,0.06444444444444444
+performance,Recall@10,0.0,0.13333333333333333,,0.13333333333333333
+performance,nDCG@10,0.0,0.0806664859963115,,0.0806664859963115
+performance,Doc Recall@10,0.7333333333333333,0.9,,0.16666666666666674
+cost,vectors_per_page,1.0,49.0,49.0,48.0
+cost,index_size_mb,0.197266,9.666016,48.999908752648714,9.46875
+cost,avg_query_latency_ms,0.113,6.5679,58.12300884955752,6.454899999999999

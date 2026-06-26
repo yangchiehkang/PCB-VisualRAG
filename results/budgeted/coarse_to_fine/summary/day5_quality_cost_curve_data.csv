@@ -1,0 +1,7 @@
+method,N,point_type,Recall@1,Recall@5,Recall@10,MRR@10,nDCG@10,latency_ms_per_query,actual_candidates_per_query,rerank_cost_units,note
+Single-vector coarse,coarse,baseline,0.0000,0.0833,0.2500,0.0664,0.1041,,0.0000,0.0000,single-vector baseline; no full MV rerank cost
+Full Multi-vector,full,baseline,0.0333,0.1000,0.1333,0.0644,0.0807,,101.0000,101.0000,full corpus MV reranking; latency not available in Day 4 summary
+C2F N=10,10,c2f,0.0333,0.0333,0.2500,0.0628,0.1033,10.814267,10.0000,10.0000,coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary.
+C2F N=20,20,c2f,0.0333,0.0333,0.2500,0.0628,0.1033,8.275533,10.0000,10.0000,"coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary. Actual candidate depth is still 10, not 20."
+C2F N=50,50,c2f,0.0333,0.0333,0.2500,0.0628,0.1033,7.613867,10.0000,10.0000,"coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary. Actual candidate depth is still 10, not 50."
+C2F N=100,100,c2f,0.0333,0.0333,0.2500,0.0628,0.1033,7.747500,10.0000,10.0000,"coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary. Actual candidate depth is still 10, not 100."

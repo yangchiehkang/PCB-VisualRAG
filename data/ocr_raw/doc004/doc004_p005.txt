@@ -1,0 +1,21 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+2.2 Dongle design
+PTN3356 can also be used on DP-VGA dongles.
+
+Connect PTN3356 DPVGA to one of the DP port on the system board.
+
+DPVGA dongle gets 3V3 power from DP connector for PTN3356 IC operation, then boost
+up to 5V for VGA connector.
+
+Note:
+
+1. ESD protection is optional circuitry.
+2. U3 is required to support 5 V H/V for legacy projectors and CRTs.
+3. Pl filter design is customer specific.
+
+aNi1590 Allinformaton provided in this document is subject to legal disclaimers, (© NXP Semiconductors N.V. 2015. Al rights reserved
+
+Application note Rev. 1 — 29 January 2015 5 of 20

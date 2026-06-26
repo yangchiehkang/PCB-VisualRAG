@@ -1,0 +1,8 @@
+# Table 21: Retrieval vs QA Results
+
+| retrieval_condition | setting | num_cases | gold_page_rate | answer_accuracy | evidence_supported_rate | unknown_rate | concrete_answer_rate | wrong_page_count | hallucination_count |
+|---|---|---|---|---|---|---|---|---|---|
+| BM25 | BM25 | 10 | 0.4000 | 0.4000 | 0.9000 | 0.5000 | 0.5000 | 5 | 1 |
+| Full MV | Full MV | 10 | 0.1000 | 0.1000 | 0.6000 | 0.5000 | 0.5000 | 5 | 4 |
+| Hybrid Fusion | Hybrid Fusion | 10 | 0.4000 | 0.4000 | 0.9000 | 0.5000 | 0.5000 | 5 | 1 |
+| Budgeted MV | Budgeted MV | 10 | 0.1000 | 0.1000 | 0.4000 | 0.3000 | 0.7000 | 3 | 6 |

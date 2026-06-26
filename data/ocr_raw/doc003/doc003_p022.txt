@@ -1,0 +1,43 @@
+NXP Semiconductors
+
+UM10772
+
+6. Example amplifier designs
+
+How to use BFU5xx starter-kit
+
+Some examples that can be used as starting point, for more detailed description, measurement and
+simulation results please refer to NXP application notes on BFU5xx series. Basic schematic for Grounded
+
+Emitter version (VGEOx) can be found in the next sections.
+
+6.1 433MHz LNA using BFU520A
+
+Voc 3.6V
+’
+
+220
+27 pF
+<i
+RF input
+(SMA) pur
+
+15 pF
+m |
+
+Fig 28. 433MHz LNA using BFU520A
+
+RF output
+(SMA)
+
+aaa-010447
+
+All iformation provided in this dacument is subject legal disclaimers
+
+NXP B.V. 2014, Al rights reserved.
+
+umto772
+
+User manual Rev. 1 — 21 January 2014
+
+22 of 29

@@ -1,0 +1,11 @@
+query_id,condition,status,reason
+q001,ALL,PASSED,validated_triplet
+q002,ALL,PASSED,validated_triplet
+q004,ALL,PASSED,validated_triplet
+q006,ALL,PASSED,validated_triplet
+q007,ALL,PASSED,validated_triplet
+q008,ALL,PASSED,validated_triplet
+q009,ALL,PASSED,validated_triplet
+q010,ALL,PASSED,validated_triplet
+q011,ALL,PASSED,validated_triplet
+q012,ALL,PASSED,validated_triplet

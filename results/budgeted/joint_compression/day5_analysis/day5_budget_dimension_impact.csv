@@ -1,0 +1,4 @@
+﻿Budget Dimension,Current Evidence,Observed Risk,Analysis Focus,Current Conclusion
+N,N fixed at 10 in Day 3 because available candidate file is top10.,Coarse-stage recall ceiling is controlled by whether gold pages enter the candidate pool.,Use candidate-level gold coverage as N sensitivity proxy.,N is the first-order budget because missed gold pages cannot be recovered by reranking.
+M,"M values tested: [8, 16, 24]",Small M may remove fine-grained local evidence.,"Compare per-query nDCG changes across M8, M16, M24.","Best uncompressed M point is M=8, nDCG@10=0.124865."
+bits,"bits tested: 2, 4, 8",Low bits may distort similarity ranking.,"Compare PQ-b2, PQ-b4, PQ-b8 at fixed N=10 and M=24.","Best bits setting is b=4, nDCG@10=0.125460."

@@ -1,0 +1,6 @@
+Method,Recall@1,Recall@5,Recall@10,MRR@10,nDCG@10,Latency,Actual Candidates / Query,Note
+Full Multi-vector,0.0333,0.1000,0.1333,0.0644,0.0807,,full corpus,Full MV run found; latency should be filled from Week 3 cost log if available.
+C2F N=10,0.0333,0.0333,0.2500,0.0628,0.1033,10.814267 ms/query,10.0000,coarse recall=0.2667; actual candidates/query=10.0000.
+C2F N=20,0.0333,0.0333,0.2500,0.0628,0.1033,8.275533 ms/query,10.0000,coarse recall=0.2667; actual candidates/query is 10 due to limited coarse run depth.
+C2F N=50,0.0333,0.0333,0.2500,0.0628,0.1033,7.613867 ms/query,10.0000,coarse recall=0.2667; actual candidates/query is 10 due to limited coarse run depth.
+C2F N=100,0.0333,0.0333,0.2500,0.0628,0.1033,7.747500 ms/query,10.0000,coarse recall=0.2667; actual candidates/query is 10 due to limited coarse run depth.

@@ -1,0 +1,88 @@
+A B Cc D
+
+15-0000-00134-P1 : PCB SLU - SF05B PCB
+Breakaway Requirements
+
+For FR-4 PCBs:
+
+V-Groove (V-Score)
+
+Mouse Bites
+
+Conductor 0.05
+i
+
+| ' 0.01
+PCB °
+
+0.093.)
+
+T=0.031"
+
+or 0.062", 0.093", ect.
+
+4
+cr
+
+diameter
+
+gua
+
+Single-side breakout
+
+30° Scoring Angie
+
+For MCPCB:
+30.0°
+45.0° Optional
+<__ Minimum Circuit to Edge
+05(00207)_.) \).
+Copper Foil
+0.3 (0.010") — Dielectric
+Typical Aluminum
+t = Material
+Thickness
+1
+!
+1
+ul 1
+'
+Board Edge
+Bevel
+
+A chamfer end mill must be used to machine the bevel.
+
+A gasket will be applied on this bevel, hence, it must be as flat as possible. Multiple pass of a square end mill will not
+provide enough sealing.
+
+COMMENTS:
+
+DRAWN
+ICHECKED
+ENG APPR.
+MFG APPR.
+QA.
+
+farc-André Provencher 2021-09-24
+
+SJLLUM
+
+ITLE
+PCB fabrication requirements for project:
+PCB SLU - SFOS5B : 15-0000-00134-P1
+
+71
+
+[THE INFORMATION CONTAINED IN THIS DRAWING IS THE SOLE
+Bane OF
+
+}ollum Technologies. ANY REPRODUCTION IN PART OR AS A WHOLE.
+ITHOUT THE WRITTEN PERMISSION OF Sollum Technologies IS DIMENSIONS ARE IN INCHES UNLESS OTHERWISE SPECIFIED
+PROPRIETARY AND CONFIDENTIAL DO NOT SCALE DRAWING
+
+15-0000-00134-P1
+
+senerated 2021-09-28} SHEET 2 OF 5.
+
+A B
+

@@ -1,0 +1,58 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+Table 2. Application Notes
+
+Transistor Type Application Notes (433MHz LNA; 866MHz LNA)
+BFU520 AN11427; AN11428
+BFU530 AN11429; AN11430
+BFU550 AN11431; AN11432
+BFU520A AN11377; AN11378
+BFU530A AN11379; AN11380
+BFUS550A AN11381; AN11382
+BFUS20W. AN11421; AN11422
+BFUS30W. AN11423; AN11424
+BFUSSOW. AN11425; AN11426
+BFU520X AN11433; AN11434
+BFU530X AN11435; AN11436
+BFU550X AN11437; AN11438
+BFU520XR AN11439; AN11440
+BFU530XR AN11441; AN11442
+BFU550XR AN11443; AN11444
+
+2. Content of the starter kits
+
+The starter kits contains following items:
+
+1) 10 transistors of BFUS20W
+
+10 transistors of BFUS30W
+
+10 transistors of BFUSSOW
+
+One generic Printed Circuit Board for amplifier design with grounded emitter
+
+One generic Printed Circuit Board for amplifier design using feedback via emitter
+
+4 SMA connectors
+
+2 DC connectors
+
+A USB memory stick containing Application notes, models, datasheets, S parameter data
+
+NQoaRWN
+
+)
+)
+)
+)
+)
+)
+)
+8)
+
+umto772 All iformation provided in this dacument is subject legal disclaimers NXP BLY. 2014. Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 4 of 29
+

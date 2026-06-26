@@ -1,0 +1,12 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+2.1 The starter kit
+
+Fig 1. BFUSxx series starter kit
+
+umto772 All iformation provided in this dacument is subject legal disclaimers NXP BLY. 2014. Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 5 of 29
+

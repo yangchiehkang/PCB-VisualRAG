@@ -1,0 +1,52 @@
+ADIS1620x/PCB
+
+1.100
+
+1.050
+ANALOG
+20.928 ———}—@) > Fares (o)
+
+J
+2x0.673 +
+
+iSensor™
+
+4x@0.087
+
+| mexo4
+
+nam
+0.150
+
+0.200
+0.035
+0.865
+20.900
+
+Figure 3. ADIS1620x/PCB Mechanical Drawing
+
+ORDERING GUIDE ESD CAUTION
+
+Model Description ESD (electrostatic discharge) sensitive device.
+
+‘ADIS16201/PCBZ | Evaluation Board Charged devices and circuit boards can discharge
+he Although thi fe
+
+apisi6202/pcBz _| Evaluation Board y without detection. Although this product features
+
+patented or proprietary protection circuitry, damage
+ADIS16203/PCBZ _| Evaluation Board hia® may occur on devices subjected to high energy ESD.
+ADIS16204/PCBZ Evaluation Board Therefore, proper ESD precautions should be taken to
+
+avoid performance degradation or loss of functionality.
+ADIS16209/PCBZ__| Evaluation Board
+
+"7 = RoHS Compliant Part.
+
+©2007 Analog Devices, Inc. All rights r
+registered trademarks are the property of
+
+ad. ndatsar ant ANALOG www.analog.com
+
+Rev.PrA | Page 2 of 2
+

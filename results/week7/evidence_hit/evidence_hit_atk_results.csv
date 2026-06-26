@@ -1,0 +1,7 @@
+Method,Evidence Hit@1,Evidence Hit@5,Evidence Hit@10,Query Count,Missing Query Count,Status,Run File
+BM25,0.4000,1.0000,1.0000,10,0,PASSED,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+Single-vector Visual,,,,10,10,MISSING_RUN,
+Full MV,0.1000,0.4000,1.0000,10,0,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Budgeted MV,0.1000,0.2000,0.4000,10,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,0.1000,0.2000,0.4000,10,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Hybrid Fusion,0.4000,1.0000,1.0000,10,0,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv

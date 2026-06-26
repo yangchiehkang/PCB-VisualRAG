@@ -1,0 +1,17 @@
+UM10772
+
+User Manual BFU5xx series starter kits
+Rev. 1 — 21 January 2014 User manual
+
+Document information
+
+Info Content
+
+Keywords BFU520, BFU530, BFU550, BFU520A, BFUS30A, BFU550A, BFUS20W
+BFU530W, BFUSS0W, BFU520X, BFU530X, BFU550X, BFU520XR,
+BFU530XR, BFU550XR, amplifier, LNA, Wide Band Amplifier, PCB
+layout, Assembly drawings
+
+Abstract Document that describes the PCB's and SW content as delivered in the
+BFUSxx series transistor starter kit
+

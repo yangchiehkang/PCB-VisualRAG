@@ -1,0 +1,42 @@
+[
+  {
+    "Config": "Full MV",
+    "N": "full",
+    "M": 49,
+    "Compression": "None",
+    "nDCG@10": 0.3628,
+    "Index Size MB": 0.013540267944335938,
+    "Latency": 9.361923,
+    "Source File": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+  },
+  {
+    "Config": "Budgeted Low-cost",
+    "N": 20,
+    "M": 8,
+    "Compression": "PQ",
+    "nDCG@10": 0.1565,
+    "Index Size MB": 0.016420364379882812,
+    "Latency": 12.674273,
+    "Source File": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+  },
+  {
+    "Config": "Budgeted Mid-cost",
+    "N": 20,
+    "M": 16,
+    "Compression": "PQ",
+    "nDCG@10": 0.149,
+    "Index Size MB": 0.016684532165527344,
+    "Latency": 12.856343,
+    "Source File": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+  },
+  {
+    "Config": "Budgeted High-quality",
+    "N": 50,
+    "M": 24,
+    "Compression": "PQ",
+    "nDCG@10": 0.0359,
+    "Index Size MB": 0.01667499542236328,
+    "Latency": 31.910323,
+    "Source File": "results\\week7\\c2f_fixed_N\\bm25_c2f_all_configs_results.csv"
+  }
+]

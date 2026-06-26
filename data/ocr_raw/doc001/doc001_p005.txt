@@ -1,0 +1,36 @@
+15-0000-00134-P1 : PCB SLU - SF05B PCB
+
+Layers views
+
+come Ben LAYER NANE: iliFabaNbtestne only
+Use a chamfer and milo machine the bevel
+Goard (Sc
+
+u-eR00ue ou y-pro0ue
+wee tomas Seats TES Tmis +~ amis
+
+-eR00uE oe prove
+wee tomas Seals TES TOmis +~ ams
+
+u-eR00u6 — prove
+wee tomas Seals HES Tmis +~ amis
+
+Top Layer (Scale 2:3)
+° oo
+
+COMMENTS: NAME DATE =
+DRAWN farc-André Provencher 2021-09-24 S OQ [ { ( j M
+
+CHECKED
+
+ENG APPR. TITLE oa . ‘i
+PCB fabrication requirements for project:
+
+MFG APPR.
+JTHE INFORMATION CONTAINED IN THIS DRAWING IS THE SOLE A PCB SLU - SFOSB : 15-0000-00134-P1
+Baton Te OF UNLESS OTHERWISE SPECIFIED: SIZE | DWG. NO.
+jollum Technologies. ANY REPRODUCTION IN PART OR AS A WHOLE. 15-0000-00134-P1
+ITHOUT THE WRITTEN PERMISSION OF Sollum Technologies IS DIMENSIONS ARE IN INCHES Cc
+PROPRIETARY AND CONFIDENTIAL DO NOT SCALE DRAWING SCALE. 14 Generated on 2021-09-28 | SHEET5OF5
+
+B Cc D E F

@@ -1,0 +1,14 @@
+metric,value
+method,single_vector
+page_count,101
+query_count,30
+avg_tokens_per_page_before_pooling,49
+vectors_per_page,1
+vector_dim,512
+dtype,float32
+original_embedding_file_total_size_bytes,10148480
+original_embedding_file_total_size_mb,9.678345
+estimated_raw_index_size_bytes,206848
+estimated_raw_index_size_mb,0.197266
+avg_query_latency_ms,0.1130
+total_retrieval_time_sec,0.0158

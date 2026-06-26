@@ -1,0 +1,8 @@
+setting,source,purpose,required
+Gold Evidence,gold evidence page,QA upper bound,yes
+BM25,BM25 top retrieval result,strong OCR/text baseline,yes
+Full MV,Full multi-vector retrieval result,visual retrieval baseline,recommended
+Hybrid Fusion,hybrid BM25 + MV retrieval result,text-visual fusion validation,yes
+Budgeted MV,budgeted multi-vector retrieval result,budgeted retrieval downstream validation,optional
+Gold Masked,gold evidence region masked page,test evidence occlusion effect,yes
+Random Masked,random region masked page,occlusion control,yes

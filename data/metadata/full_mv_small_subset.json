@@ -1,0 +1,250 @@
+{
+  "subset_name": "full_mv_small_subset_day1",
+  "created_at": "2026-04-09 12:48:12",
+  "query_count": 10,
+  "page_count": 50,
+  "queries": [
+    {
+      "query_id": "q001",
+      "query_text": "Which page contains the fabrication requirements table with material, panel, and special requirement specifications?"
+    },
+    {
+      "query_id": "q002",
+      "query_text": "Which page explains the breakaway and bevel requirements with dimensioned diagrams?"
+    },
+    {
+      "query_id": "q003",
+      "query_text": "Which page shows the top-side board view together with board outline dimensions?"
+    },
+    {
+      "query_id": "q004",
+      "query_text": "Which page contains the drill table and stackup legend for the fabrication package?"
+    },
+    {
+      "query_id": "q005",
+      "query_text": "Which page shows the board artwork and copper routing layer view?"
+    },
+    {
+      "query_id": "q006",
+      "query_text": "Which page combines the assembly drawing, BOM table, and component callouts in a single view?"
+    },
+    {
+      "query_id": "q007",
+      "query_text": "Which page lists the bill of materials together with top and bottom assembly views?"
+    },
+    {
+      "query_id": "q008",
+      "query_text": "Which page shows the basic grounded emitter amplifier schematic with labeled matching network elements?"
+    },
+    {
+      "query_id": "q009",
+      "query_text": "Which page shows the basic emitter degeneration amplifier schematic with labeled matching network elements?"
+    },
+    {
+      "query_id": "q010",
+      "query_text": "Which page shows the PCB layer stack with board cross section and stack dimensions?"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "doc001_p001",
+      "page_type": "fabrication"
+    },
+    {
+      "page_id": "doc001_p002",
+      "page_type": "fabrication"
+    },
+    {
+      "page_id": "doc001_p003",
+      "page_type": "layout"
+    },
+    {
+      "page_id": "doc001_p004",
+      "page_type": "fabrication"
+    },
+    {
+      "page_id": "doc001_p005",
+      "page_type": "layout"
+    },
+    {
+      "page_id": "doc002_p001",
+      "page_type": "assembly"
+    },
+    {
+      "page_id": "doc003_p001",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc003_p002",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc003_p003",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc003_p004",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc003_p005",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc003_p006",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc003_p007",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc003_p008",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc003_p009",
+      "page_type": "fabrication"
+    },
+    {
+      "page_id": "doc003_p010",
+      "page_type": "assembly"
+    },
+    {
+      "page_id": "doc003_p011",
+      "page_type": "assembly"
+    },
+    {
+      "page_id": "doc003_p012",
+      "page_type": "assembly"
+    },
+    {
+      "page_id": "doc003_p013",
+      "page_type": "assembly"
+    },
+    {
+      "page_id": "doc003_p014",
+      "page_type": "assembly"
+    },
+    {
+      "page_id": "doc003_p015",
+      "page_type": "assembly"
+    },
+    {
+      "page_id": "doc003_p016",
+      "page_type": "assembly"
+    },
+    {
+      "page_id": "doc003_p017",
+      "page_type": "assembly"
+    },
+    {
+      "page_id": "doc003_p018",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc003_p019",
+      "page_type": "assembly"
+    },
+    {
+      "page_id": "doc003_p020",
+      "page_type": "assembly"
+    },
+    {
+      "page_id": "doc003_p021",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc003_p022",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc003_p023",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc003_p024",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc003_p025",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc003_p026",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc003_p027",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc003_p028",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc003_p029",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc004_p001",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc004_p002",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc004_p003",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc004_p004",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc004_p005",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc004_p006",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc004_p007",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc004_p008",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc004_p009",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc004_p010",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc004_p011",
+      "page_type": "layout"
+    },
+    {
+      "page_id": "doc004_p012",
+      "page_type": "layout"
+    },
+    {
+      "page_id": "doc004_p013",
+      "page_type": "schematic"
+    },
+    {
+      "page_id": "doc004_p014",
+      "page_type": "other"
+    },
+    {
+      "page_id": "doc004_p015",
+      "page_type": "other"
+    }
+  ]
+}

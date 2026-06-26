@@ -1,0 +1,241 @@
+method,N,qid,status
+Single-vector Visual,10,q001,hit
+Single-vector Visual,10,q002,hit
+Single-vector Visual,10,q003,hit
+Single-vector Visual,10,q004,hit
+Single-vector Visual,10,q022,hit
+Single-vector Visual,10,q024,hit
+Single-vector Visual,10,q025,hit
+Single-vector Visual,10,q028,hit
+Single-vector Visual,10,q005,miss
+Single-vector Visual,10,q006,miss
+Single-vector Visual,10,q007,miss
+Single-vector Visual,10,q008,miss
+Single-vector Visual,10,q009,miss
+Single-vector Visual,10,q010,miss
+Single-vector Visual,10,q011,miss
+Single-vector Visual,10,q012,miss
+Single-vector Visual,10,q013,miss
+Single-vector Visual,10,q014,miss
+Single-vector Visual,10,q015,miss
+Single-vector Visual,10,q016,miss
+Single-vector Visual,10,q017,miss
+Single-vector Visual,10,q018,miss
+Single-vector Visual,10,q019,miss
+Single-vector Visual,10,q020,miss
+Single-vector Visual,10,q021,miss
+Single-vector Visual,10,q023,miss
+Single-vector Visual,10,q026,miss
+Single-vector Visual,10,q027,miss
+Single-vector Visual,10,q029,miss
+Single-vector Visual,10,q030,miss
+Single-vector Visual,20,q001,hit
+Single-vector Visual,20,q002,hit
+Single-vector Visual,20,q003,hit
+Single-vector Visual,20,q004,hit
+Single-vector Visual,20,q006,hit
+Single-vector Visual,20,q008,hit
+Single-vector Visual,20,q010,hit
+Single-vector Visual,20,q012,hit
+Single-vector Visual,20,q022,hit
+Single-vector Visual,20,q023,hit
+Single-vector Visual,20,q024,hit
+Single-vector Visual,20,q025,hit
+Single-vector Visual,20,q027,hit
+Single-vector Visual,20,q028,hit
+Single-vector Visual,20,q029,hit
+Single-vector Visual,20,q005,miss
+Single-vector Visual,20,q007,miss
+Single-vector Visual,20,q009,miss
+Single-vector Visual,20,q011,miss
+Single-vector Visual,20,q013,miss
+Single-vector Visual,20,q014,miss
+Single-vector Visual,20,q015,miss
+Single-vector Visual,20,q016,miss
+Single-vector Visual,20,q017,miss
+Single-vector Visual,20,q018,miss
+Single-vector Visual,20,q019,miss
+Single-vector Visual,20,q020,miss
+Single-vector Visual,20,q021,miss
+Single-vector Visual,20,q026,miss
+Single-vector Visual,20,q030,miss
+Single-vector Visual,50,q001,hit
+Single-vector Visual,50,q002,hit
+Single-vector Visual,50,q003,hit
+Single-vector Visual,50,q004,hit
+Single-vector Visual,50,q006,hit
+Single-vector Visual,50,q008,hit
+Single-vector Visual,50,q009,hit
+Single-vector Visual,50,q010,hit
+Single-vector Visual,50,q011,hit
+Single-vector Visual,50,q012,hit
+Single-vector Visual,50,q013,hit
+Single-vector Visual,50,q014,hit
+Single-vector Visual,50,q016,hit
+Single-vector Visual,50,q022,hit
+Single-vector Visual,50,q023,hit
+Single-vector Visual,50,q024,hit
+Single-vector Visual,50,q025,hit
+Single-vector Visual,50,q026,hit
+Single-vector Visual,50,q027,hit
+Single-vector Visual,50,q028,hit
+Single-vector Visual,50,q029,hit
+Single-vector Visual,50,q030,hit
+Single-vector Visual,50,q005,miss
+Single-vector Visual,50,q007,miss
+Single-vector Visual,50,q015,miss
+Single-vector Visual,50,q017,miss
+Single-vector Visual,50,q018,miss
+Single-vector Visual,50,q019,miss
+Single-vector Visual,50,q020,miss
+Single-vector Visual,50,q021,miss
+Single-vector Visual,100,q001,hit
+Single-vector Visual,100,q002,hit
+Single-vector Visual,100,q003,hit
+Single-vector Visual,100,q004,hit
+Single-vector Visual,100,q005,hit
+Single-vector Visual,100,q006,hit
+Single-vector Visual,100,q007,hit
+Single-vector Visual,100,q008,hit
+Single-vector Visual,100,q009,hit
+Single-vector Visual,100,q010,hit
+Single-vector Visual,100,q011,hit
+Single-vector Visual,100,q012,hit
+Single-vector Visual,100,q013,hit
+Single-vector Visual,100,q014,hit
+Single-vector Visual,100,q015,hit
+Single-vector Visual,100,q016,hit
+Single-vector Visual,100,q017,hit
+Single-vector Visual,100,q018,hit
+Single-vector Visual,100,q019,hit
+Single-vector Visual,100,q020,hit
+Single-vector Visual,100,q021,hit
+Single-vector Visual,100,q022,hit
+Single-vector Visual,100,q023,hit
+Single-vector Visual,100,q024,hit
+Single-vector Visual,100,q025,hit
+Single-vector Visual,100,q026,hit
+Single-vector Visual,100,q027,hit
+Single-vector Visual,100,q028,hit
+Single-vector Visual,100,q029,hit
+Single-vector Visual,100,q030,hit
+BM25,10,q001,hit
+BM25,10,q002,hit
+BM25,10,q004,hit
+BM25,10,q006,hit
+BM25,10,q007,hit
+BM25,10,q008,hit
+BM25,10,q009,hit
+BM25,10,q010,hit
+BM25,10,q011,hit
+BM25,10,q012,hit
+BM25,10,q013,hit
+BM25,10,q014,hit
+BM25,10,q015,hit
+BM25,10,q016,hit
+BM25,10,q017,hit
+BM25,10,q018,hit
+BM25,10,q019,hit
+BM25,10,q020,hit
+BM25,10,q021,hit
+BM25,10,q022,hit
+BM25,10,q023,hit
+BM25,10,q024,hit
+BM25,10,q025,hit
+BM25,10,q026,hit
+BM25,10,q027,hit
+BM25,10,q029,hit
+BM25,10,q030,hit
+BM25,10,q003,miss
+BM25,10,q005,miss
+BM25,10,q028,miss
+BM25,20,q001,hit
+BM25,20,q002,hit
+BM25,20,q004,hit
+BM25,20,q005,hit
+BM25,20,q006,hit
+BM25,20,q007,hit
+BM25,20,q008,hit
+BM25,20,q009,hit
+BM25,20,q010,hit
+BM25,20,q011,hit
+BM25,20,q012,hit
+BM25,20,q013,hit
+BM25,20,q014,hit
+BM25,20,q015,hit
+BM25,20,q016,hit
+BM25,20,q017,hit
+BM25,20,q018,hit
+BM25,20,q019,hit
+BM25,20,q020,hit
+BM25,20,q021,hit
+BM25,20,q022,hit
+BM25,20,q023,hit
+BM25,20,q024,hit
+BM25,20,q025,hit
+BM25,20,q026,hit
+BM25,20,q027,hit
+BM25,20,q029,hit
+BM25,20,q030,hit
+BM25,20,q003,miss
+BM25,20,q028,miss
+BM25,50,q001,hit
+BM25,50,q002,hit
+BM25,50,q003,hit
+BM25,50,q004,hit
+BM25,50,q005,hit
+BM25,50,q006,hit
+BM25,50,q007,hit
+BM25,50,q008,hit
+BM25,50,q009,hit
+BM25,50,q010,hit
+BM25,50,q011,hit
+BM25,50,q012,hit
+BM25,50,q013,hit
+BM25,50,q014,hit
+BM25,50,q015,hit
+BM25,50,q016,hit
+BM25,50,q017,hit
+BM25,50,q018,hit
+BM25,50,q019,hit
+BM25,50,q020,hit
+BM25,50,q021,hit
+BM25,50,q022,hit
+BM25,50,q023,hit
+BM25,50,q024,hit
+BM25,50,q025,hit
+BM25,50,q026,hit
+BM25,50,q027,hit
+BM25,50,q028,hit
+BM25,50,q029,hit
+BM25,50,q030,hit
+BM25,100,q001,hit
+BM25,100,q002,hit
+BM25,100,q003,hit
+BM25,100,q004,hit
+BM25,100,q005,hit
+BM25,100,q006,hit
+BM25,100,q007,hit
+BM25,100,q008,hit
+BM25,100,q009,hit
+BM25,100,q010,hit
+BM25,100,q011,hit
+BM25,100,q012,hit
+BM25,100,q013,hit
+BM25,100,q014,hit
+BM25,100,q015,hit
+BM25,100,q016,hit
+BM25,100,q017,hit
+BM25,100,q018,hit
+BM25,100,q019,hit
+BM25,100,q020,hit
+BM25,100,q021,hit
+BM25,100,q022,hit
+BM25,100,q023,hit
+BM25,100,q024,hit
+BM25,100,q025,hit
+BM25,100,q026,hit
+BM25,100,q027,hit
+BM25,100,q028,hit
+BM25,100,q029,hit
+BM25,100,q030,hit

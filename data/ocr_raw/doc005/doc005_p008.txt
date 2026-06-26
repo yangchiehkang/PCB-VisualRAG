@@ -1,0 +1,50 @@
+NCV7535EVB
+
+PCB DRAWINGS
+
+Assembly Drawings
+
+HHH
+
+se 5H] ae
+@@*
+
+an a me ae
+
+=
+
+e.
+ene =
+
+; EV)
+a) Es Kupck
+ove
+
+Figure 7. NCV7535 EVB PCB Top Assembly Drawing Figure 8. NCV7535 EVB PCB Bottom Assembly
+Drawing
+
+Composite Drawings
+
+h
+
+€ EY
+
+é 3
+
+ts) a
+
+6 ay
+
+N A
+
+v
+
+Figure 9. NCV7535 EVB PCB Top Composite Drawing Figure 10. NCV7535 EVB PCB Bottom Composite
+Drawing
+
+References
+
+[1] ON Semiconductor, NCV7535 Product Datasheet Rev.P0, November 2016.
+
+www.onsemi.com
+8

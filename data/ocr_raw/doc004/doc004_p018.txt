@@ -1,0 +1,42 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+13. HVQFN exposed center pad solder lands
+
+PTN3356 uses HVQFN package.
+
+The HVQFN package exposed center pad must be soldered to a corresponding solder
+land on the board for enhanced thermal, as well as electrical ground, performance.
+
+During reflow soldering, solder paste melts and gas or trapped air is released, causing
+splattering or solder balling. Solder balling and splatter can be minimized if the solder
+
+paste is printed as a number of individual dots, instead of one large deposit, and if the
+solder paste is kept at a sufficient distance from the edge of the solder land.
+
+The solder paste pattern area should cover 35 % of the solder land area. When printing
+solder paste on the exposed die pad solder land, the solder paste dot area should cover
+no more than 20 % of this solder land area. Furthermore, the paste should be printed
+away from the solder land edges. This is illustrated in 01; the solder paste pattern area
+lies within the boundary indicated by the red line and it is divided by the entire solder land
+area.
+
+001aac866
+
+Fig 10. Solder paste dot area (left) and paste pattern area (right)
+
+14. References
+
+[1] PTN3356 preliminary datasheet, August, 2014
+
+[2] PTN3356 Reference Design Schematics, rev 0.10
+
+[3] _AN10873.pdf, PTN3392 application design reference manual
+[4] AN10798, DisplayPort PCB Layout Guidelines
+
+[5] Intel Skylake Platform Design Guide, Rev. 0.7, May 2014
+
+aNi1590 Allinformaton provided in this document is subject to legal disclaimers, (© NXP Semiconductors N.V. 2015. Al rights reserved
+
+Application note Rev. 1 — 29 January 2015 18 of 20

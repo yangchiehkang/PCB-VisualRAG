@@ -1,0 +1,80 @@
+{
+  "curve_data": "results\\budgeted\\coarse_to_fine\\summary\\day5_quality_cost_curve_data.csv",
+  "best_n_note": "notes\\archive\\week4_raw\\2026-05-07_week4_day5_best_N_analysis.md",
+  "figures": [
+    "results\\budgeted\\coarse_to_fine\\summary\\figures\\day5_quality_rerank_cost_Recall10_fixed.png",
+    "results\\budgeted\\coarse_to_fine\\summary\\figures\\day5_quality_rerank_cost_Recall10_fixed.pdf",
+    "results\\budgeted\\coarse_to_fine\\summary\\figures\\day5_quality_rerank_cost_nDCG10_fixed.png",
+    "results\\budgeted\\coarse_to_fine\\summary\\figures\\day5_quality_rerank_cost_nDCG10_fixed.pdf",
+    "results\\budgeted\\coarse_to_fine\\summary\\figures\\day5_quality_latency_Recall10_fixed.png",
+    "results\\budgeted\\coarse_to_fine\\summary\\figures\\day5_quality_latency_Recall10_fixed.pdf",
+    "results\\budgeted\\coarse_to_fine\\summary\\figures\\day5_quality_latency_nDCG10_fixed.png",
+    "results\\budgeted\\coarse_to_fine\\summary\\figures\\day5_quality_latency_nDCG10_fixed.pdf",
+    "results\\budgeted\\coarse_to_fine\\summary\\figures\\day5_quality_cost_curve_combined_fixed.png",
+    "results\\budgeted\\coarse_to_fine\\summary\\figures\\day5_quality_cost_curve_combined_fixed.pdf"
+  ],
+  "best_info": {
+    "principled_best": {
+      "method": "C2F N=10",
+      "N": "10",
+      "Recall@10": 0.25,
+      "nDCG@10": 0.1033,
+      "latency_ms_per_query": 10.814267,
+      "rerank_cost_units": 10.0,
+      "recall_gap_to_best": 0.0,
+      "ndcg_gap_to_best": 0.0
+    },
+    "measured_latency_best": {
+      "method": "C2F N=50",
+      "N": "50",
+      "Recall@10": 0.25,
+      "nDCG@10": 0.1033,
+      "latency_ms_per_query": 7.613867,
+      "rerank_cost_units": 10.0,
+      "recall_gap_to_best": 0.0,
+      "ndcg_gap_to_best": 0.0
+    },
+    "all_candidates": [
+      {
+        "method": "C2F N=10",
+        "N": "10",
+        "Recall@10": 0.25,
+        "nDCG@10": 0.1033,
+        "latency_ms_per_query": 10.814267,
+        "rerank_cost_units": 10.0,
+        "recall_gap_to_best": 0.0,
+        "ndcg_gap_to_best": 0.0
+      },
+      {
+        "method": "C2F N=20",
+        "N": "20",
+        "Recall@10": 0.25,
+        "nDCG@10": 0.1033,
+        "latency_ms_per_query": 8.275533,
+        "rerank_cost_units": 10.0,
+        "recall_gap_to_best": 0.0,
+        "ndcg_gap_to_best": 0.0
+      },
+      {
+        "method": "C2F N=50",
+        "N": "50",
+        "Recall@10": 0.25,
+        "nDCG@10": 0.1033,
+        "latency_ms_per_query": 7.613867,
+        "rerank_cost_units": 10.0,
+        "recall_gap_to_best": 0.0,
+        "ndcg_gap_to_best": 0.0
+      },
+      {
+        "method": "C2F N=100",
+        "N": "100",
+        "Recall@10": 0.25,
+        "nDCG@10": 0.1033,
+        "latency_ms_per_query": 7.7475,
+        "rerank_cost_units": 10.0,
+        "recall_gap_to_best": 0.0,
+        "ndcg_gap_to_best": 0.0
+      }
+    ]
+  }
+}

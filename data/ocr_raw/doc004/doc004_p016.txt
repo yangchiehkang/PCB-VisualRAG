@@ -1,0 +1,19 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+11. PCB stack up
+
+4-layer FR4 PCB is sufficient for PTN3356 DP-VGA layout. Suggested layers:
+1. Signal layer 1 for DPs, with ground cover the entire buck converter area plus power
+islands or thick traces for Vin and Vout for buck converter.
+2. Ground layer
+
+3. Power layer with VDD_3V3 islands to cover entire PTN3356, except pin 31, 28, 27
+and pin 6.
+
+4. Signal layer 2
+
+aNi1590 Allinformaton provided in this document is subject to legal disclaimers, (© NXP Semiconductors N.V. 2015. Al rights reserved
+
+Application note Rev. 1 — 29 January 2015 16 of 20

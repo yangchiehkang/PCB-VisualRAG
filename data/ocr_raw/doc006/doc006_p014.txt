@@ -1,0 +1,35 @@
+2 Setup and Required Equipment
+
++
+l3.3V Power Supply #1
+
++
+]1.2v Power Supply #2
+
+A00 380
+‘AW OOF -epnuidusy
+
+cnterealy
+shee)
+
+DATA, DATA
+Amplitude: 400 mv
+Offset: 0.0 V
+
+DATA, DATA
+Amplitude: 400 mv
+Offset: 0.0 V
+
+DATA, DATA
+Amplitude: 400 mV
+
+Offset: 0.0
+
+Figure 2-1. EVM Power Connections for Either SN65LVDS125A or SN65LVDS250
+Evaluation.
+
+Many possible configurations for the 4x4 crosspoint switches are made
+available. Table 2-1 provides a description of the different functions and
+the required selector settings.
+
+2-2

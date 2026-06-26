@@ -1,0 +1,9 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+Fig 7. Buck converter switching current loops
+
+aNsi590 ‘Allinformation provided in this document is subject to legal disclaimers. NXP Semiconductors NV. 2015. All ights reserved,
+
+Application note Rev. 1 — 29 January 2015 12 of 20

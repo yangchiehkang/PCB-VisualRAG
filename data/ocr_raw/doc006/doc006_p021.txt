@@ -1,0 +1,80 @@
+3 EVM Construction
+
+3.2 Board Layout Patterns
+
+S14 12 RISCOOIRIZ Wit JIS
+uce| Ri luce
+10€| 206
+
+Brus
+Rie TEXAS
+INSTRUMENTS}
+
+ws 6456526 fl
+
+us
+
+we
+8 320
+
+OND yyw UTERN
+
+1uce| luce
+si0| jst
+
+vce] luce
+
+2
+
+3 4
+
+n2
+
+ng
+
+cco
+
+uct
+
+4X4 Crosspoint Switch EVM
+
+38
+
+piocoosee WO Jit
+Re luce 310
+
+la0e
+
+{cob
+
+Rs
+
+us
+
+vce]
+40€
+
+Wl sNesLvDS125A
+
+a SN65LVDS250
+
+WWB yg
+
+luce
+lsat
+
+&
+
+vce]
+30]
+
+luce
+jsst
+
+”
+
+Cs
+
+Figure 3-2. 4x4 Crosspoint Switch EVM Board Layout
+
+3-3

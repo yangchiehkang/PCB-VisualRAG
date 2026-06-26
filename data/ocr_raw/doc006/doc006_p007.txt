@@ -1,0 +1,44 @@
+Contents
+
+Read This First .
+About This Manual
+How to Use This Manual
+Related Documentation from Texas Instruments .
+If You Need Assistance .
+FCC Warning.
+
+Contents .
+
+Figures...
+
+Tables
+
+1 Overview
+1.1 Sample Functional Configurations
+1.2 Signal Paths
+
+2 Setup and Required Equipment
+2.1 Applying an Input...
+2.2 Observing an Output.
+2.3 Typical Test Results .
+
+3 EVM Construction.
+3.1 Schematic.
+3.2 Board Layout Patterns.
+3.3. PCB Fabrication Requirements and Stack Up
+3.4 Bill of Materials
+
+Figure 1-2. 4x4 Crosspoint Switch EVM
+Figure 1-3. 4x4 Crosspoint Switch Signal Path:
+Figure 2-1. EVM Power Connections for Either SN65LVDS125A or SN65LVDS250
+
+Evaluation..........
+Figure 2-2. Termination for Interfa
+Figure 2-3. Typical Test Results...
+Figure 3-1. 4x4 Crosspoint Switch EVM Schemati
+Figure 3-2. 4x4 Crosspoint Switch EVM Board Layout
+Figure 3-3. Layer 1-Signal Plane .
+Figure 3-4. GND Plane...
+Figure 3-5. Layer 3-Vcc
+
+ig LVDS, CML, or LVPECL Drivers

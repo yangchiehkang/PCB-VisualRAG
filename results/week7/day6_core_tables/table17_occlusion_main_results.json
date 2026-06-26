@@ -1,0 +1,26 @@
+{
+  "source": "results\\week7\\occlusion\\occlusion_table12_condition_results.csv",
+  "table17": [
+    {
+      "Condition": "Original",
+      "MRR@10": 1.0,
+      "nDCG@10": 1.0,
+      "Avg Gold Page Score": 0.2014938,
+      "Source File": "results\\week7\\occlusion\\occlusion_table12_condition_results.csv"
+    },
+    {
+      "Condition": "Gold Mask",
+      "MRR@10": 0.0,
+      "nDCG@10": 0.0,
+      "Avg Gold Page Score": 0.0,
+      "Source File": "results\\week7\\occlusion\\occlusion_table12_condition_results.csv"
+    },
+    {
+      "Condition": "Random Mask",
+      "MRR@10": 1.0,
+      "nDCG@10": 1.0,
+      "Avg Gold Page Score": 0.2014938,
+      "Source File": "results\\week7\\occlusion\\occlusion_table12_condition_results.csv"
+    }
+  ]
+}

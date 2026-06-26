@@ -1,0 +1,15 @@
+AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and
+BOM
+
+Rev. 1 — 29 January 2015 Application note
+
+Document information
+
+Info Content
+Keywords DisplayPort, PTN3356
+Abstract
+
+This document provides a practical guideline to PTN3356 application
+design and layout.

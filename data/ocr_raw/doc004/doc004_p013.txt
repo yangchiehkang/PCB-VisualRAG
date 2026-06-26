@@ -1,0 +1,49 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+3.2 Buck converter schematic
+
+VBUCK_1VS
+o.4uF
+|
+az
+ol os
+g 3 ffl
+“| ce
+a oa
+4
+a 8
+
+vooo1s
+\VoDA1S_DAC
+osc_out
+osc_N
+
+Fig 8. Buck converter schematics
+
+4. Low EMI emission
+
+DPVGA design was simulated by IC design team, in the following steps:
+
+1. 3D simulations
+a. Obtain the Transfer function
+b. Obtain the S11 (S-parameters)
+2. Circuit simulations
+a. Insert the S11 information (step 1 b)
+b. Compute and process the actual signal spectrum
+3. Use Matlab to calculate the actual radiated emission spectrum by multiplying the
+transfer function (step 1 a) with the actual signal spectrum (step 2 b).
+Pre-Compliance Test was measured following EMC standards and passed.
+
+* CISPR 22: 2005-04; A1: 2005-07; A2: 2006-01
++ EN 55022: 2006-09; A1: 2007-10
+For information technology equipment, Criterion B is used, that is:
+
+During application of the transient test, degradation of performance including loss of
+function is allowed provided that the EUT self-recovers to normal operation after testing
+without any operator intervention.
+
+aNi1590 Allinformaton provided in this document is subject to legal disclaimers, (© NXP Semiconductors N.V. 2015. Al rights reserved
+
+Application note Rev. 1 — 29 January 2015 13 of 20

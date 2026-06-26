@@ -1,0 +1,48 @@
+NXP Semiconductors
+
+UM10772
+
+6.4 866MHz LNA using
+
+How to use BFU5xx starter-kit
+
+5.6 nH
+Murata
+RF input LOW series:
+(sma)
+
+| 3.6 pF
+
+Fig 31. 866MHz LNA using BFU530A
+
+BFU530A
+Voc 3.6V
+*
+47 uF
+100 nF
+100
+82nH
+Murata
+LQW series
+‘56 pF 3.9 pF
+56 pF
+i DUT
+100 nH
+Murata
+LOW series:
+
+RF output
+
+‘aaa-010453
+
+All iformation provided in this dacument is subject legal disclaimers
+
+NXP B.V. 2014, Al rights reserved.
+
+umto772
+
+User manual
+
+Rev. 1 — 21 January 2014
+
+25 of 29

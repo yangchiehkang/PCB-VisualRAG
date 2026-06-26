@@ -1,0 +1,42 @@
+15-0000-00134-P1 : PCB SLU - SF05B PCB
+
+Fabrication details
+
+Drill Drawing View (Scale 1:2)
+
+le)
+o
+°
+o
+°
+le)
+o
+°
+o
+°
+eS
+Feel free to provide any other stackup for validation with Sollum.
+Drill Table
+Layer Stack Legend Symbol Count Hole Size Plated Hole Tolerance
+Material Layer Thickness Dielectric Material Type Gerber ao 4 68mil Non-Plated
+| CE ie} 4 165mil Non-Plated
+° 4 200mil Non-Plated
+EE 412 Total
+a Omil holes are fiducials
+OoluoulJlsScCCCC-C vu.) Top Layer 2.8(0.0700) Signal GTL
+Prepreg 3.9(0.1000) 2W.m.K-1 Prepreg Dielectric
+Core 59.1(1.5000) Aluminium Dielectric
+
+Total thickness: 66.9(1.7002)
+
+COMMENTS: NAME [ pate -
+DRAWN farc-André Provencher 2021-09-24 S OQ L L U M
+ENG APPR. | TITLE . .
+FG APPR PCB fabrication requirements for project:
+|THE INFORMATION CONTAINED IN THIS DRAWING IS THE SOLE QA. [ PCB SLU - SFOSB : 15-0000-00134-P1
+ROPERTY OF Sollum Technologies. SIZE] pwe. No.
+NY REPRODUCTION IN PART OR AS A WHOLE WITHOUT THE 15-0000-00134-P1
+RITTEN PERMISSION OF Sollum Technologies IS PROHIBITED. DIMENSIONS ARE IN INCHES UNLESS OTHERWISE SPECIFIED B
+PROPRIETARY AND CONFIDENTIAL DO NOT SOALE DRAWING SCALE: 1:1 Benerated 2021-09-28] SHEET 4 OF 5
+
+A B Cc | D E | F

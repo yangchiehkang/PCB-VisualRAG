@@ -1,0 +1,5 @@
+method,N,query_count,total_candidates,total_scored,avg_candidates_per_query,avg_scored_per_query,coarse_time_seconds_proxy,rerank_time_seconds,total_latency_seconds_proxy,per_query_latency_ms_proxy,note
+C2F N=10,10,30,300,300,10.0000,10.0000,0.000000,0.324428,0.324428,10.814267,coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary.
+C2F N=20,20,30,300,300,10.0000,10.0000,0.000000,0.248266,0.248266,8.275533,"coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary. Actual candidate depth is still 10, not 20."
+C2F N=50,50,30,300,300,10.0000,10.0000,0.000000,0.228416,0.228416,7.613867,"coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary. Actual candidate depth is still 10, not 50."
+C2F N=100,100,30,300,300,10.0000,10.0000,0.000000,0.232425,0.232425,7.747500,"coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary. Actual candidate depth is still 10, not 100."

@@ -1,0 +1,15 @@
+1 Overview
+
+1.2. Signal Paths
+
+oocddg
+
+The signal paths on this EVM (see Figure 1-3) include:
+Sixteen edge-launch SMA connectors (J1—J16) for high-speed data transmission
+Eight jumpers (W1- W8) for active switch logic control
+Four jumpers (W9-W12) for enabling and disabling the outputs
+Three banana jacks (J17, J18, J19) for power and ground connections. Banana jack J20 is
+
+used for non-LVDS type configurations.
+
+Figure 1-3. 4x4 Crosspoint Switch Signal Paths

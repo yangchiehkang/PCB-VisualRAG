@@ -1,0 +1,6 @@
+metric,type,values,description
+Answer Correctness,binary,0/1,Whether the answer is correct.
+Evidence Supported,binary,0/1,Whether the answer is supported by visible page evidence.
+Unknown Rate,binary,0/1,Whether the model answers not enough evidence / unknown.
+Answer Consistency,categorical,same/changed,Whether the answer changes across input settings.
+Error Type,categorical,wrong_page/masked_evidence/hallucination/insufficient_info/ocr_error/none,Manual error category.

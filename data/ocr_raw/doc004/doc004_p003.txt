@@ -1,0 +1,45 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+1. Introduction
+
+This document provides a guideline for PTN3356 application and layout guide line in ULT
+notebook, docking station and dongle designs.
+
+PTN3356 is a small packaged low power DisplayPort to VGA adapter IC designed to
+connect a DisplayPort source to a VGA sink. PTN3356 is in HVQFN32 package, which is
+5mmx5mm, with 0.5 mm pitch. PTN3356 consumes approximately 200 mW of power for
+video streaming in WUXGA resolution and 410 uW of power in low-power mode.
+
+The VGA output is powered down when there is no valid DisplayPort source data being
+transmitted. PTN3356 is suitable for Ultra Low Power Notebook and other low power
+devices.
+
+PTN3356 is powered from a 3.3 V power supply, and generated 1.5 V through an internal
+step-down switch regulator and buck converter for internal core usage and DAC usage.
+
+The PTN3356 also aids in monitor detection by performing load sensing and reporting
+sink connection status to the source.
+
+2. Reference designs
+
+2.1 ULT notebook design
+
+PTN3356 can be connected directly to the DP lanes on mother board, or on docking
+station.
+
+Connect PTN3356 to one of the DP port on PCH/GPU with 0.1 uF AC caps in series for
+DP data lanes and AUX lanes. PTN3356 probably will be used as primary display, make
+sure BIOS is set accordingly.
+
+Below is a reference design for one VGA application.
+Note:
+
+1. ESD protection is optional circuitry.
+2. U3 is required to support 5 V H/V for legacy projectors and CRTs.
+3. Pl filter design is customer specific.
+
+aNi1590 Allinformaton provided in this document is subject to legal disclaimers, (© NXP Semiconductors N.V. 2015. Al rights reserved
+
+Application note Rev. 1 — 29 January 2015 3 of 20

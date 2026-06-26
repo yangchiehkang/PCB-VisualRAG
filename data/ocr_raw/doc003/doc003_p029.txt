@@ -1,0 +1,98 @@
+NXP Semiconductors
+
+Contents
+
+UM10772
+
+How to use BFU5xx starter-kit
+
+24
+2.2
+
+3.1
+
+3.2
+
+44
+4.2
+43
+44
+45
+46
+47
+48
+49
+4.10
+4at
+4.12
+
+5.1
+5.2
+5.3
+5.4
+
+6.1
+6.2
+6.3
+6.4
+6.5
+6.6
+
+7A
+7.2
+7.3
+7.4
+75
+
+Introduction ..
+Content of the starter
+The starter kit.
+PCB's example for BFU5xx series LNA
+Target applications for starter kit PCB’:
+Basic schematic for Grounded Emitter versions
+(VGEOx)....
+Basic schematic for Emitter Degeneration
+version (VEDOx)..
+PCB drawings for all version:
+Layer stack...
+SOT323 Grounded Emitter.
+SOT323 Emitter Degeneration .
+SOT23 Grounded Emitter...
+SOT23 Emitter Degeneration
+SOT143 Grounded Emitter.
+SOT143 Emitter Degeneration .
+SOT143X Grounded Emitter .
+SOT143X Emitter Degeneration
+SOT143XR types, schematics ..
+SOT143XR Grounded Emitter
+SOT143XR Emitter Degeneration
+USB memory device: content.
+Product Datasheets...
+Files for in-circuit Simulations.
+Product Application Notes...
+Design files from PCB's ..
+Example amplifier designs
+433MHz LNA using BFU520.
+866MHz LNA using BFUS20A.
+433MHz LNA using BFU530.
+866MHz LNA using BFU530.
+433MHz LNA using BFU550W..
+866MHz LNA using BFUSSOW.
+Legal information
+Definitions ....
+Disclaimers.
+Licenses
+Patent:
+Trademarks...
+Content:
+
+Please be aware that important notices concerning this document and the product(s)
+described herein, have been included in the section ‘Legal information’
+
+© NXP B.V. 2014. All rights reserved.
+
+For more information, please visit: hitp:/www.nxp.com
+For sales office addresses, please send an email to: salesaddresses@nxp.com
+
+Date of release: 21 January 2014
+Document identifier: UM10772

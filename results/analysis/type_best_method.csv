@@ -1,0 +1,6 @@
+﻿Query Type,Best Method,Best Recall@10,Best MRR,Best nDCG@10,Interpretation
+component_localization,OCR + Dense,0.5000,0.0714,0.1667,"Text remains the strongest baseline, though visual cues may still matter in finer-grained models."
+cross_page_consistency,OCR + BM25,0.7500,0.3611,0.4171,Text signals appear more reliable for cross-page semantic matching.
+parameter_lookup,OCR + BM25,1.0000,0.5000,0.6309,Text retrieval is strongest for terminology- and table-oriented queries.
+similarity_based_interference,OCR + BM25,1.0000,0.4080,0.5514,Text retrieval is currently more robust than pure visual similarity for confusing pages.
+structure_legend_interpretation,OCR + BM25,1.0000,0.5867,0.6840,"Text retrieval currently performs best, but this type may still benefit from multimodal modeling."

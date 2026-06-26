@@ -1,0 +1,40 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+3.2 Basic schematic for Emitter Degeneration version (VEDOx)
+
+<i Ci 1
+~ a
+Celectrolytic + on
+= 8
+~ +3
+co H Ca 1
+c—biast -  —{Ztias2 C5 1
+cl by
+~ I
+3 Ss
+8 a
+Fy N
+az} aes}
+RF output
+; rs Zoutt Zout2 Zouts ?
+RF input S cs io +
+4 Zint Zin2, Zind Gil g g
+= kj 2 = +
+iN iN N 3 3 -
+
+Fig 4. Schematic Amplifier design VED
+Remarks:
+- Notall components are required, depends on amplifier/matching configuration
+- Input and output considered to be 50 Ohms characteristic impedance (SMA type)
+- Two parallel components from emitter to GND enable to split DC/AC
+- Generic PI or T matching network at input and output possible
+
+Basically on all BFU5xx series amplifier EVB's this schematic is applied, small variations on
+implementation are possible
+
+umto772 All iformation provided in this dacument is subject legal disclaimers NXP BLY. 2014. Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 8 of 29
+

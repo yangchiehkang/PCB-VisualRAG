@@ -1,0 +1,16 @@
+﻿Query Type,Method,Num Queries,Recall@10,MRR,nDCG@10
+component_localization,OCR + BM25,2,0.0000,0.0000,0.0000
+component_localization,OCR + Dense,2,0.5000,0.0714,0.1667
+component_localization,Single-vector Visual,2,0.5000,0.0500,0.1445
+cross_page_consistency,OCR + BM25,4,0.7500,0.3611,0.4171
+cross_page_consistency,OCR + Dense,4,0.7500,0.3125,0.3205
+cross_page_consistency,Single-vector Visual,4,0.2500,0.1250,0.0967
+parameter_lookup,OCR + BM25,2,1.0000,0.5000,0.6309
+parameter_lookup,OCR + Dense,2,1.0000,0.3333,0.4936
+parameter_lookup,Single-vector Visual,2,0.5000,0.0833,0.1781
+similarity_based_interference,OCR + BM25,17,1.0000,0.4080,0.5514
+similarity_based_interference,OCR + Dense,17,0.9412,0.4042,0.5331
+similarity_based_interference,Single-vector Visual,17,0.1765,0.0564,0.0851
+structure_legend_interpretation,OCR + BM25,5,1.0000,0.5867,0.6840
+structure_legend_interpretation,OCR + Dense,5,0.6000,0.2286,0.3190
+structure_legend_interpretation,Single-vector Visual,5,0.4000,0.0533,0.1291

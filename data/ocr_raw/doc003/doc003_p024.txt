@@ -1,0 +1,39 @@
+NXP Semiconductors
+
+UM10772
+
+How to use BFU5xx starter-kit
+
+6.3 433MHz LNA using BFU530A
+
+Voc 3.6V
++
+47 uF
+-——1#—&
+100 nF
+1k
+100
+68nH
+Murata
+LOW series 1.5nH
+Murata
+tank 390 pF LAW series RF output
+Murata (SMA)
+RF input LOW series 390 pF
+(SMA) he OUT
+47 pF 10 pF
+J rh J aaa-010448
+
+Fig 30. 433MHz LNA using BFU530A
+
+All iformation provided in this dacument is subject legal disclaimers
+
+NXP B.V. 2014, Al rights reserved.
+
+umto772
+
+User manual
+
+Rev. 1 — 21 January 2014
+
+24 of 29

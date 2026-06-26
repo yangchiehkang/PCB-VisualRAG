@@ -1,0 +1,38 @@
+ADIS16006/PCB
+
+1.050
+‘ANALOG
+20.925 t—() > Fests (3)
+__ 22
+2x0.673 =P"
+iSensor™ ==
+rE a—7
+iE —
+="
+2x0.000 Ly |
+
+0.150
+
+0.200
+
+0.865
+2x0.900
+
+Figure 3. ADIST6XXX/PCB Mechanical Drawing
+
+©2006 Analog Devices, Inc. All rights reserved. Trademarks and
+registered trademarks are the property of their respective owners.
+
+PRO6114-0-9/06(PrD)
+
+4x@0.087
+
+— M2X0.4
+
+>| ANALOG
+DEVICES
+
+www.analog.com
+
+Rev. PrD | Page 2 of 2
+

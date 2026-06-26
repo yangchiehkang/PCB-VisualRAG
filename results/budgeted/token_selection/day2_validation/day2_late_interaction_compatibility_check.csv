@@ -1,0 +1,6 @@
+M,query_file,page_file,query_shape,page_shape,score,status
+8,artifacts\embeddings\full_multivector\queries\q001.npy,artifacts\embeddings\token_selection\pages_M8\doc001_p001.npy,"(19, 512)","(8, 512)",-0.1785421073436737,PASSED
+16,artifacts\embeddings\full_multivector\queries\q001.npy,artifacts\embeddings\token_selection\pages_M16\doc001_p001.npy,"(19, 512)","(16, 512)",0.11515624821186066,PASSED
+24,artifacts\embeddings\full_multivector\queries\q001.npy,artifacts\embeddings\token_selection\pages_M24\doc001_p001.npy,"(19, 512)","(24, 512)",0.2257833331823349,PASSED
+32,artifacts\embeddings\full_multivector\queries\q001.npy,artifacts\embeddings\token_selection\pages_M32\doc001_p001.npy,"(19, 512)","(32, 512)",0.22578340768814087,PASSED
+49,artifacts\embeddings\full_multivector\queries\q001.npy,artifacts\embeddings\token_selection\pages_M49\doc001_p001.npy,"(19, 512)","(49, 512)",0.33672112226486206,PASSED

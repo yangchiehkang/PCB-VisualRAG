@@ -1,0 +1,69 @@
+# Full MV Small Subset (Day 1)
+
+- 创建时间：2026-04-09 12:48:12
+- query 数：10
+- page 数：50
+
+## Queries
+- `q001`: Which page contains the fabrication requirements table with material, panel, and special requirement specifications?
+- `q002`: Which page explains the breakaway and bevel requirements with dimensioned diagrams?
+- `q003`: Which page shows the top-side board view together with board outline dimensions?
+- `q004`: Which page contains the drill table and stackup legend for the fabrication package?
+- `q005`: Which page shows the board artwork and copper routing layer view?
+- `q006`: Which page combines the assembly drawing, BOM table, and component callouts in a single view?
+- `q007`: Which page lists the bill of materials together with top and bottom assembly views?
+- `q008`: Which page shows the basic grounded emitter amplifier schematic with labeled matching network elements?
+- `q009`: Which page shows the basic emitter degeneration amplifier schematic with labeled matching network elements?
+- `q010`: Which page shows the PCB layer stack with board cross section and stack dimensions?
+
+## Pages
+- `doc001_p001` (fabrication)
+- `doc001_p002` (fabrication)
+- `doc001_p003` (layout)
+- `doc001_p004` (fabrication)
+- `doc001_p005` (layout)
+- `doc002_p001` (assembly)
+- `doc003_p001` (other)
+- `doc003_p002` (other)
+- `doc003_p003` (other)
+- `doc003_p004` (other)
+- `doc003_p005` (other)
+- `doc003_p006` (other)
+- `doc003_p007` (schematic)
+- `doc003_p008` (schematic)
+- `doc003_p009` (fabrication)
+- `doc003_p010` (assembly)
+- `doc003_p011` (assembly)
+- `doc003_p012` (assembly)
+- `doc003_p013` (assembly)
+- `doc003_p014` (assembly)
+- `doc003_p015` (assembly)
+- `doc003_p016` (assembly)
+- `doc003_p017` (assembly)
+- `doc003_p018` (schematic)
+- `doc003_p019` (assembly)
+- `doc003_p020` (assembly)
+- `doc003_p021` (other)
+- `doc003_p022` (schematic)
+- `doc003_p023` (schematic)
+- `doc003_p024` (schematic)
+- `doc003_p025` (schematic)
+- `doc003_p026` (schematic)
+- `doc003_p027` (schematic)
+- `doc003_p028` (other)
+- `doc003_p029` (other)
+- `doc004_p001` (other)
+- `doc004_p002` (other)
+- `doc004_p003` (other)
+- `doc004_p004` (schematic)
+- `doc004_p005` (other)
+- `doc004_p006` (schematic)
+- `doc004_p007` (other)
+- `doc004_p008` (schematic)
+- `doc004_p009` (other)
+- `doc004_p010` (other)
+- `doc004_p011` (layout)
+- `doc004_p012` (layout)
+- `doc004_p013` (schematic)
+- `doc004_p014` (other)
+- `doc004_p015` (other)

@@ -1,0 +1,9 @@
+Coarse Method,N,Coarse Recall@N,Hit Queries,Miss Queries,Total Queries,candidate_file
+Single-vector Visual,10,0.26666666666666666,8,22,30,E:\Working\PCB_VisualRAG_Project\artifacts\rerank_cache\week7_topN\candidates_visual_N10.tsv
+Single-vector Visual,20,0.5,15,15,30,E:\Working\PCB_VisualRAG_Project\artifacts\rerank_cache\week7_topN\candidates_visual_N20.tsv
+Single-vector Visual,50,0.7333333333333333,22,8,30,E:\Working\PCB_VisualRAG_Project\artifacts\rerank_cache\week7_topN\candidates_visual_N50.tsv
+Single-vector Visual,100,1.0,30,0,30,E:\Working\PCB_VisualRAG_Project\artifacts\rerank_cache\week7_topN\candidates_visual_N100.tsv
+BM25,10,0.9,27,3,30,E:\Working\PCB_VisualRAG_Project\artifacts\rerank_cache\week7_topN\candidates_bm25_N10.tsv
+BM25,20,0.9333333333333333,28,2,30,E:\Working\PCB_VisualRAG_Project\artifacts\rerank_cache\week7_topN\candidates_bm25_N20.tsv
+BM25,50,1.0,30,0,30,E:\Working\PCB_VisualRAG_Project\artifacts\rerank_cache\week7_topN\candidates_bm25_N50.tsv
+BM25,100,1.0,30,0,30,E:\Working\PCB_VisualRAG_Project\artifacts\rerank_cache\week7_topN\candidates_bm25_N100.tsv

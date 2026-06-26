@@ -1,0 +1,18 @@
+{
+  "run_name": "w6_N10_M8_none",
+  "compression": "None",
+  "N": 10,
+  "M": 8,
+  "input_query_count": 30,
+  "valid_query_count": 30,
+  "input_candidate_rows": 300,
+  "valid_candidate_count": 300,
+  "avg_input_candidates_per_query": 10.0,
+  "avg_valid_candidates_per_valid_query": 10.0,
+  "rerank_time_seconds": 0.14617133140563965,
+  "per_query_latency_ms": 4.872377713521321,
+  "run_file": "results\\budgeted\\joint_compression\\runs\\w6_N10_M8_none_run.tsv",
+  "score_file": "results\\budgeted\\joint_compression\\scores\\w6_N10_M8_none_scores.csv",
+  "missing_file": null,
+  "page_dir": "artifacts\\embeddings\\token_selection\\pages_M8"
+}

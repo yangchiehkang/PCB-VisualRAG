@@ -1,0 +1,39 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+3.1 Basic schematic for Grounded Emitter versions (VGEOx)
+
+J Co}
+~ c+}
+Celectrolytic + oo
+= 3
+~ cL
+co h Ca q
+c{2biast }—{2bias? | CS 1
+Loa N
+~
+3 =
+Fe} iy
+bs
+(aH a] RF output
+= Zoutt Zout2 Zouts °
+i IN
+RF input TR es ra =
+o Zint Zin2 Zind 1 Ss is
+z 2 2 =
+iN iN N ~ ~
+
+Fig 3. Schematic Amplifier design VGE
+Remarks:
+- Notall components are required, depends on amplifier/matching configuration
+- Input and output considered to be 50 Ohms characteristic impedance (SMA type)
+- Generic PI or T matching network at input and output possible
+
+- Basically on all BFU5xx series amplifier EVB’s this schematic is applied, small variations on
+implementation are possible
+
+umto772 All iformation provided in this dacument is subject legal disclaimers NXP BLY. 2014. Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 7 of 29
+

@@ -1,0 +1,11 @@
+# Table 19: Lightweight Visual RAG Main Results
+
+| setting | num_cases | gold_page_rate | answer_accuracy | evidence_supported_rate | unknown_rate | concrete_answer_rate | no_answer_count | wrong_page_count | hallucination_count | masked_evidence_count |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Gold Evidence | 10 | 1.0000 | 1.0000 | 1.0000 | 0.0000 | 1.0000 | 0 | 0 | 0 | 0 |
+| BM25 | 10 | 0.4000 | 0.4000 | 0.9000 | 0.5000 | 0.5000 | 0 | 5 | 1 | 0 |
+| Full MV | 10 | 0.1000 | 0.1000 | 0.6000 | 0.5000 | 0.5000 | 0 | 5 | 4 | 0 |
+| Hybrid Fusion | 10 | 0.4000 | 0.4000 | 0.9000 | 0.5000 | 0.5000 | 0 | 5 | 1 | 0 |
+| Budgeted MV | 10 | 0.1000 | 0.1000 | 0.4000 | 0.3000 | 0.7000 | 0 | 3 | 6 | 0 |
+| Gold Masked | 10 | 1.0000 | 1.0000 | 1.0000 | 0.0000 | 1.0000 | 0 | 0 | 0 | 0 |
+| Random Masked | 10 | 1.0000 | 1.0000 | 1.0000 | 0.0000 | 1.0000 | 0 | 0 | 0 | 0 |

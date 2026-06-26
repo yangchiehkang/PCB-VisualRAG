@@ -1,0 +1,125 @@
+A
+
+¢
+
+‘THIS DOCUMENT AND THE DATA DISCLOSED HEREIN OR.
+HEREWITH IS THE PROPERTY OF ALTIUM LIMITED AND MAY
+BE FREELY DISTRIBUTED IN WHOLE. NO RIGHTS ARE
+RESERVED OR EXPRESS OR IMPLIED WARANTEE GIVEN.
+
+984mil
+25.00mm+0.
+
+[1220mil]
+31.00mm
+25.00mm+0.2
+
+KAME FMU rev.2 2019]
+
+The Main Advantages when
+
+View from Top side (Scale 2:1)
+
+C19 d
+Corr
+
+100nF =
+Req OD
+U14 s00nF
+
+R30 hm
+
+R28
+
+cor SE SM = Mk
+hoo mom omR'9
+soe OSM | 1" Fo
+
+R212
+
+J00uF
+
+gt 1,88 my
+
+using Draftsman to Create an Assembly Drawing
+
+View from Bottom side (Scale 2:1)
+
+7
+TXB0108DQSR g 3
+"CI get His.
+‘ oo ome
+“ag 3
+ane oat
+od & Seas Rin
+mise 5 7
+<<} 2
+B
+> | 20.1 A
+R1.25mm
+Bill Of Materials
+Line # Designator Comment Quantity
+C1, C2, C4, C8, C9, C10, C11,
+C12, C13, C14, C15, C16, | Capacitor 100nF +/-20% 10V
+1 C17, C19, C20, C21, C22, | 0402, 100nF, 100nF , 100nF, |27
+C23, C30, C31, C32, C33, 100nF
+C34, C35, C37, C39, C44
+2 C3, C6, C7 Capacitor ESRI 16V 3
+Capacitor 22pF +/-10% 50V
+ee 0402 !
+
+_
+
+Notes:
+
+1 | Dimensions for reference.
+
+(2) Soldering with solder paste ULF-208-98
+
+D E "=D0C_NO_ASSY_DWé te F
+nev srarvs] = REVISIONS
+OF SHEETS Jee] Zone | REV DESCRIPTION DATE | APPROVED
+SECTION B-B (Scale 2:1) Realistic View
+1
+Re
+ee
+oe _
+ts
+E
+bo]
+te
+2
+@ Template of the document sheet. You only need to fill in the fields that are important to you.
+The board view with components and layout. Component graphics are sourced from the 3D model
+projections. No need to create additional graphics and layers.
+e@ The board section view. Create the section where the board should be shown with more details.
+e@ The board realistic view. Can be used as a reference view of the assembled board.
+e The detail view. Allows you to increase the detail level of a particular PCB area.
+The component view. You can place a view of a particular component, measure it, and show the details
+of its mounting on the board. 3
+@ The annotation tools that are typical for professional MCADs.
+The callout. Using this multifunctional tool, you can enter component positions from the BOM,
+Cy) component parameters, or just text." (component positions with a BOM table and a specification
+item - aren't these the same).
+e BOM table. BOM is located directly in your drawing. |
+0 Technical requirements with reference to the callout. It a
+ons
+8
+a1 Display the board view with components for a specific variant. 5
+g
+3
+Fal
+PART NO! sPC®_PART_ NUMBER. Ef
+Tee — [ece_cHecKe RESTGRT TSH TERT REVISION:
+Toa cneoner [PCE_CHECKERESGNTTERE DESTTERTRETSOR
+Reference Dacurente TE
+aT oc NO_BOM =PCB_TITLE_1
+RSSY =PCB_TITLE_2
+=DOC_NO_FAB_DWG |~szEoncEco0E OWEN Rev
+L6)- Serer -poc_No_sch_pwelf\ 3/=CAGE_COD|
+NETASSY | _USEDON [RCE DOT _
+"APPLIGRTION =PCB_DWG_NO [SCRE FLERE Kame_FMU_AS.PCBDwf TET GOS
+
+D
+
+] F

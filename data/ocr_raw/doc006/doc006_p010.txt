@@ -1,0 +1,29 @@
+1 Overview
+
+1.1 Sample Functional Configurations
+
+The 4x4 crosspoint switch is a fully non-blocking switch that provides
+flexibility in switch configuration for the desired application.
+
+A sample of various functions for which the EVMs can be configured is
+shown in Figure 1-1.
+
+Configuration Examples
+
+S10] su1_]_s20] sa so-so
+7 a 3 i 2 3 a =
+S20[sa1_| sao [sat 30 [sar | saa] sa
+1 a i i ° ° 7
+1A 1A | +
+nag
+
+ney
+
+S70 su S20 S24 oa sit S20, S2i
+2 n 7 ° 4 a i
+S30 S37 Sao Sat S30 EEt S40
+4 2 a 2 2 n o
+
+AVAYAMA
+
+Figure 1-1. Sample Functional Configurations of the 4x4 Crosspoint Switch

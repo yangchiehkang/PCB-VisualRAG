@@ -1,0 +1,9 @@
+avy Reerence art Description Manufacturer Manufacturer C8 Footprint Note
+a us Micropower 150 mA Low Noise Ultra Low-Dropout Texas Instruments LP2985AIMS-5.0 MFO5A Fitted
+
+o R50, R31, R52, R37, R3B, R39, RES, 0 ohm, 5%, 0.125W, 0805 Panasonic ERI-6GEYOROOV 05, Not Fitted
+1 7 CAP, CERM, 5100 pF, 50 V, +/- 5%, COG/NPO, 0805 MuRata (GRM2195C1H512JA01D_ 805 Fitted
+2 3, D4 Diode, P-N, 3000V, 0.254, TH Vishay GPO2-30-E3/73 DO-41 Fitted
+
+1 fre Thermal Transfer Printable Labels, 0.650" W x 0.200" H- Brady THT-14-423-10 PCB Label 0.650"H x 0.200"W Fitted
+

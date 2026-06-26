@@ -1,0 +1,4 @@
+Condition,MRR@10,nDCG@10,Avg Gold Page Score,Source File
+Original,1.0000,1.0000,0.20149380,results\week7\occlusion\occlusion_table12_condition_results.csv
+Gold Mask,0.0000,0.0000,0.00000000,results\week7\occlusion\occlusion_table12_condition_results.csv
+Random Mask,1.0000,1.0000,0.20149380,results\week7\occlusion\occlusion_table12_condition_results.csv

@@ -1,0 +1,56 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+4.10 SOT143XR types, schematics
+
+cor Ct
+° C2
+Celectrolytic+| eo
+== g
+~ C3
+c C6 C4 +3
+T C5 1
+ly
+clo S
+~ I
+8 5
+Fy iN
+Mea ed RF output
+; rs Zoutt Zoute Zouts ?
+RF input S rs ‘o +
+2 Zint Zina Zind TRI is 3
+F E E ~ = *
+iN i ia
+
+Fig 22. Generic schematic used for SOT143XR Vge types, small differences in DC biasing
+
+Ci 1
+C2 1
+Celectrolytic + eo
+IN
+C3
+C4
+cS
+cL cy
+c C7 IN
+= I
+i F
+is
+Zee {Zs RF output
+= Zoutt Zout2 Zout3
+. 8 I
+is
+RF input - fo =
+Zint Zin2 Zin3 2 3
+yf i
+2 2 8 my
+2 2 Ey Z S =
+iS S Fa alle
+
+Fig 23. Generic schematic used for SOT143XR Ved types, small differences in DC biasing
+
+umto772 All iformation provided in this dacument is subject legal disclaimers NXP BLY. 2014. Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 18 of 29
+

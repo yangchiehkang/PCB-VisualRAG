@@ -1,0 +1,46 @@
+Microchip Technology Incorporated
+2355 W. Chandler Blvd.
+Chandler, AZ 85224-6199
+
+MICROCHIP
+
+KEY
+CR: Cross D: Drawing
+CS: Consign B: BOM
+PL: Pack List P: Part
+RoHS: Lead Free LBL: Label
+
+Bill of Materials
+
+ASSEMBLY NUMBER: 102-00354 REV: 1 Part No: ARD00354
+ASSEMBLY NAME: MCP6N11 Wheatstone Bridge Reference Design
+R
+* °
+E H ccp
+2 Qty Reference Description Migr. PartNumber Distributor Vendor/PartNumber_S Rev RS L Type
+Molex Connector
+15 1 |JP2 JCONN HDR DUAL 4POS .100 SRT AU [Corporation 10-89-7042 DigiKey |WM26804-ND Y 1 a NN] P
+Shunts for
+16 | 2 |JP1 & JP2 Shunt, 100 mil Thru-Hole, 2 Pos., 30 um Au Tyco Electronics |881545-2 Digike A26242-ND Y|_ 1 |y[nin} ep
+Murata
+a7] [ut INDUCTOR 10UH 100MA 0805 Electronics North |LQM21FN100M70L_|Digikey 1490-4029-1-ND_ Y|_ 1 |y[nin} pe
+18 | 2 |R1,R6 _|RES2.49K OHM 1/10W .1% 0603 SMD Susumu RG1608P-2491-B-15 |Digikey RGteP2.49kBCT-ND |y| 1+ |y|N[N{ P
+\Vishay/Beyschia
+19 | 1 |Re TEMP SENSOR RTD 100 OHM 0603 g PTS060301B100RP1qDigikey prsoso3iooct-nD__|y| 1+ |y|nin{ pe
+20 |_3_|R3, R4, RS |RES 100 OHM 1/10W .1% 0603 SMD Susumu RG1608P-101-B-T5_|Digike RGtePio0BcT-ND__|y|_ + |y|nin| pe
+ai | 1 [RZ RES 30.1K OHM 1/10W .1% 0603 SMD. Susumu RG1608P-3012-B-15 |Digikey RGt6P30.1KBCT-ND |y| 1+ |y|N[N{ P
+22 | 1 |R8 RES 121K OHM 1/10W 1% 0603 SMD Yageo RCO603ER-07121KL |Digike 311-121KHRCT-ND_ |Y¥|_ 1 |y[N|NI P.
+23 | 1 |Ro RES 68.1K OHM 1/10W 1% 0603 SMD Yageo RCO603ER-0768K1L |Digike 311-68.1KHRCT-ND__|Y¥|_1 |y|N|NI P.
+24 |_1 [R10 RES 200 OHM 1/10W 5% 0603 SMD Yageo RC0603JR-07200RL |Digike [311-200GRCT-ND. Y|_ 1 |y[nin} pe
+RI, Ri2,
+R19, R20,
+R24, R25,
+25 |_8 |R35,R36_ |RES 20.0K OHM 1/10W 1% 0603 SMD Yageo RCO603FR-0720KL_|Digikey _[311-20.0KHRCT-ND__|Y| 1 |y|N|NI P.
+26 | 2 |R13, R26_|RES 10.0 OHM 1/10W 1% 0603 SMD Yageo RC0603FR-0710RL_|Digikey 311-10.0HRCT-ND__|Y|_1 |y[N|NI P.
+a7 |_2 |R14, R16_|RES 10K OHM 1/10W 5% 0603 SMD. Yageo RC0603JR-0710KL _|Digikey 311-10KGRCT-ND. Y|_1 |y[nin} ep
+R31, R32,
+28 |_4 |R33,R34_|RES 10.0K OHM 1/10W .1% 0603 SMD Susumu RG1608P-103-B-T5_|Digike RGi6P10.0KBCT-ND_|y| 1+ |y|n[N| P
+29 |_2 |R15,R23_|RES 100K OHM 1/10W 5% 0603 SMD. Yageo RC0603JR-07100KL |Digikey _[311-100KGRCT-ND__|Y| 1+ |y|N|NI P
+R17, R27,
+30 | 3 [R30 RES 100K OHM 1/10W .1% 0603 SMD Susumu RG1608P-104-B-T5_|Digikey RGtePiooKecT-ND_|y| + |y|nin| P
+

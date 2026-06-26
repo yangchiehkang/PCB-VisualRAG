@@ -1,0 +1,15 @@
+{
+  "query_count": 30,
+  "page_level": {
+    "MRR@10": 0.0,
+    "Recall@1": 0.0,
+    "Recall@5": 0.0,
+    "Recall@10": 0.0,
+    "nDCG@10": 0.0
+  },
+  "doc_level_aux": {
+    "Recall@1": 0.03333333333333333,
+    "Recall@5": 0.7,
+    "Recall@10": 0.7333333333333333
+  }
+}

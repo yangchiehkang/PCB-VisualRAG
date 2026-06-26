@@ -1,0 +1,18 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+4. PCB drawings for all versions
+On all PCB’s, except SOT143XR types the same circuit can be applied. On all PCB’s
+except the SOT323, 0603 footprints for capacitors/inductors/resistors are implemented.
+For SOT323 types this is reduced to 0402 because of the smaller size transistor
+package.
+
+4.1 Layer stack
+
+Fig 5. Applied PCB layout stack
+
+umto772 All iformation provided inthis dacument is subject legal disclaimers. NXP BLY. 2014. Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 9 of 29
+

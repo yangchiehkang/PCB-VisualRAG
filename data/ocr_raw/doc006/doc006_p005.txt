@@ -1,0 +1,43 @@
+Preface
+
+Read This First
+
+About This Manual
+This evaluation module (EVM) user's guide describes the hardware, theory
+of operation, and use of the EVM for evaluating the high-speed
+performance and functionality of either the SN65LVDS125A or
+SN65LVDS250 4x4 crosspoint switches.
+
+How to Use This Manual
+Chapter 1 provides an overview of the functional configurations and signal
+paths. Typical hardware setup and results are discussed in Chapter 2.
+Chapter 3 provides schematics, the board layout, the board layers,
+fabrication notes, and bill of materials
+
+Related Documentation from Texas Instruments
+
+SN65LVDS125A, 4x4 1.5 Gbps LVDS Crosspoint Switch Data Sheet
+(SLLS595).
+
+SN65LVDS250, 4x4 2.5 Gbps LVDS Crosspoint Switch Data Sheet
+(SLLS594).
+
+If You Need Assistance
+www.ti.com
+
+E-mail technical support http://Awww-
+k.ext.ti.com/sc/technical_support/email_tech_support.asp
+
+Product Information Centers:
+Americas (972) 644-5580
+Australia 1-800-999-084
+Belgium (English) +32 (0) 27 45 55 32
+China 108-00-886-0015
+Finland (English) +358 (0) 9 25173948,
+France +33 (0) 1 30 70 11 64
+Germany +49 (0) 8161 80 33 11
+Hong Kong 800-96-5941
+Indonesia 001-803-8861-1006
+Israel (English) 1800 949 0107 (free phone)
+Italy 800 79 11 37 (free phone)
+Japan 0120-81-0036

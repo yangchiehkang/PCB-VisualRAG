@@ -1,0 +1,7 @@
+# Table 20: Occlusion Downstream Results
+
+| setting | num_cases | gold_page_rate | answer_accuracy | evidence_supported_rate | unknown_rate | concrete_answer_rate | no_answer_count | wrong_page_count | hallucination_count | masked_evidence_count | accuracy_delta_vs_gold | support_delta_vs_gold |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Gold Evidence | 10 | 1.0000 | 1.0000 | 1.0000 | 0.0000 | 1.0000 | 0 | 0 | 0 | 0 | 0.0000 | 0.0000 |
+| Gold Masked | 10 | 1.0000 | 1.0000 | 1.0000 | 0.0000 | 1.0000 | 0 | 0 | 0 | 0 | 0.0000 | 0.0000 |
+| Random Masked | 10 | 1.0000 | 1.0000 | 1.0000 | 0.0000 | 1.0000 | 0 | 0 | 0 | 0 | 0.0000 | 0.0000 |

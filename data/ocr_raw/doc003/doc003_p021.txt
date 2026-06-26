@@ -1,0 +1,35 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+5. USB memory device: content
+
+umto772
+
+5.1
+
+5.2
+
+5.3
+
+5.4
+
+Product Datasheets
+15 Datasheets for all BFU520, 530 and 550 types that are commercially available.
+
+Files for in-circuit Simulations
+
+Mextram, Spice, S-parameters 400MHz - 2GHz with Noise, 40MHz - 6GHz no noise,
+instruction manual for installing the ADS design-kit
+
+Product Application Notes
+Application notes as listed in table 2.
+
+Design files from PCB’s
+DXF files of all EVB’s, created by ADS.
+
+All iformation provided in this dacument is subject legal disclaimers NXP BLY. 2014. Al rights reserved.
+
+User manual
+
+Rev. 1 — 21 January 2014 21 of 29

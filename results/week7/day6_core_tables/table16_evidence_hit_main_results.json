@@ -1,0 +1,40 @@
+{
+  "source": "results\\week7\\evidence_hit\\evidence_hit_atk_results.csv",
+  "table16": [
+    {
+      "Method": "BM25",
+      "Evidence Hit@1": 0.4,
+      "Evidence Hit@5": 1.0,
+      "Evidence Hit@10": 1.0,
+      "Source File": "results\\week7\\evidence_hit\\evidence_hit_atk_results.csv"
+    },
+    {
+      "Method": "Full MV",
+      "Evidence Hit@1": 0.1,
+      "Evidence Hit@5": 0.4,
+      "Evidence Hit@10": 1.0,
+      "Source File": "results\\week7\\evidence_hit\\evidence_hit_atk_results.csv"
+    },
+    {
+      "Method": "Budgeted MV",
+      "Evidence Hit@1": 0.1,
+      "Evidence Hit@5": 0.2,
+      "Evidence Hit@10": 0.4,
+      "Source File": "results\\week7\\evidence_hit\\evidence_hit_atk_results.csv"
+    },
+    {
+      "Method": "BM25 + Budgeted MV",
+      "Evidence Hit@1": 0.1,
+      "Evidence Hit@5": 0.2,
+      "Evidence Hit@10": 0.4,
+      "Source File": "results\\week7\\evidence_hit\\evidence_hit_atk_results.csv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Evidence Hit@1": 0.4,
+      "Evidence Hit@5": 1.0,
+      "Evidence Hit@10": 1.0,
+      "Source File": "results\\week7\\evidence_hit\\evidence_hit_atk_results.csv"
+    }
+  ]
+}

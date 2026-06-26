@@ -1,0 +1,181 @@
+{
+  "metrics_rows": [
+    {
+      "method": "Full Multi-vector",
+      "N": "full",
+      "evaluated_queries": 30,
+      "Recall@1": "0.0333",
+      "Recall@5": "0.1000",
+      "Recall@10": "0.1333",
+      "MRR@10": "0.0644",
+      "nDCG@10": "0.0807",
+      "run_file": "results\\full_multivector\\full_mv_run.tsv"
+    },
+    {
+      "method": "C2F N=10",
+      "N": 10,
+      "evaluated_queries": 30,
+      "Recall@1": "0.0333",
+      "Recall@5": "0.0333",
+      "Recall@10": "0.2500",
+      "MRR@10": "0.0628",
+      "nDCG@10": "0.1033",
+      "run_file": "results\\budgeted\\coarse_to_fine\\c2f_single_vector_N10_run.tsv"
+    },
+    {
+      "method": "C2F N=20",
+      "N": 20,
+      "evaluated_queries": 30,
+      "Recall@1": "0.0333",
+      "Recall@5": "0.0333",
+      "Recall@10": "0.2500",
+      "MRR@10": "0.0628",
+      "nDCG@10": "0.1033",
+      "run_file": "results\\budgeted\\coarse_to_fine\\c2f_single_vector_N20_run.tsv"
+    },
+    {
+      "method": "C2F N=50",
+      "N": 50,
+      "evaluated_queries": 30,
+      "Recall@1": "0.0333",
+      "Recall@5": "0.0333",
+      "Recall@10": "0.2500",
+      "MRR@10": "0.0628",
+      "nDCG@10": "0.1033",
+      "run_file": "results\\budgeted\\coarse_to_fine\\c2f_single_vector_N50_run.tsv"
+    },
+    {
+      "method": "C2F N=100",
+      "N": 100,
+      "evaluated_queries": 30,
+      "Recall@1": "0.0333",
+      "Recall@5": "0.0333",
+      "Recall@10": "0.2500",
+      "MRR@10": "0.0628",
+      "nDCG@10": "0.1033",
+      "run_file": "results\\budgeted\\coarse_to_fine\\c2f_single_vector_N100_run.tsv"
+    }
+  ],
+  "latency_rows": [
+    {
+      "method": "C2F N=10",
+      "N": 10,
+      "query_count": 30,
+      "total_candidates": 300,
+      "total_scored": 300,
+      "avg_candidates_per_query": "10.0000",
+      "avg_scored_per_query": "10.0000",
+      "coarse_time_seconds_proxy": "0.000000",
+      "rerank_time_seconds": "0.324428",
+      "total_latency_seconds_proxy": "0.324428",
+      "per_query_latency_ms_proxy": "10.814267",
+      "note": "coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary."
+    },
+    {
+      "method": "C2F N=20",
+      "N": 20,
+      "query_count": 30,
+      "total_candidates": 300,
+      "total_scored": 300,
+      "avg_candidates_per_query": "10.0000",
+      "avg_scored_per_query": "10.0000",
+      "coarse_time_seconds_proxy": "0.000000",
+      "rerank_time_seconds": "0.248266",
+      "total_latency_seconds_proxy": "0.248266",
+      "per_query_latency_ms_proxy": "8.275533",
+      "note": "coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary. Actual candidate depth is still 10, not 20."
+    },
+    {
+      "method": "C2F N=50",
+      "N": 50,
+      "query_count": 30,
+      "total_candidates": 300,
+      "total_scored": 300,
+      "avg_candidates_per_query": "10.0000",
+      "avg_scored_per_query": "10.0000",
+      "coarse_time_seconds_proxy": "0.000000",
+      "rerank_time_seconds": "0.228416",
+      "total_latency_seconds_proxy": "0.228416",
+      "per_query_latency_ms_proxy": "7.613867",
+      "note": "coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary. Actual candidate depth is still 10, not 50."
+    },
+    {
+      "method": "C2F N=100",
+      "N": 100,
+      "query_count": 30,
+      "total_candidates": 300,
+      "total_scored": 300,
+      "avg_candidates_per_query": "10.0000",
+      "avg_scored_per_query": "10.0000",
+      "coarse_time_seconds_proxy": "0.000000",
+      "rerank_time_seconds": "0.232425",
+      "total_latency_seconds_proxy": "0.232425",
+      "per_query_latency_ms_proxy": "7.747500",
+      "note": "coarse_time_seconds_proxy=0 because Day 2 used cached coarse candidates; rerank_time_seconds comes from Day 3 summary. Actual candidate depth is still 10, not 100."
+    }
+  ],
+  "summary_rows": [
+    {
+      "Method": "Full Multi-vector",
+      "Recall@1": "0.0333",
+      "Recall@5": "0.1000",
+      "Recall@10": "0.1333",
+      "MRR@10": "0.0644",
+      "nDCG@10": "0.0807",
+      "Latency": "",
+      "Actual Candidates / Query": "full corpus",
+      "Note": "Full MV run found; latency should be filled from Week 3 cost log if available."
+    },
+    {
+      "Method": "C2F N=10",
+      "Recall@1": "0.0333",
+      "Recall@5": "0.0333",
+      "Recall@10": "0.2500",
+      "MRR@10": "0.0628",
+      "nDCG@10": "0.1033",
+      "Latency": "10.814267 ms/query",
+      "Actual Candidates / Query": "10.0000",
+      "Note": "coarse recall=0.2667; actual candidates/query=10.0000."
+    },
+    {
+      "Method": "C2F N=20",
+      "Recall@1": "0.0333",
+      "Recall@5": "0.0333",
+      "Recall@10": "0.2500",
+      "MRR@10": "0.0628",
+      "nDCG@10": "0.1033",
+      "Latency": "8.275533 ms/query",
+      "Actual Candidates / Query": "10.0000",
+      "Note": "coarse recall=0.2667; actual candidates/query is 10 due to limited coarse run depth."
+    },
+    {
+      "Method": "C2F N=50",
+      "Recall@1": "0.0333",
+      "Recall@5": "0.0333",
+      "Recall@10": "0.2500",
+      "MRR@10": "0.0628",
+      "nDCG@10": "0.1033",
+      "Latency": "7.613867 ms/query",
+      "Actual Candidates / Query": "10.0000",
+      "Note": "coarse recall=0.2667; actual candidates/query is 10 due to limited coarse run depth."
+    },
+    {
+      "Method": "C2F N=100",
+      "Recall@1": "0.0333",
+      "Recall@5": "0.0333",
+      "Recall@10": "0.2500",
+      "MRR@10": "0.0628",
+      "nDCG@10": "0.1033",
+      "Latency": "7.747500 ms/query",
+      "Actual Candidates / Query": "10.0000",
+      "Note": "coarse recall=0.2667; actual candidates/query is 10 due to limited coarse run depth."
+    }
+  ],
+  "outputs": {
+    "metrics_csv": "results\\budgeted\\coarse_to_fine\\summary\\c2f_day4_metrics_by_N.csv",
+    "latency_csv": "results\\budgeted\\coarse_to_fine\\summary\\c2f_day4_latency_by_N.csv",
+    "summary_csv": "results\\budgeted\\coarse_to_fine\\summary\\c2f_summary.csv",
+    "summary_xlsx": "results\\budgeted\\coarse_to_fine\\summary\\c2f_summary.xlsx",
+    "summary_md": "results\\budgeted\\coarse_to_fine\\summary\\c2f_day4_initial_effect_latency_table.md"
+  }
+}

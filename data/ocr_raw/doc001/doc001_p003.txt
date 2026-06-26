@@ -1,0 +1,50 @@
+A B c D E
+
+15-0000-00134-P1 : PCB SLU - SF05B PCB
+
+Views and dimensions
+
+View from Top side (Scale 1:1.33333333333333
+oo 1
+
+_ ei RnHHHE
+
+f 8
+
+BL
+
+& &#
+GOR
+
+aL
+
+om = = ee
+& 2h 8  &
+cy FR FR a)
+
+LAYER NAME: .GMiFBbaNbtestline only
+
+Ceara (Scale 1:1.33333333333333)
+
+u-gROQUE
+HEB Omis +- amis
+
+u-gROQUE
+HEB 1Omis +- Sms
+
+u-gROQUE
+HEB Omis +- Sms
+
+COMMENTS: NAME DATE =
+DRAWN larc-André Provencher 2021-09-24 S O) L L ( j M
+CHECKED
+|ENG APPR. TITLE . : . A
+FG APPR PCB fabrication requirements for project:
+[THE INFORMATION CONTAINED IN THIS DRAWING IS THE SOLE A PCB SLU - SFOSB : 15-0000-00134-P1
+ROPERTY OF TE
+Bau Technologies. ANY REPRODUCTION IN PART OR AS A WHOLE [UNLESS OTHERWISE SPECIFIED: DWG, NO. 15-0000-00134-P1
+ITHOUT THE WRITTEN PERMISSION OF Sollum Technologies IS DIMENSIONS ARE IN INCHES c
+PROPRIETARY AND CONFIDENTIAL DO NOT SCALE DRAWING SCALE 14 [ _cenerated on 2021-00-28 | SHEETS OFS
+
+B c D E F
+

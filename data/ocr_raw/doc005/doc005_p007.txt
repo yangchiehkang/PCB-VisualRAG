@@ -1,0 +1,37 @@
+NCV7535EVB
+
+File Help About
+
+Chiplnfo
+Froguct —-Froguct_
+1D Version eee ‘Code > 3P-Frame 1D
+Target Board
+00h o1h o2h 03h 3Eh ore ates
+04300 ) 0x7500 03500 0x200
+Status Recister
+FLT 1F RESB TSD Reserved UOV_OC Reserved  NRDY
+1 0 ) i) 0 o i) 1
+
+Hardware Controls
+
+[Forward
+
+Motor Brake
+[U) Reverse Bee oe [Dl Fact Stew Rate
+
+nae
+
+Tegeie State (EJ Ha/18 reewneatng
+
+[Active /Passive Freewheeling
+
+Preset Actions
+
+[Read All Resisters| Write All Registers] Load File Save File
+
+(COM22) Connected
+
+Figure 6. NCV7535 Controller Window
+
+www.onsemi.com
+7

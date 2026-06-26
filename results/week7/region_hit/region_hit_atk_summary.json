@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "Method": "Full MV",
+      "Region Hit@1": 0.0,
+      "Region Hit@3": 0.0,
+      "Region Hit@5": 0.0,
+      "Query Count": 10,
+      "Missing Image Count": 0,
+      "IoU Threshold": 0.3,
+      "Patch Grid": "7x7",
+      "Status": "PASSED",
+      "Run File": "results\\week7\\c2f_fixed_N\\bm25_fullmv_N50_run.tsv"
+    },
+    {
+      "Method": "Budgeted MV",
+      "Region Hit@1": 0.0,
+      "Region Hit@3": 0.0,
+      "Region Hit@5": 0.1,
+      "Query Count": 10,
+      "Missing Image Count": 0,
+      "IoU Threshold": 0.3,
+      "Patch Grid": "7x7",
+      "Status": "PASSED",
+      "Run File": "results\\week7\\c2f_fixed_N\\bm25_budgetmv_N50_M24_none_run.tsv"
+    },
+    {
+      "Method": "BM25 + Budgeted MV",
+      "Region Hit@1": 0.0,
+      "Region Hit@3": 0.0,
+      "Region Hit@5": 0.2,
+      "Query Count": 10,
+      "Missing Image Count": 0,
+      "IoU Threshold": 0.3,
+      "Patch Grid": "7x7",
+      "Status": "PASSED",
+      "Run File": "results\\week7\\c2f_fixed_N\\bm25_budgetmv_N20_M8_none_run.tsv"
+    },
+    {
+      "Method": "Hybrid Fusion",
+      "Region Hit@1": 0.0,
+      "Region Hit@3": 0.2,
+      "Region Hit@5": 0.4,
+      "Query Count": 10,
+      "Missing Image Count": 0,
+      "IoU Threshold": 0.3,
+      "Patch Grid": "7x7",
+      "Status": "PASSED",
+      "Run File": "results\\week7\\hybrid_fusion\\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv"
+    }
+  ],
+  "ks": [
+    1,
+    3,
+    5
+  ],
+  "iou_threshold": 0.3,
+  "patch_grid": 7,
+  "patch_ranking": "edge_density_saliency"
+}

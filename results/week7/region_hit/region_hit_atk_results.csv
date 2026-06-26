@@ -1,0 +1,5 @@
+Method,Region Hit@1,Region Hit@3,Region Hit@5,Query Count,Missing Image Count,IoU Threshold,Patch Grid,Status,Run File
+Full MV,0.0000,0.0000,0.0000,10,0,0.3,7x7,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N50_run.tsv
+Budgeted MV,0.0000,0.0000,0.1000,10,0,0.3,7x7,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_run.tsv
+BM25 + Budgeted MV,0.0000,0.0000,0.2000,10,0,0.3,7x7,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Hybrid Fusion,0.0000,0.2000,0.4000,10,0,0.3,7x7,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv

@@ -1,0 +1,41 @@
+Method,query_id,gold_page_id,page_rank_found,page_retrieved_top10,region_id,gold_bbox,Region Hit@1,Region Hit@3,Region Hit@5,status,run_file
+Full MV,q001,doc001_p001,,0,r1,"[575, 929, 1017, 1468]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N50_run.tsv
+Full MV,q002,doc001_p002,1,1,r1,"[599, 953, 947, 1394]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N50_run.tsv
+Full MV,q004,doc001_p004,,0,r1,"[929, 663, 1468, 947]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N50_run.tsv
+Full MV,q006,doc002_p001,,0,r1,"[695, 710, 1219, 1013]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N50_run.tsv
+Full MV,q007,doc002_p001,,0,r1,"[695, 710, 1219, 1013]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N50_run.tsv
+Full MV,q008,doc003_p007,,0,r1,"[431, 642, 764, 1012]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N50_run.tsv
+Full MV,q009,doc003_p008,,0,r1,"[451, 770, 713, 1073]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N50_run.tsv
+Full MV,q010,doc003_p009,,0,r1,"[431, 420, 764, 790]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N50_run.tsv
+Full MV,q011,doc003_p010,,0,r1,"[431, 642, 764, 1012]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N50_run.tsv
+Full MV,q012,doc003_p011,,0,r1,"[431, 642, 764, 1012]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N50_run.tsv
+Budgeted MV,q001,doc001_p001,,0,r1,"[575, 929, 1017, 1468]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_run.tsv
+Budgeted MV,q002,doc001_p002,,0,r1,"[599, 953, 947, 1394]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_run.tsv
+Budgeted MV,q004,doc001_p004,,0,r1,"[929, 663, 1468, 947]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_run.tsv
+Budgeted MV,q006,doc002_p001,,0,r1,"[695, 710, 1219, 1013]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_run.tsv
+Budgeted MV,q007,doc002_p001,,0,r1,"[695, 710, 1219, 1013]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_run.tsv
+Budgeted MV,q008,doc003_p007,6,1,r1,"[431, 642, 764, 1012]",0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_run.tsv
+Budgeted MV,q009,doc003_p008,,0,r1,"[451, 770, 713, 1073]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_run.tsv
+Budgeted MV,q010,doc003_p009,,0,r1,"[431, 420, 764, 790]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_run.tsv
+Budgeted MV,q011,doc003_p010,,0,r1,"[431, 642, 764, 1012]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_run.tsv
+Budgeted MV,q012,doc003_p011,,0,r1,"[431, 642, 764, 1012]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N50_M24_none_run.tsv
+BM25 + Budgeted MV,q001,doc001_p001,,0,r1,"[575, 929, 1017, 1468]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q002,doc001_p002,6,1,r1,"[599, 953, 947, 1394]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q004,doc001_p004,,0,r1,"[929, 663, 1468, 947]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q006,doc002_p001,,0,r1,"[695, 710, 1219, 1013]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q007,doc002_p001,,0,r1,"[695, 710, 1219, 1013]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q008,doc003_p007,1,1,r1,"[431, 642, 764, 1012]",0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q009,doc003_p008,6,1,r1,"[451, 770, 713, 1073]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q010,doc003_p009,4,1,r1,"[431, 420, 764, 790]",0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q011,doc003_p010,,0,r1,"[431, 642, 764, 1012]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q012,doc003_p011,,0,r1,"[431, 642, 764, 1012]",0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Hybrid Fusion,q001,doc001_p001,3,1,r1,"[575, 929, 1017, 1468]",0,0,0,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv
+Hybrid Fusion,q002,doc001_p002,1,1,r1,"[599, 953, 947, 1394]",0,0,0,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv
+Hybrid Fusion,q004,doc001_p004,1,1,r1,"[929, 663, 1468, 947]",0,0,0,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv
+Hybrid Fusion,q006,doc002_p001,1,1,r1,"[695, 710, 1219, 1013]",0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv
+Hybrid Fusion,q007,doc002_p001,2,1,r1,"[695, 710, 1219, 1013]",0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv
+Hybrid Fusion,q008,doc003_p007,1,1,r1,"[431, 642, 764, 1012]",0,0,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv
+Hybrid Fusion,q009,doc003_p008,1,1,r1,"[451, 770, 713, 1073]",0,0,0,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv
+Hybrid Fusion,q010,doc003_p009,3,1,r1,"[431, 420, 764, 790]",0,0,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv
+Hybrid Fusion,q011,doc003_p010,2,1,r1,"[431, 642, 764, 1012]",0,0,0,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv
+Hybrid Fusion,q012,doc003_p011,2,1,r1,"[431, 642, 764, 1012]",0,0,0,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha0p8_run.tsv

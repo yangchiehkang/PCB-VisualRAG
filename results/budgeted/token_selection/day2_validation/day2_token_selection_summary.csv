@@ -1,0 +1,6 @@
+M,num_pages,avg_original_tokens,avg_kept_tokens,avg_keep_ratio,avg_reduction_ratio,output_dir
+8,101,49.0,8.0,0.16326530612244894,0.8367346938775507,artifacts\embeddings\token_selection\pages_M8
+16,101,49.0,16.0,0.3265306122448979,0.6734693877551021,artifacts\embeddings\token_selection\pages_M16
+24,101,49.0,24.0,0.489795918367347,0.5102040816326531,artifacts\embeddings\token_selection\pages_M24
+32,101,49.0,32.0,0.6530612244897958,0.34693877551020413,artifacts\embeddings\token_selection\pages_M32
+49,101,49.0,49.0,1.0,0.0,artifacts\embeddings\token_selection\pages_M49

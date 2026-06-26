@@ -1,0 +1,68 @@
+Run name: bm25_baseline_v1
+Evaluated queries: 30
+
+=== Overall Metrics ===
+Recall@1: 0.1333
+nDCG@1: 0.1333
+Recall@3: 0.6833
+nDCG@3: 0.4626
+Recall@5: 0.6833
+nDCG@5: 0.4626
+Recall@10: 0.8833
+nDCG@10: 0.5241
+MRR: 0.4105
+
+=== Query Type = parameter_lookup ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 1.0000
+nDCG@3: 0.6309
+Recall@5: 1.0000
+nDCG@5: 0.6309
+Recall@10: 1.0000
+nDCG@10: 0.6309
+MRR: 0.5000
+
+=== Query Type = structure_legend_interpretation ===
+Recall@1: 0.4000
+nDCG@1: 0.4000
+Recall@3: 0.8000
+nDCG@3: 0.6262
+Recall@5: 0.8000
+nDCG@5: 0.6262
+Recall@10: 1.0000
+nDCG@10: 0.6840
+MRR: 0.5867
+
+=== Query Type = component_localization ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 0.0000
+nDCG@3: 0.0000
+Recall@5: 0.0000
+nDCG@5: 0.0000
+Recall@10: 0.0000
+nDCG@10: 0.0000
+MRR: 0.0000
+
+=== Query Type = cross_page_consistency ===
+Recall@1: 0.2500
+nDCG@1: 0.2500
+Recall@3: 0.3750
+nDCG@3: 0.3266
+Recall@5: 0.3750
+nDCG@5: 0.3266
+Recall@10: 0.6250
+nDCG@10: 0.4171
+MRR: 0.3611
+
+=== Query Type = similarity_based_interference ===
+Recall@1: 0.0588
+nDCG@1: 0.0588
+Recall@3: 0.7647
+nDCG@3: 0.4811
+Recall@5: 0.7647
+nDCG@5: 0.4811
+Recall@10: 1.0000
+nDCG@10: 0.5514
+MRR: 0.4080

@@ -1,0 +1,44 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+6.5 433MHz LNA using BFU550W
+
+Vec 3.6 V
+
+1 HF
+220 pF
+
+-——|-—8
+
+20
+
+10nF
+
+2209F
+| —8
+
+42nH
+Murata
+LOW series
+
+sora ||sea
+
+RF output
+
+(SMA)
+RF input tor
+(SMA)
+
+15nH
+
+Murata AF
+LOW series ]
+th 00-010449
+
+Fig 32. 433MHz LNA using BFUSSOW
+
+umto772 All iformation provided in this dacument is subject legal disclaimers NXP BLY. 2014. Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 26 of 29
+

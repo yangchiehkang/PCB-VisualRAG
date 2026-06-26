@@ -1,0 +1,62 @@
+NCV7535EVB
+
+NCV7535 SPI Controlled
+H-Bridge Pre-Driver
+Evaluation Board
+
+User’s Manual
+
+Introduction
+
+This document describes the NCV7535 EVB board for the
+ON Semiconductor NCV7535 SPI controlled H-bridge and
+Dual-Half Bridge pre-driver. The functionality and major parameters
+can be evaluated with the NCV7535 EVB board.
+
+The NCV7535 is a monolithic SPI controlled chip with enhanced
+feature set useful in automotive systems. Besides the SPI bus
+interface, the IC features an H-bridge pre-driver to control a
+DC-motor. This allows a highly integrated solution.
+
+Evaluation Board Features
+
+© N-MOSFET Reverse Protection and Decoupling on the Main
+(Battery) Supply
+
+© On-board +5 V LDO
+
+© MCU with USB Interface Controlling NCV7535
+
+© One-row Pin Header, providing the Circuit Signals, enables Easy
+
+Insertion of the Evaluation Board into a more Complex Application
+
+Setup
+
+On-board Current Sensing Shunt Resistor and Operational
+
+Amplifier
+
+Good Thermal Connection of the Power MOSFETs allowing High
+
+Current Capability
+
+Oscilloscope Test-points on all Important Signals
+
+M4 Screw Connectors for Power Signals (Battery, Ground, Output)
+
+© Semiconductor Components Industries, LLC, 2017 1
+August, 2017 - Rev. 0
+
+ON Semiconductor®
+
+www.onsemi.com
+
+EVAL BOARD USER’S MANUAL
+
+oe
+
+Figure 1. Evaluation Board Photo
+
+Publication Order Number:
+EVBUM2506/D

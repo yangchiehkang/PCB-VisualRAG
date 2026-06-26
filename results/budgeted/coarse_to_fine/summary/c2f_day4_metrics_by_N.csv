@@ -1,0 +1,6 @@
+method,N,evaluated_queries,Recall@1,Recall@5,Recall@10,MRR@10,nDCG@10,run_file
+Full Multi-vector,full,30,0.0333,0.1000,0.1333,0.0644,0.0807,results\full_multivector\full_mv_run.tsv
+C2F N=10,10,30,0.0333,0.0333,0.2500,0.0628,0.1033,results\budgeted\coarse_to_fine\c2f_single_vector_N10_run.tsv
+C2F N=20,20,30,0.0333,0.0333,0.2500,0.0628,0.1033,results\budgeted\coarse_to_fine\c2f_single_vector_N20_run.tsv
+C2F N=50,50,30,0.0333,0.0333,0.2500,0.0628,0.1033,results\budgeted\coarse_to_fine\c2f_single_vector_N50_run.tsv
+C2F N=100,100,30,0.0333,0.0333,0.2500,0.0628,0.1033,results\budgeted\coarse_to_fine\c2f_single_vector_N100_run.tsv

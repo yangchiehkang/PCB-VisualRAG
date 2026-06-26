@@ -1,0 +1,59 @@
+{
+  "input_dir": "artifacts\\embeddings\\full_multivector\\pages",
+  "output_root": "artifacts\\embeddings\\token_selection",
+  "m_list": [
+    8,
+    16,
+    24,
+    32,
+    49
+  ],
+  "num_test_pages": 101,
+  "summary": [
+    {
+      "M": 8,
+      "num_pages": 101,
+      "avg_original_tokens": 49.0,
+      "avg_kept_tokens": 8.0,
+      "avg_keep_ratio": 0.16326530612244894,
+      "avg_reduction_ratio": 0.8367346938775507,
+      "output_dir": "artifacts\\embeddings\\token_selection\\pages_M8"
+    },
+    {
+      "M": 16,
+      "num_pages": 101,
+      "avg_original_tokens": 49.0,
+      "avg_kept_tokens": 16.0,
+      "avg_keep_ratio": 0.3265306122448979,
+      "avg_reduction_ratio": 0.6734693877551021,
+      "output_dir": "artifacts\\embeddings\\token_selection\\pages_M16"
+    },
+    {
+      "M": 24,
+      "num_pages": 101,
+      "avg_original_tokens": 49.0,
+      "avg_kept_tokens": 24.0,
+      "avg_keep_ratio": 0.489795918367347,
+      "avg_reduction_ratio": 0.5102040816326531,
+      "output_dir": "artifacts\\embeddings\\token_selection\\pages_M24"
+    },
+    {
+      "M": 32,
+      "num_pages": 101,
+      "avg_original_tokens": 49.0,
+      "avg_kept_tokens": 32.0,
+      "avg_keep_ratio": 0.6530612244897958,
+      "avg_reduction_ratio": 0.34693877551020413,
+      "output_dir": "artifacts\\embeddings\\token_selection\\pages_M32"
+    },
+    {
+      "M": 49,
+      "num_pages": 101,
+      "avg_original_tokens": 49.0,
+      "avg_kept_tokens": 49.0,
+      "avg_keep_ratio": 1.0,
+      "avg_reduction_ratio": 0.0,
+      "output_dir": "artifacts\\embeddings\\token_selection\\pages_M49"
+    }
+  ]
+}

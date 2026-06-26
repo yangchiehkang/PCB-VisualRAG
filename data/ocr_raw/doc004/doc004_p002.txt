@@ -1,0 +1,15 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+Revision history
+Rev Date Description
+1 20150129 Initial version
+
+Contact information
+For more information, please visit: http://www.nxp.com
+For sales office addresses, please send an email to: salesaddresses@nxp.com
+
+aNi1590 Allinformaton provided in this document is subject to legal disclaimers, NXP Semiconductors NV. 2015. All ights reserved,
+
+Application note Rev. 1 — 29 January 2015 2 of 20

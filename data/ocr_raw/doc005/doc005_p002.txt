@@ -1,0 +1,17 @@
+NCV7535EVB
+
+SCHEMATIC
+
+The evaluation board consists of two main blocks:
+NCV7535 application and control MCU including USB
+interface (see Figure 2).
+
+6Vw04d0V one
+
+Ein
+S
+
+Figure 2. NCV7535 Evaluation Board Schematic
+
+www.onsemi.com
+2

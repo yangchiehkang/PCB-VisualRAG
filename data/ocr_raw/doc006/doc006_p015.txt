@@ -1,0 +1,36 @@
+2 Setup and Required Equipment
+
+Table 2-1 Crosspoint Function Table
+
+Output Channel 1 Output Channel 2 Output Channel 3 Output Channel 4
+
+Control Input Control Input Control Input Control Input
+Pins Selected ins Selected iS Selected _| Pins Selected
+
+sio | $11 [1¥1z $20 | $21 | 2¥/2z $30 | $31 [ 3Y/3Z | s4o | s41 | 4v/4z
+
+0 i‘) 0 0
+0 1 0 1
+1 i?) 1 0
+1 1 1 1
+
+Apply inputs to the SMA connectors J1-J8. The EVM comes with 50-Q
+resistors installed to VTERM, providing a termination scheme easily
+adjusted to accommodate LVDS, LVPECL, or CML output structures. (See
+
+Figure 2-2).
+Vterm
+500
+Lvps
+LVPECL, ° A
+or CML
+SN6SLVDS125 Input
+Channels 1-4
+° B
+500
+
+Vterm
+
+Figure 2-2. Termination for Interfacing LVDS, CML, or LVPECL Drivers
+
+2-3

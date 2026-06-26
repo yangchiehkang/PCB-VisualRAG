@@ -1,0 +1,17 @@
+metric,value
+method,full_multi_vector
+page_count,101
+query_count,30
+avg_tokens_per_page,49.0000
+min_tokens_per_page,49
+max_tokens_per_page,49
+vectors_per_page,49.0000
+vector_dim,512
+dtype,float32
+embedding_file_total_size_bytes,10148480
+embedding_file_total_size_mb,9.678345
+estimated_raw_index_size_bytes,10135552
+estimated_raw_index_size_mb,9.666016
+avg_query_latency_ms,6.5679
+avg_late_interaction_ms,6.5452
+total_retrieval_time_sec,0.2163

@@ -1,0 +1,68 @@
+Run name: dense_text_baseline_v1
+Evaluated queries: 30
+
+=== Overall Metrics ===
+Recall@1: 0.1000
+nDCG@1: 0.1000
+Recall@3: 0.4500
+nDCG@3: 0.3101
+Recall@5: 0.6000
+nDCG@5: 0.3749
+Recall@10: 0.8000
+nDCG@10: 0.4420
+MRR: 0.3358
+
+=== Query Type = parameter_lookup ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 0.5000
+nDCG@3: 0.3155
+Recall@5: 0.5000
+nDCG@5: 0.3155
+Recall@10: 1.0000
+nDCG@10: 0.4936
+MRR: 0.3333
+
+=== Query Type = structure_legend_interpretation ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 0.4000
+nDCG@3: 0.2524
+Recall@5: 0.4000
+nDCG@5: 0.2524
+Recall@10: 0.6000
+nDCG@10: 0.3190
+MRR: 0.2286
+
+=== Query Type = component_localization ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 0.0000
+nDCG@3: 0.0000
+Recall@5: 0.0000
+nDCG@5: 0.0000
+Recall@10: 0.5000
+nDCG@10: 0.1667
+MRR: 0.0714
+
+=== Query Type = cross_page_consistency ===
+Recall@1: 0.0000
+nDCG@1: 0.0000
+Recall@3: 0.3750
+nDCG@3: 0.2544
+Recall@5: 0.5000
+nDCG@5: 0.3205
+Recall@10: 0.5000
+nDCG@10: 0.3205
+MRR: 0.3125
+
+=== Query Type = similarity_based_interference ===
+Recall@1: 0.1765
+nDCG@1: 0.1765
+Recall@3: 0.5294
+nDCG@3: 0.3760
+Recall@5: 0.7647
+nDCG@5: 0.4748
+Recall@10: 0.9412
+nDCG@10: 0.5331
+MRR: 0.4042

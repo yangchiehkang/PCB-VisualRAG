@@ -1,0 +1,11 @@
+﻿doc_id,file_name,pdf_path,page_count,document_family,experiment_tier,page_filter_needed,include_flag,notes
+doc001,doc001_fabrication_slu-sf05b.pdf,E:\Working\PCB_VisualRAG_Project\data\raw_pdfs\doc001_fabrication_slu-sf05b.pdf,5,fabrication,core,no,yes,
+doc002,doc002_assembly_cheatsheet.pdf,E:\Working\PCB_VisualRAG_Project\data\raw_pdfs\doc002_assembly_cheatsheet.pdf,1,assembly,core,no,yes,
+doc003,doc003_manual_bfu5xx-starterkit.pdf,E:\Working\PCB_VisualRAG_Project\data\raw_pdfs\doc003_manual_bfu5xx-starterkit.pdf,29,manual,extended,yes,yes,
+doc004,doc004_layout_bom_ptn3356.pdf,E:\Working\PCB_VisualRAG_Project\data\raw_pdfs\doc004_layout_bom_ptn3356.pdf,20,bom,core,no,yes,
+doc005,doc005_eval_ncv7535-board.pdf,E:\Working\PCB_VisualRAG_Project\data\raw_pdfs\doc005_eval_ncv7535-board.pdf,9,evaluation_board,extended,yes,yes,
+doc006,doc006_evm_crosspoint-switch.pdf,E:\Working\PCB_VisualRAG_Project\data\raw_pdfs\doc006_evm_crosspoint-switch.pdf,27,evaluation_board,extended,yes,yes,
+doc007,doc007_eval_adis1620x-board.pdf,E:\Working\PCB_VisualRAG_Project\data\raw_pdfs\doc007_eval_adis1620x-board.pdf,2,evaluation_board,extended,yes,yes,
+doc008,doc008_bom_ard00354.pdf,E:\Working\PCB_VisualRAG_Project\data\raw_pdfs\doc008_bom_ard00354.pdf,3,bom,core,no,yes,
+doc009,doc009_bom_tida-00440.pdf,E:\Working\PCB_VisualRAG_Project\data\raw_pdfs\doc009_bom_tida-00440.pdf,3,bom,core,no,yes,
+doc010,doc010_eval_adis16006-board.pdf,E:\Working\PCB_VisualRAG_Project\data\raw_pdfs\doc010_eval_adis16006-board.pdf,2,evaluation_board,extended,yes,yes,

@@ -1,0 +1,12 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+4.12 SOT143XR Emitter Degeneration
+
+Fig 27. PCB Assembly drawing Amplifier design VED zoomed in
+
+umto772 All iformation provided in this dacument is subject legal disclaimers NXP BLY. 2014. Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 20 of 29
+

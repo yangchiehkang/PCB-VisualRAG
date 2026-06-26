@@ -1,0 +1,21 @@
+﻿Week 2 Day 1 OCR 执行日志
+
+日期：
+执行人：
+
+目标：
+完成页面级 OCR 文本抽取，并整理为页面级文本语料。
+
+输入目录：
+data/images/
+
+原始 OCR 输出目录：
+data/ocr_raw/
+
+结构化语料文件：
+data/metadata/ocr_corpus.jsonl
+
+说明：
+- 保持 page_id 一致
+- 每页 OCR 文本单独保存
+- 尽量保留原始 OCR 输出，不过度清洗

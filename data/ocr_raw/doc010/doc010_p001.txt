@@ -1,0 +1,109 @@
+ANALOG +5¢ Dual-Axis Accelerometer, SPI Interface
+
+DEVICES
+
+Evaluation Board
+
+ADIS16006/PCB
+
+GENERAL DESCRIPTION
+
+The ADIS16006/PCB is a simple evaluation board that provides
+convenient access to the ADIS16006 using a standard 2mm,
+2x6, connector interface. These connectors can be accessed
+using a variety of cable options, including standard Imm ribbon
+cables. The ADIS16006/PCB is designed to be evaluated in an
+existing digital platform (MCU, DSP, FPGA, PLD, etc) or as
+part of the ADISEVAL system. Four mounting holes (sized for
+2-56 or 2mm screws) have been provided to secure the board
+during evaluation.
+
+CIRCUIT DESCRIPTION
+
+The schematic, layout and parts list for the ADIS16006/PCB can
+be found in Figure 1, Figure 2, and Table 1.
+
+The ADIS16006's digitized outputs can be accessed using the 4-
+wire serial port interface (SPI) signals on J1: SCLK, CS, DOUT
+and DIN. For specific information on using the ADIS16006's
+SPI interface, refer to the ADIS16006 datasheet. C1 is not
+populated but provides opportunity to add a filtering capacitor
+
+ROTSTOOGE
+s 2
+souk — eno] TE
+ste |
+pour ae |
+cs
+5
+on nol iG
+rs wel
+T(z
+u yeit}o— ac
+2] [7] . 4veo 8 =] [0
+xeILT
+a) f@) i] [a
+Ler c2 | lcs
+
+Figure 1 - ADIS16006/PCBZ Schematic
+
+oe EIN o
+
+MADE IN USA
+«wt C2
+
+c3 v2
+
+for helping clean up noisy power supply inputs. C2 and C3 are =Car «roe eS
+not installed but provide the ability to reduce the bandwidth on ee U1 mee
+each axis. See the ADIS16006 datasheet for more details.
+Ce ® BB) Ce »@ 5)
+
+Table 1 - ADIS16006/PCB Parts List T=oeol=n te eS]
+Reference Designator Part Description a oe @ ]
+Ul ADIS16006CCCZ a) CS. 25)
+J1J2 Connector, 12-pin, dual row, 2mm
+
+Digikey P/N: H1785-ND C1
+
+a Power supply filter. Not installed . ™
+2,3 Bandwidth control. Not Installed O |Sensor oO
+
+Ribbon cable socket for J1/J2: Digikey P/N MSA12A-ND
+SPECIAL NOTES ON HANDLING
+
+Note that the ADIS16006/PCB is not reverse polarity protected.
+Reversing the power supply or applying inappropriate voltages
+to any pin (outside the Absolute Maximum Ratings in the
+ADIS16006 data sheet) may damage the ADIS16006/PCB.
+
+Table 2 - Power Supply Levels
+Vee +3.0V to +5.25V
+
+Rev. PrD
+Evaluation boards are only intended for device evaluation and not for production purposes.
+Evaluation boards as supplied “as is” and without warranties of any kind, express, implied, or
+
+induding, but not limited to, any implied warranty of merchantability or fitness for a
+particular purpose. No license is granted by implication or otherwise under any patents or other
+intellectual property by application or use of evaluation boards. Information furnished by Analog
+Devices is believed to be accurate and reliable. However, no responsibility is assumed by Analog
+Devices forits use, norfor any infringements of patents or other rights of third parties that may result
+from its use. Analog Devices reserves the right to change devices or specifications at any time
+‘without notice. Trademarks and registered trademarks are the property of their respective owners.
+Evaluation boards are not authorized to be used inlife support devices or systems.
+
+GS09009 REV:A
+
+Figure 2- ADIS16006/PCBZ Layout (Top View)
+
+ORDERING GUIDE
+
+Model Package Description
+ADIS16006/PCB Evaluation Board, ROHS Compliant
+ADISEVAL iSensor™ PC Evaluation System
+
+One Technology Way, P.O. Box 9106, Norwood, MA 02062-9106, U.S.A.
+Tel: 781.329.4700 www.analog.com
+Fax: 781.461.3113 ©2006 Analog Devices, Inc. All rights reserved.
+

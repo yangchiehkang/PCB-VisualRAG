@@ -1,0 +1,47 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+To minimize electromagnetic interference (EMI), it is essential to minimize the length and
+area of the switching high current loops. It is also critical that the two switching current
+paths are matched as closely as possible.
+
+Vin
+
+Vout
+
+Fig 5. Switching high-current loop2 : PGND - NMOS - SW - LC - GND
+
+Here are some guidelines for PC board design:
+
+Connect the exposed paddle of the IC to the PC board ground plane.
+
+Place the input capacitor as close to the PVDD pin as possible.
+
+Place the inductor and the load capacitor as close to the SW pin as possible.
+
+Keep the traces for the input capacitor, inductor and the output capacitor, short, direct
+and wide.
+
+Do not connect the PGND pin directly to the ground plane, instead, connect the
+PGND pin and the input capacitor's ground pin to the ground plane at the same point.
+Minimize the distance between the input capacitor's ground and the ground of the
+load capacitor.
+
+Keep the trace for the FB (Vout to VDD1V5) away from the switching high current
+paths.
+
+The following is a proposed PC board layout scheme for the PTN3356 which minimizes
+the area of the two switching current loops and matches the current flow paths for the two
+loops as closely as possible.
+
+Note the smaller capacitors are 0.1uF caps that must be place as close to the pin as
+possible.
+
+aNi1590
+
+Application note
+
+Allinformaton provided in this document is subject to legal disclaimers, (© NXP Semiconductors N.V. 2015. Al rights reserved
+
+Rev. 1 — 29 January 2015 10 of 20

@@ -1,0 +1,33 @@
+FCC Warning
+
+Korea 080-551-2804
+
+Malaysia 1-800-80-3973
+
+Netherlands (English) +31 (0) 546 87 95 45
+New Zealand 0800-446-934
+Phillippines 1-800-765-7404
+Singapore 800-886-1028
+
+Spain +34 902 35 40 28
+
+Sweden (English) +46 (0) 8587 555 22
+Taiwan 0800-006800
+
+Thailand 001-800-886-0010
+
+United Kingdom +44 (0) 1604 66 33 99
+
+This equipment is intended for use in a laboratory test environment only. It
+generates, uses, and can radiate radio frequency energy and has not been
+tested for compliance with the limits of computing devices pursuant to
+subpart J of part 15 of FCC rules, which are designed to provide
+reasonable protection against radio frequency interference. Operation of
+this equipment in other environments may cause interference with radio
+communications, in which case the user at his expense will be required to
+take whatever measures may be required to correct this interference.
+
+If your book does not discuss a product that creates radio frequency
+interference, delete this section from your preface. If your book does
+discuss a product that creates radio frequency interference, you must
+include this warning as it appears above.

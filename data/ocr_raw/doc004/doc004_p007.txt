@@ -1,0 +1,12 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+2.3 Minimum BOM design
+For cost conscious application, PTN3356 needs only a handful of components to function.
+
+Below is a minimum BOM design for embedded or dongle design.
+
+aNi1590 Allinformaton provided in this document is subject to legal disclaimers, NXP Semiconductors NV. 2015. All ights reserved,
+
+Application note Rev. 1 — 29 January 2015 7 of 20

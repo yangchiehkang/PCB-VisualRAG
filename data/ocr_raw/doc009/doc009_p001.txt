@@ -1,0 +1,15 @@
+TI DESIGNS TIDA-00440
+Leakage Current Measurement Reference Design for detecting Insulation Failure
+
+Bill of Materials
+
+Manufacturer
+1 cz CAP, CERM, 100pF, SOV, +/-5%, COG/NPO, 0805, AVX. O805SA10LJAT2A 805 Fitted
+16 C25, C26, C36, C37, C38, C39, ‘CAP, CERM, 0.1 UF, 16 V, +/- 10%, X7R, 0805, ‘Yageo America ‘CCOBOSKRX7R7BB104 805 Fitted
+6 FID1, FID2, FID3, FID4, FIDS, FID6| —_—Fiducial mark. There is nothing to buy or mount. N/A N/A N/A Fitted
+1 fre Thermal Transfer Printable Labels, 0.650" W x 0.200" H- Brady THT-14-423-10 PCB Label 0.650"H x 0.200"W Fitted
+1 uL Micro-Power (Soma), Zerd-Drift,Rail-to-Rall Out Texas Instruments INA333AIDGK DGKOO08A Fitted
+1 us Wide Input 65V, 1.54 Synchronous Step-Down DC-DC Texas Instruments LMS160ADNTR DNTOO12B Fitted
+
+Converter, DNTOO128
+

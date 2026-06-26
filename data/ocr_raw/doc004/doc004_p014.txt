@@ -1,0 +1,66 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+5. ESD protection
+
+Accucial element in EMC/ESD immunity is a solid PCB design. Good practices such as
+decoupling power and I/O lines to ground, voltage and frequency (bandwidth) limiting,
+wave shaping (edge-rate control), using negative feedback, refresh cycling, WDT, and
+fault tolerant software-all play collectively an important role in improving EMC and ESD
+immunity.
+
+PTN3356 is designed for 7.5 kV ESD HBM JEDEC.
+
+Still, ESD protection diodes are recommended for RGB and H/V sync lines at VGA
+connector.
+
+6. Reset circuitry
+
+No external power-on reset circuitry is needed; this is been taken care of automatically by
+PTN3356. Its RESET pin (pin 11) allows for connection of a suitable capacitor to optimally
+time its internal power-on reset sequence.
+
+7. Crystal oscillator
+
+The Processor is clocked with the on-chip free-running oscillator or from the external
+24/25/27 MHz crystal oscillator through a PLL. Video clock is generated from the crystal
+clock and DisplayPort main link with M/N relation transmitted over the link.
+
+Crystal selection is done through CFGS pin section:
+
+* HIGH: 24 MHz
++ LOW: 25 MHz
+* OPEN: 27 MHz
+
+The M and N are 24 bit values used for stream clock recovery.
+
+External crystal is mainly used for processor and control, the precision of the crystal is not
+critical, +/- 50 ppm is good enough.
+
+8. Bias, reference and tie-off
+
+aNi1590
+
+Application note
+
+8.1
+
+8.2
+
+Video DAC bias
+
+One external bias resistor to ground is required for video DAC outputs. This resistor sets
+the reference current which determines the analog output level.
+
+Pin 23 Rset = External bias resistor value
+1.2K Ohm +/- 1% is required, because non-linearity increases with larger bias resistors.
+
+Internal LDO
+
+PTN3356 internal LDO will be turned on to provide 1.5V to core and DAC when external
+4.7uH inductor is not detected.
+
+Allinformaton provided in this document is subject to legal disclaimers, (© NXP Semiconductors N.V. 2015. Al rights reserved
+
+Rev. 1 — 29 January 2015 14 of 20

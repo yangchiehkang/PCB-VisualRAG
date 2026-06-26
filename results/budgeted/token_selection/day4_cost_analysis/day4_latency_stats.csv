@@ -1,0 +1,6 @@
+Method,M,Query Count,Total Candidates,Avg Candidates / Query,Rerank Time Seconds,Per-query Latency ms,Run File,Validation File
+c2f_N10_M8,8,30,300,10.0,0.0607473999989451,2.024913333298173,results\budgeted\token_selection\c2f_N10_M8_run.tsv,results\budgeted\token_selection\c2f_N10_M8_validation.csv
+c2f_N10_M16,16,30,300,10.0,0.0491376999998465,1.6379233333282173,results\budgeted\token_selection\c2f_N10_M16_run.tsv,results\budgeted\token_selection\c2f_N10_M16_validation.csv
+c2f_N10_M24,24,30,300,10.0,0.0505369000002247,1.6845633333408234,results\budgeted\token_selection\c2f_N10_M24_run.tsv,results\budgeted\token_selection\c2f_N10_M24_validation.csv
+c2f_N10_M32,32,30,300,10.0,0.0545043999991321,1.816813333304405,results\budgeted\token_selection\c2f_N10_M32_run.tsv,results\budgeted\token_selection\c2f_N10_M32_validation.csv
+c2f_N10_M49,49,30,300,10.0,0.0715700999990076,2.3856699999669218,results\budgeted\token_selection\c2f_N10_M49_run.tsv,results\budgeted\token_selection\c2f_N10_M49_validation.csv

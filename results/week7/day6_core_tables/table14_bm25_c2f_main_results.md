@@ -1,0 +1,24 @@
+# Week 7 Day 6 Table 14: BM25-C2F 主结果表
+
+## Table 14: BM25-C2F 主结果表
+
+| Method | Recall@1 | Recall@5 | Recall@10 | MRR@10 | nDCG@10 | Index Size |
+|---|---:|---:|---:|---:|---:|---:|
+| BM25 | 0.1333 | 0.6833 | 0.8833 | 0.4105 | 0.5241 | 3030 |
+| BM25 + Full MV | 0.0667 | 0.3000 | 0.8833 | 0.2107 | 0.3628 | 10 |
+| BM25 + Budgeted MV | 0.0333 | 0.1333 | 0.3667 | 0.0956 | 0.1565 | 20 |
+| Hybrid Fusion | 0.0667 | 0.1000 | 0.1333 | 0.0881 | 0.0988 | 301 |
+
+## Source Files
+
+| Method | Source File |
+|---|---|
+| BM25 | results\week7\c2f_fixed_N\bm25_c2f_all_configs_results.csv |
+| BM25 + Full MV | results\week7\c2f_fixed_N\bm25_c2f_all_configs_results.csv |
+| BM25 + Budgeted MV | results\week7\c2f_fixed_N\bm25_c2f_all_configs_results.csv |
+| Hybrid Fusion | results\week7\hybrid_fusion\hybrid_alpha_all_results.csv |
+
+## Candidate Scan Summary
+
+- Scanned root: `results/week7`
+- Candidate rows found: `43`

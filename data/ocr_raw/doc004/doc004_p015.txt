@@ -1,0 +1,61 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+Note, the power consumption will increase two fold when internal LDO is used.
+
+It is a trade-off; using buck converter will save power, add cost of 4.7 uH inductor; using
+internal LDO will save cost with the expense of power increase.
+
+9. DP receiver interface
+
+Main differential pairs and AUX channel are routed with 100 Ohm impedance. The
+important parameters to calculate the impedance are:
+
++ PCB thickness
+
+* Distance to ground plane
+
+* Trace width
+
+* Trace spacing
+
++ PCB permittivity
+
+Guard grounds are used to isolate the pair. This helps to eliminate cross talk between
+traces. Trace lengths are matched on the same pair to 0.01". Inter pair match to 1".
+
+AC caps for DP lanes and AUX pair should be placed close to the DP interface.
+
+When signals change plane, the ground plane need to move along to keep constant trace
+impedance. On DPVGA a ground island is inserted on the VCC plane for this purpose.
+
+10. VGA interface
+
+Table 1. Design guidelines for VGA connector, PWB to cable junction
+
+Design guideline Design guideline description Approximate impact on
+number EMI decrease
+1 Define the 2"¢ PWB layer as ground plane
+2 Connect the ground chassis pins of the VGA PWB-connector 25 dB
+3 Use an upper ground plane around VGA connector pins
+This design guideline makes no sense when it is not combined with design
+guideline 4.
+4 Use enough vias to connect the upper ground plane with main ground 20 dB
+
+plane in 2" PWB layer. Enough means around every 3 mm (stitching)
+
+5 Ensure proper connection between PWB-connector chassis and upper 10 dB
+ground plane by using contact springs (at least 3 contact points)
+Emission improvement when either 1 or 3 contacts were used was 10 dB!
+
+6 Apply ferrite bead around VGA cable (is already very common for typical 3dB
+cables available from the market)
+
+Following the recommended guidelines, all RGB traces on DPVGA board are routed with
+75 Ohm impedance from PTN3356 to VGA connector. Ground fills are used to isolate
+these traces. Ground fills are connected to ground plane with vias.
+
+aNi1590 Allinformaton provided in this document is subject to legal disclaimers, (© NXP Semiconductors N.V. 2015. Al rights reserved
+
+Application note Rev. 1 — 29 January 2015 15 of 20

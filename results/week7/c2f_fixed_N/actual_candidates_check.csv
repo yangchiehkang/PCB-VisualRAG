@@ -1,0 +1,9 @@
+method,N,expected_candidates_per_query,num_queries,avg_candidates_per_query,min_candidates_per_query,max_candidates_per_query
+bm25,10,10,30,10.0,10,10
+bm25,20,20,30,20.0,20,20
+bm25,50,50,30,50.0,50,50
+bm25,100,100,30,100.0,100,100
+visual,10,10,30,10.0,10,10
+visual,20,20,30,20.0,20,20
+visual,50,50,30,50.0,50,50
+visual,100,100,30,100.0,100,100

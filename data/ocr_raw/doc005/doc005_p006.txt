@@ -1,0 +1,166 @@
+NCV7535EVB
+
+FUNCTIONAL DESCRIPTION
+
+Power Supply
+
+The output stage of NCV7535 pre-driver is supplied via
+VS pin. Normally, this pin is directly connected to the
+H-bridge supply. N-MOSFET — Qrev
+battery—reverse protection.
+
+By default, H-bridge power supply is buffered by three
+220 uF capacitors covering high current peaks caused by the
+inrush current or PWM operation.
+
+The VS pin of NCV7535 can be filtered using a non-zero
+value of Rs resistor.
+
+ensures
+
+Current Sensing Amplifier
+
+NCV7535 evaluation board contains low-side sense
+resistors and operational amplifier for H-bridge current
+sensing.
+
+The power MOSFETs as well as sensing resistor Rsen
+value are selected according to maximum application DC
+current. Higher current is possible for limited time as long
+as the junction temperatures are not exceeded.
+
+The current-sensing amplifier has a fixed gain of 40 and
+the output is referenced to GND. The maximum offset of
+used operational amplifier (NCV20061) is +4 mV, which is
+equivalent to the load current of 0.8 A (with Rsen = 5 mQ).
+To sense low currents (< 1 A), a positive offset can be is
+introduced via R34. MCU can then cancel the input offset by
+measuring Vsen voltage with H-bridge disabled. The
+resulting A-V ratio (with Rsen = 5 mQ) i
+
+Vsen = 0.2 x Iout + 0.2 V (can be calibrated on fly)
+
+Operating States
+
+NCV7535 provides two static operating modes selectable
+via SPI registers and EN pin.
+
+After power-up, the device enters low-power Standby
+mode with the H-bridge disabled.
+
+To enter the Active mode, EN pin has to be pulled high and
+CONTROL_0.MODE bit set. Typically, EN pin can be
+controlled the MCU reset signal to ensure the motor is
+running under MCU supervision only.
+
+Additional details of the NCV7535 operation and
+parameters can be found in the corresponding datasheet [1].
+
+Vee Power-up
+
+Standby
+Supt sages OFF
+Regier conant Samed
+
+EN=18
+or CSN= 0)
+
+(MODE
+
+CSN=08EN=1
+
+Active
+
+(MODE=0 & CSN = 1)
+
+to Standby reset ‘or EN=0
+
+Delay
+
+Charge Pung OFF
+
+Figure 5. NCV7535 State Diagram
+
+GETTING STARTED
+
+The board supports three ways of NCV7535 device
+control:
+
+1. PC control — the user have full control over
+NCV7535 settings using PC connected to the
+board via USB.
+
+2. Standalone mode — PWM duty-cycle (motor
+speed) can be changed via on-board
+potentiometers. Mo other device setting is
+available.
+
+External MCU control — external MCU controls
+the all the NCV7535 settings directly via SPI and
+PWM pins.
+
+»
+
+PC Control Mode
+
+- Move slide switches “SW_xx” to the left position
+(see Figure 3.)
+
+2. Move slide switch “SW_SA” to the left position
+
+Connect the load to “OUT1/2” bush connectors
+
+Connect the main supply to “Vbat” and “GND”
+
+bush connectors
+
+. Connect the board by Mini-USB connector to the
+PC, wait for drivers installation, if needed
+
+6. Run the “Motor GUI” software
+
+Py
+
+wn
+
+7. In the startup window select “NCV7535”
+
+controller
+
+The software should connect to the board. If the
+
+connection was successful, the controller window
+
+opens.
+
+9. To control the load, use “Hardware Controls” and
+“Demo” (See Figures 6 and 8). Here is an example
+of the settings:
+
+a. Check “PWM On/Off” in “Hardware Controls”,
+b. Set “Speed Control” to > 0% in “Demo”,
+c. Check “Forward” or “Reverse” in “Demo”
+
+-
+
+Standalone Mode
+
+1. Move slide switches “SW_xx” to the left position
+(see Figure 3.)
+Move slide switch “SW_SA” to the right position
+Connect the load to “OUT1/2” bush connectors
+Connect the main supply to “Vbat and “GND”
+bush connectors
+5. “LED_SA” indicates the Standalone mode
+. The motor speed (PWM duty-cycle) can be
+
+changed by “Pot”
+When changing the mode, the supply of the board needs
+
+to be disconnected of MCU reset by “SW_RST” button.
+
+wn
+
+www.onsemi.com
+
+6

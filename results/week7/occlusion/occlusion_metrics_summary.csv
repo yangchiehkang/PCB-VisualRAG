@@ -1,0 +1,2 @@
+Query Count,Valid Query Count,COG Positive Count,COG Check Count,COG Positive Rate,Mean Score Original,Mean Score Gold Mask,Mean Score Random Mask,Mean COG_score,Mean nDCG Original,Mean nDCG Gold Mask,Mean nDCG Random Mask,Mean COG_nDCG,Status
+10,10,10,0,1.00000000,0.20149380,0.00000000,0.20149380,0.20149380,1.00000000,0.00000000,1.00000000,1.00000000,PASSED

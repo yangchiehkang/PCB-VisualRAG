@@ -1,0 +1,171 @@
+论文审阅报告：PCB 工程文档的预算化多向量视觉检索与 Visual RAG
+整体来看，这是一篇结构完整、实验扎实、叙事清晰的本科毕业论文 👏。研究问题聚焦、方法链条递进、结果与讨论自洽，尤其在"BM25 强基线 + 视觉检索作为成本可控补充分支"这一定位上把握得相当成熟。下面按 结构性问题 → 实验与论证 → 表达与格式 → 细节勘误 四层给出可操作的修改建议。
+
+🧭 一、整体结构与定位（优先级最高）
+✅ 做得好的地方
+摘要、引言、相关工作、方法、实验、讨论、局限、结论的链条完整。
+明确交代了与 Proposal / Midterm 的关系，体现了研究演进。
+中心问题（"Can visual multi-vector retrieval be made accurate, interpretable, and cost-efficient...?"）贯穿全文。
+⚠️ 建议改进
+核心矛盾需要在引言中更早"亮牌"
+
+你的主要发现其实是一个略反直觉的结论："视觉多向量检索没赢过 BM25，但预算化视觉分支显著优于原始 Full MV。" 建议在 Introduction 末尾的 bullet 列表之前，用一句话把这个张力点出来，例如：
+
+"This study finds that visual multi-vector retrieval does not surpass OCR BM25 on this corpus, but a budgeted and quantized visual branch substantially improves over its own Full MV baseline — reframing visual retrieval as a cost-controlled complement rather than a replacement."
+
+第 1.1 节与摘要内容重复度偏高
+
+摘要、1.1、第 10 节结论里同样的数字（0.8833 / 0.5241 / 0.1249 / 0.1296）出现了 3–4 次。建议：
+
+摘要保留全部关键数字；
+1.1 只保留"研究阶段演进 + 一句话总结发现"；
+结论部分换一种表述（例如用"相对提升百分比"而非重复绝对值）。
+缺少一张总览性的 Pipeline 图
+
+全文方法链条很长（OCR → SV → Full MV → C2F → Token Budget → PQ → Evidence → VRAG），但没有一张总流程图。强烈建议在第 4 节开头加一张 System Overview Figure，读者会非常感激。
+
+🔍 二、实验与论证层面的疑点
+这一部分是审阅人（或答辩老师）最可能追问的，请认真核对。
+
+1. Recall@10 在不同表格中数值不一致 ⚠️ 重要
+Table 3（Baseline）：Full Multi-vector Visual 的 Recall@10 = 0.1333
+Table 5（Token Budget）：C2F N10 M49（等价于 full token）Recall@10 = 0.2667
+Table 4：BM25 + Full MV 的 Recall@10 = 0.8833
+读者会困惑："Full MV 到底是 0.1333 还是 0.2667？" 实际上这是三种不同设定（独立全库 MV / BM25 候选 + MV 重排 / C2F 内部全 token），但你没在表注里说清楚。建议：
+
+在 Table 5 加脚注："C2F N10 M49 reranks BM25 top-10 candidates using all 49 tokens; this differs from the standalone Full MV in Table 3, which ranks the entire corpus."
+或者把三种"Full MV"分别命名为 Full MV (standalone)、Full MV (rerank)、C2F-Full，避免歧义。
+2. Table 4 的 "Budget / Unit" 列含义不明
+列里出现 3030 / 10 / 20 / 301 这些数字，正文只说"effective retrieval budget or index unit"，但读者根本看不懂单位是什么。建议：
+
+改成两列：Candidate N 和 Rerank Cost；
+或者明确写"queries × pages scored"等具体含义。
+3. Token Budget 结果的解释存在小漏洞
+"M = 8 retains only 16.33% of visual tokens but achieves the best nDCG@10"
+
+但表里 M=8、16、24 的 Recall@10 都是 0.2667，且 nDCG@10 差距很小（0.1249 vs 0.1242 vs 0.1145）。在 30 个查询、10 个 evidence 子集的体量下，这些差异很可能不显著。建议：
+
+补一句："Differences across M ∈ {8,16,24} are within the noise range of a 30-query benchmark; the key takeaway is that aggressive token reduction does not degrade retrieval."
+这反而比"M=8 最好"更稳妥、更可信。
+4. QA-level Occlusion 全是 1.0000 的结果需要更强解释
+Table 12 三种条件（Original / Gold Masked / Random Masked）准确率都是 1.0000 / 1.0000 / 1.0000，Delta 全为 0。你在 7.5 节解释为"VLM 利用了页码、标题等线索"。这个解释合理，但：
+
+结果太干净反而显得实验设计有问题。建议明确写："This null result is itself a methodological finding: page-identification questions are too weak a probe for region-level causal analysis; future work should adopt content-specific questions (e.g., '请读出此区域中的电阻值')."
+否则审阅人会质疑"那这个实验做了等于没做"。
+5. Evidence Hit@10 = 1.0000 (BM25) 与 Recall@10 = 0.8833 不一致
+Table 3 中 BM25 的 Recall@10 = 0.8833（30 query），但 Table 7 的 Evidence Hit@10 = 1.0000（10 query 子集）。这是因为 evidence 子集是更容易的 10 个 query 吗？需要在 3.3 节明确说明子集的构造方式（是随机抽样还是挑选了有清晰 region 的样本？），否则会被质疑"子集偏置"。
+
+🧾 三、表达、格式与可读性
+排版与符号
+空格问题：Q⊤i pj、q⊤i 排版略乱，建议改为 
+s
+(
+q
+,
+p
+)
+=
+∑
+i
+max
+⁡
+j
+(
+q
+i
+⊤
+p
+j
+)
+s(q,p)=∑ 
+i
+​
+ max 
+j
+​
+ (q 
+i
+⊤
+​
+ p 
+j
+​
+ ) 的清晰形式。
+数字精度不统一：有的地方写 0.1333，有的写 0.4000，有的写 0.20149380（8 位小数，过度精确）。建议统一保留 4 位小数。
+图表标题大小写不统一：例如 "Quality vs. index size"（小写）与 "Pareto frontier for joint budgeted retrieval"（小写） vs 章节标题（Title Case）。建议统一为 Title Case。
+"effective"、"efficient" 等词在 PDF 中显示为 eﬀicient（合字符号渲染问题），不影响内容，但若提交版用 Word/LaTeX 编译时建议检查 ligature。
+措辞与逻辑
+位置	原文	建议
+Abstract	"but does not improve ranking quality in the current setup"	改为 "but does not yield ranking gains over the BM25 baseline" 更精确
+§5.2	"lowers MRR@10 and nDCG@10"	与谁比？建议补"compared with BM25 alone"
+§8.2 第一条	"Page-level visual tokens may emphasize layout similarity..."	加一句佐证（比如观察到错配的样本是否多为相似布局页）
+§10	"improves over the original full multi-vector visual baseline"	这是核心卖点，建议加粗或单独成段
+缩写一致性
+"Visual RAG" / "VRAG" / "Visual RAG" 全文出现，建议统一为 Visual RAG（你目前基本已统一，最后通读一遍即可）。
+"Full MV"、"Budgeted MV"、"C2F" 第一次出现时建议给出全称。
+🐛 四、细节勘误清单（按出现顺序）
+目录页码格式：Introduction ... 4 与 Conclusion ... 17 中间的点线在原文里只有空格，建议用 LaTeX 的 \dotfill 或 Word 的目录样式重做。
+Abstract 末尾："both the promise and the limitations" → 建议改为 "both the promise and the current limitations"，语义更准确。
+§3.1 Table 1：doc002 只有 1 页是 "Assembly cheatsheet"，但其他文档动辄 20–29 页。语料分布严重不均衡（doc003 占 28.7%，doc006 占 26.7%），建议在 §9 Limitations 中明确点出这一点。
+§4.5 公式：PM = TopM ... 里的下标 M 应该用 
+P
+M
+=
+Top-
+M
+p
+j
+∈
+P
+(
+∥
+p
+j
+∥
+2
+)
+P 
+M
+​
+ =Top-M 
+p 
+j
+​
+ ∈P
+​
+ (∥p 
+j
+​
+ ∥ 
+2
+​
+ ) 这种规范形式。
+§4.6："the third dimension is generalized from a bit-level parameter to concrete compression strategies" — 这是与 Proposal 的偏离，建议明确说明理由（例如 FAISS 的 PQ/OPQ 已经隐含了 bit 配置，所以改用策略名更直观）。
+§5.4 Table 6：N=10, M=24, IVF+OPQ+PQ 的 nDCG@10 = 0.1296 是表中最优，但 Recall@10 全都是 0.2667 一模一样——这意味着 Recall 指标对这些配置完全无区分度，应该在正文里点出："Recall@10 saturates at 0.2667 across these settings because the BM25 candidate ceiling at N=10 dominates; differentiation comes only from ranking metrics."
+§6.2 Table 8："Avg Gold Page Score" 给出了 0.20149380，但 Original 和 Random Mask 完全相同（精确到 8 位小数）。这非常可疑——随机掩码理应至少有微小扰动。请检查：
+是不是随机掩码区域恰好落在了空白区？
+还是实验只跑了 1 次没做多次平均？
+建议至少做 5 次随机掩码取均值±标准差，否则结论站不住。
+References [11]："H. Jegou" → 应为 "H. Jégou"（带重音符）。同理 [12] 的 Jégou。
+References 缺失：你在 §2.4 提到 FAISS，引用了 [11]，但 [11] 是 "Billion-scale similarity search with GPUs"。FAISS 的原始论文确实是这篇，OK。但建议补一篇 HNSW（Malkov & Yashunin, 2018） 作为对比，体现你了解 ANN 索引全貌。
+图编号：Figure 1、Figure 2、Figure 3、Figure 4 都存在，但正文里 Figure 2 只被"Figure 2 shows that..."这种方式提到一次（且实际没有这句话——只在图标题下方），正文需要显式引用每张图。
+💡 五、加分项建议（如果时间允许）
+按收益排序：
+
+改进项	工作量	收益
+加一张系统总流程图（§4 开头）	低	⭐⭐⭐⭐⭐
+统一三种"Full MV"命名并加表注	低	⭐⭐⭐⭐⭐
+Counterfactual occlusion 做 5 次随机均值	中	⭐⭐⭐⭐
+加显著性检验（哪怕 paired bootstrap on 30 queries）	中	⭐⭐⭐⭐
+加一节 Error Case Study：贴 2–3 个 Full MV 排错的样例页	中	⭐⭐⭐⭐
+Limitations 中补"语料分布不均"	低	⭐⭐⭐
+加 token importance 选择策略的消融（norm vs. attention vs. random）	高	⭐⭐⭐⭐
+📌 总结
+你的论文在 研究问题清晰度、实验完整性、与 Proposal/Midterm 的延续性 三方面都达到了优秀本科论文的水准。
+
+最需要优先修改的三件事：
+
+🔴 统一并澄清"Full MV"在不同表格中的不同设定（结构性歧义，必改）。
+🔴 Counterfactual occlusion 的 Random Mask 结果与 Original 完全相同——要么补多次随机均值，要么诚实解释为什么不变（实验设计问题，会被答辩追问）。
+🟡 Token Budget 节里 M=8/16/24 的差异要标注为"在噪声范围内"，避免过度声明。
+把这三处改好后，整篇论文的可信度会上一个台阶。剩下的格式、缩写、引用等问题属于"打磨级"，最后通读一遍即可。

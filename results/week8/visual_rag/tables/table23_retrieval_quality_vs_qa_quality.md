@@ -1,0 +1,11 @@
+# Table 23: Retrieval Quality vs QA Quality
+
+| setting | num_cases | gold_page_hits | retrieval_gold_hit_rate | answer_accuracy | evidence_supported_rate | unknown_rate | hallucination_count | used_run_file |
+|---|---|---|---|---|---|---|---|---|
+| Gold Evidence | 10 | 10 | 1.0000 | 1.0000 | 1.0000 | 0.0000 | 0 |  |
+| BM25 | 10 | 4 | 0.4000 | 0.4000 | 0.9000 | 0.5000 | 1 | results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv |
+| Full MV | 10 | 1 | 0.1000 | 0.1000 | 0.6000 | 0.5000 | 4 | results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv |
+| Hybrid Fusion | 10 | 4 | 0.4000 | 0.4000 | 0.9000 | 0.5000 | 1 | results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv |
+| Budgeted MV | 10 | 1 | 0.1000 | 0.1000 | 0.4000 | 0.3000 | 6 | results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv |
+| Gold Masked | 10 | 10 | 1.0000 | 1.0000 | 1.0000 | 0.0000 | 0 |  |
+| Random Masked | 10 | 10 | 1.0000 | 1.0000 | 1.0000 | 0.0000 | 0 |  |

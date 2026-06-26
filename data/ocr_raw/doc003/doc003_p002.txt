@@ -1,0 +1,18 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+Revision history
+
+Rev Date Description
+
+1 2014-01-21 First publication
+
+Contact information
+For additional information, please visit: http:/www.nxp.com
+For sales office addresses, please send an email to: salesaddresses@nxp.com
+
+umto772 NXP BLY. 2014. Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 2 of 29
+

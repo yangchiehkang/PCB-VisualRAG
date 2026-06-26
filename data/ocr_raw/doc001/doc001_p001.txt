@@ -1,0 +1,166 @@
+15-0000-00134-P1 : PCB SLU - SF05B PCB
+
+All dimensions are for the finished product.
+
+Requirements
+
+ROHS Status
+
+Required
+
+PCB Material Type
+
+Aluminium Core (2W/m.K min)
+
+for final PCB thickness of 1.6mm +- 10%
+
+External Finished Copper Thickness
+
+55.7um minimum for outer layers (2 oz - base 70
+um)
+
+Internal After Process Copper Thickness na.
+Plating ENIG-2U Post cleaning not required
+Silkscreen Color Black
+
+Solder Mask Type
+
+Shall be according to class 3 standard (0.7-1mils).
+Soldermask registration shall be of 1-2mils
+Shall be Photoimageable Matt type
+
+Silkscreen shall be removed from any copper
+pad and soldermask opening
+
+Solder Mask Color
+
+White
+
+Soldermask in pad
+
+Do not remove soldermask when webbing patterns
+are present.
+
+Holes Diameter Tolerance
+
+Tolerance diameter +0.003" after plating
+
+Holes Wall Copper Thickness
+
+Follow IPC Class 2
+
+Filled Vias
+
+Not required
+
+Standard for Flammability
+
+Not required
+
+Must be written on PCB, on Top side.
+Write your compagny name, and the UL E
+number
+
+Standard of Acceptability of PCB
+
+The PCB shall be fabricated in accordance with IPC
+Class 2
+
+Panel Requirement
+
+Required
+
+Matrix
+
+1 (X)x2(Y)
+
+Estimated dimensions
+
+24" x 6.4"
+
+Panel Cutting Dimension Tolerance
+
++0.15mm
+
+Breakaway Tab Required
+
+Left and Right
+
+Tab Width: 200 mil
+
+Type of Breakaway Tab
+
+V-Groove (V-Score)
+
+Respect requirements next page.
+
+Circuit Rotation Autorized
+
+No
+
+Panel Drawing Approval Requirement
+
+Not required
+
+Special requierements
+
+Round Fiducials of 0.040" with a mask opening are required — Fiducials need to be asymetric
+
+Put Fiducials on Breakaway Tab, if any
+
+Bevel
+
+Not requiered
+
+Se p. 2 for details
+
+Date Code Information
+
+Add Manufacturing Date on Top side silkscreen
+
+Please use "YYWW" sequence
+
+Badmark (X-Out) Acceptance
+
+Not allowed
+
+0% of X-out is allow on volume PCB
+fabrication.
+
+Example: (ee
+
+Electrical Test must be done — Test Report must be provided
+
+Microsection report is Required to accept delivery (including plating thickness, copper, gold fingers, etc.)
+
+Other requirements
+
+Ban tn OF
+
+}ollum Technologies. ANY REPRODUCTION IN PART OR AS A WHOLE.
+ITHOUT THE WRITTEN PERMISSION OF Sollum Technologies IS
+PROPRIETARY AND CONFIDENTIAL
+
+(COMMENTS: NAME. DATE
+DRAWN: larc-André Provencher 2021-09-24
+CHECKED
+ENG APPR. TITLE
+MFG APPR. PCB fabrication requirements for project:
+ITHE INFORMATION CONTAINED IN THIS DRAWING IS THE SOLE on PCB SLU - SFOSB : 15-0000-00134-P1
+
+DO NOT SCALE DRAWING
+
+15-0000-00134-P1
+
+DIMENSIONS ARE ININCHES UNLESS OTHERWISE SPECIFIED B
+
+SHEET 1 OF 5
+
+A
+
+B Cc
+
+Jbenerated 2021-09-25]
+
+D
+

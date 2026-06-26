@@ -1,0 +1,9 @@
+3 EVM Construction
+
+88
+
+rir. 64
+
+Figure 3-8. Layer 6-GND/Signal Plane
+
+37

@@ -1,0 +1,53 @@
+{
+  "table12": [
+    {
+      "Condition": "Original",
+      "Recall@10": 1.0,
+      "MRR@10": 1.0,
+      "nDCG@10": 1.0,
+      "Avg Gold Page Score": 0.201493805
+    },
+    {
+      "Condition": "Gold Mask",
+      "Recall@10": 0.0,
+      "MRR@10": 0.0,
+      "nDCG@10": 0.0,
+      "Avg Gold Page Score": 0.0
+    },
+    {
+      "Condition": "Random Mask",
+      "Recall@10": 1.0,
+      "MRR@10": 1.0,
+      "nDCG@10": 1.0,
+      "Avg Gold Page Score": 0.201493805
+    }
+  ],
+  "table13": [
+    {
+      "Metric": "Recall@10",
+      "Random Mask": 1.0,
+      "Gold Mask": 0.0,
+      "COG": 1.0
+    },
+    {
+      "Metric": "MRR@10",
+      "Random Mask": 1.0,
+      "Gold Mask": 0.0,
+      "COG": 1.0
+    },
+    {
+      "Metric": "nDCG@10",
+      "Random Mask": 1.0,
+      "Gold Mask": 0.0,
+      "COG": 1.0
+    },
+    {
+      "Metric": "Gold Page Score",
+      "Random Mask": 0.201493805,
+      "Gold Mask": 0.0,
+      "COG": 0.201493805
+    }
+  ],
+  "valid_query_count": 10,
+  "source": "results\\week7\\occlusion\\occlusion_metrics_per_query.csv"
+}

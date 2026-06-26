@@ -1,0 +1,45 @@
+experiment_name: full_multivector_week3
+
+data:
+  corpus_file: data/metadata/corpus.jsonl
+  query_file: data/metadata/queries.jsonl
+  qrels_file: data/metadata/qrels.tsv
+  page_inventory_file: data/metadata/page_inventory.csv
+  image_root: data/images
+  subset_file: data/metadata/full_mv_small_subset.json
+
+model:
+  name: openai/clip-vit-base-patch32
+  device: cuda
+  normalize_embeddings: true
+
+page_embedding:
+  representation: local_visual_tokens_projected
+  source: vision_hidden_states_plus_projection
+  keep_cls: false
+  token_limit: null
+  save_dir: artifacts/embeddings/full_multivector/pages
+
+query_embedding:
+  representation: token_level_projected
+  source: text_hidden_states_plus_projection
+  max_length: 32
+  save_dir: artifacts/embeddings/full_multivector/queries
+
+scoring:
+  similarity: cosine
+  aggregation: sum_maxsim
+  topk: 10
+
+outputs:
+  page_meta_file: artifacts/embeddings/full_multivector/page_embedding_meta.jsonl
+  query_meta_file: artifacts/embeddings/full_multivector/query_embedding_meta.jsonl
+
+  full_run_file: results/full_multivector/full_mv_run.tsv
+  full_metrics_file: results/full_multivector/full_mv_metrics.json
+
+  small_run_file: results/full_multivector/full_mv_small_run.tsv
+  small_metrics_file: results/full_multivector/full_mv_small_metrics.json
+
+  comparison_csv_file: results/comparisons/full_vs_single_overview.csv
+  comparison_query_csv_file: results/comparisons/full_vs_single_query_level.csv

@@ -1,0 +1,8 @@
+setting,num_cases,gold_page_rate,answer_accuracy,evidence_supported_rate,unknown_rate
+Gold Evidence,10,1.0000,1.0000,1.0000,0.0000
+BM25,10,0.4000,0.4000,0.9000,0.5000
+Full MV,10,0.1000,0.1000,0.6000,0.5000
+Hybrid Fusion,10,0.4000,0.4000,0.9000,0.5000
+Budgeted MV,10,0.1000,0.1000,0.4000,0.3000
+Gold Masked,10,1.0000,1.0000,1.0000,0.0000
+Random Masked,10,1.0000,1.0000,1.0000,0.0000

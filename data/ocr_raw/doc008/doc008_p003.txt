@@ -1,0 +1,34 @@
+Microchip Technology Incorporated KEY
+@ 2355 W. Chandler Blvd. ICR: Cross D: Drawing
+Chandler, AZ 85224-6199 ICS: Consign B: BOM
+PL: Pack List P: Part
+RoHS: Lead Free LBL: Label
+MICROCHIP Bill of Materials
+ASSEMBLY NUMBER: 1102-00354 REV: 1 Part No: ARD00354
+ASSEMBLY NAME: MCP6N11 Wheatstone Bridge Reference Design
+R
+. 3
+— H cce
+2 Qty Reference Description Mfgr. Part Number Distributor Vendor/PartNumber S Rev R S L Type
+R18, R28,
+31 3 [R29 IRES 499 OHM 1/10W .1% 0603 SMD [Susumu IRG1608P-4990-B-T5 |Digikey RG16P499BCT-ND Y 1 YININ] P
+32 | 2 |R21,R22_|RES 10 OHM 1/10W 5% 0603 SMD Yageo RC0603JR-0710RL__|DigiKey 1-10GRCT-ND Y 1 YININ] P
+R37, R38,
+33 | 4 |R39,R40_|RES 1.00K OHM 1/10W 1% 0603 SMD. 'Yageo RCO603FR-071KL_ DigiKey 1311-1.00KHRCT-ND Y 1 YININ] P
+34 1_|SWi ISMD, Switch, Push Button, 1 Pos., SPST-NO. [Panasonic-ECG_|EVQ-P2R02M Digikey P12292SCT-ND Y 1 YININ] P
+Microchip Microchip
+35 4 jut |MCP6001, SOT-23-5, Single Op Amp [Technology Inc._}|MCP6001T-E/OT Technology _|MCP6001T-E/OT Y 1 YININ]| P
+Microchip Microchip
+36 4 |U2 IMCP6N11, SOIC-8, Single INA, GMIN = 100 |Technology Inc. |MCP6N11-100E/SN_|Technology_|MCP6N11 Y 1 YININ]| P
+Microchip Microchip
+37 | 1 |u3 IMCP6V27, SOIC-8, Dual Auto-Zeroed Op Amp [Technology Inc._|MCP6V27-E/SN Technology _|MCP6V27-E/SN Yy{|_1_|y{NIN| P
+Microchip Microchip
+38 1 |U4 IMCP6V26, SOIC-8, Single Auto-Zeroed Op Amp [Technology Inc._ |MCP6V26-E/SN [Technology _|MCP6V26-E/SN Y 1 YININ] P
+Microchip Microchip
+39 4 |U5 PIC18F2553, SOIC-28 (300 mil), USB PIC [Technology Inc._|PIC18F2553-l/SO_ Technology _|PIC18LF2553-1/SO_ Y 1 YININ]| P
+Murata
+40 | 1 {Xt 20 MHz Ceramic Resonator, SMT, E-temp Electronics |CSTCE20MOV53Z-RO|Digikey |490-4717-1-ND Yi i YININ] P
+4 Corner
+4 4 |Holes Stand offs |VARIOUS: Jameco.com |156831 Y 1 YININ] P
+
+Parts Not Installed

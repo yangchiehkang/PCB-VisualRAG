@@ -1,0 +1,58 @@
+NCV7535EVB
+
+OPERATIONAL GUIDELINES
+
+NCV7535 is a monolithic SPI controlled H-bridge
+pre-driver for a DC—motor with enhanced feature set useful
+in automotive systems.
+
+The evaluation board contains all the components
+necessary for NCV7535 application: a control MCU, USB
+interface, +5 V LDO supply for VCC and current sensing
+operational amplifier.
+
+‘An external MCU can be connected through H connector
+to controls all functions and settings of NCV7535.
+
+Board Configuration
+The NCV7535 evaluation board allows two modes of
+operation:
+
+internal
+MCU
+
+SW_Pun2 yo Oc ]
+
+su_vce
+)] Su_CSN
+D}  SH_scux
+)] Su_sor
+
+$u_S00
+)} SH_EN
+>} Sueur
+
+© Standalone / full-demonstration using on-board MCU
+¢ All the slide switches (incl. SW_SA) have to be set
+to the position as shown in Figure 3.
+« MCU is controlled via mini USB connector “USB”
+« NCV7535 digital signals are still accessible via “H”
+connector
+© NCV7535 evaluation only; external control
+¢ All the switches (incl. SW_SA) have to be set to the
+position as shown in Figure 3.
+¢ External SPC control has to be connected via “H”
+USB connector
+
+Pu
+AgL2 [Piste]
+
+Xtal
+
+12.08.2015
+Ondrej Kupcik
+
+7 goo
+“= GNOL
+
+Figure 3. NCV7535 Evaluation Board Picture, Top Side

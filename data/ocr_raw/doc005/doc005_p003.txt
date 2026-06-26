@@ -1,0 +1,43 @@
+NCV7535EVB
+
+Table 1. ABSOLUTE MAXIMUM RATINGS.
+Rating External Pin Min Max Unit
+
+Power Supply voltage Vbat -40 40 Vv
+Digital Supply voltage vec 0.3 55 v
+Digital inputs/outputs voltage CSB, SCLK, SDI, SDO, EN, PWM -0.3 VCC + 0.3 Vv
+Current sense output voltage Vsen -0.3 VCC + 0.3
+
+Current sense output current Vsen Internally limited A
+H-bridge outputs DC voltage OUT1,2 0.3 Vbat + 0.3 v
+H-bridge outputs DC current OUT1,2 -20 20 A
+NCV7535 junction temperature -40 150 °C
+Qrev, QH1/2, QL1/2 junction temperature -55 175 °C
+Board temperature -40 125 °C
+
+Stresses exceeding those listed in the Maximut
+
+Table 2. RECOMMENDED BOARD OPERATING CONDITIONS.
+
+im Ratings table may damage the device. If any of these limits are exceeded, device functionality
+should not be assumed, damage may occur and reliability may be affected.
+
+Rating External Pin Min Max Unit
+‘Supply voltage Vbat 6 28 Vv
+Digital Supply voltage vec 5 V + 5% (on-board supply) v
+Digital inputs/outputs voltage CSB, SCLK, SDI, SDO, EN, PWM 0 vec Vv
+Current sense output voltage Vsen Generated internally
+
+Current sense output current Vsen Internally limited A
+H-bridge outputs voltage OUT1,2 0 Vbat Vv
+H-bridge outputs current OUTH,2 Limited by max. junction/board A
+
+temperature
+
+NCV7535 junction temperature -40 150 °C
+Qrev, QH1/2, QL1/2 junction temperature -55 175 °C
+Board temperature -40 125 °C
+
+Functional operation above the stresses listed in the Recommended Operating Ranges is not implied. Extended exposure to stresses beyond
+the Recommended Operating Ranges limits may affect device reliability.
+

@@ -1,0 +1,59 @@
+Microchip Technology Incorporated
+2355 W. Chandler Blvd.
+Chandler, AZ 85224-6199
+
+MICROCHIP
+
+KEY
+
+CR: Cross
+CS: Consign
+PL: Pack List
+RoHS: Lead Free
+
+D: Drawing
+B: BOM
+P: Part
+LBL: Label
+
+Bill of Materials
+
+ASSEMBLY NUMBER: 102-0354 REV: 1 Part No: ARDO0354
+ASSEMBLY NAME: MCP6N11 Wheatstone Bridge Reference Design
+R
+* °
+E H ccpe
+2 Qty Reference Description Migr. PartNumber __Distributor__Vendor/PartNumber_S Rev R S L Type
+PCB ASSY DWG, MOPENT1 Wheatstone Bridge Reference ~
+t]4 - Design 102-00354-D - - 1_|NININ] D
+_ __ |SCHEMATIC, MICPENTT Wheatstone Bridge Reference Design ss 7 7
+2|4 103-00354 1_|n|N[N} bd
+PCB FABRICATION DRAWING, MCP6N11 Wheatstone Bridge 7
+31 - Reference Design 104-00354-D - - 1_|NININ] D
+[Gerber Files, 105-00354R2.ZIP -
+4|4 7 IMCP6N11 Wheatstone Bridge Reference Design 1005-00354 7 7 1_ IN N}|_D
+IMCPEN11 Wheatstone Bridge Reference Design Test =
+5 |4 : Procedure 113-0354 . . 1_[NININ| D
+Label, AIPD Assembly and Serial Numbers, Very Small =
+oli . 4108-00004 . . 2 | NIN{N| eee
+RoHS Compliant Bare PCB, MCP6N11 Wheaistone Bridge
+7 | 1 |PcB Reference Design 1104-00354. . . yi 1 fly NI] P
+8 | 4 |ct ICAP CER 220PF 50V 5% NPO 0603 AVX Corporation |06035A221JAT2A__|DigiKe) 478-1179-1-ND y|_ + |y[n{n} e
+[c2, C3,
+c4,C6,cC9,
+C10, C18,
+C21,
+9 | 10 }C23,c28_|caP CER .10UF 50V X7R 10% 0603 AVX Corporation |06035C104KAT2A__|DigiKey |478-5052-1-ND y|_ + |y[n{n} e
+IC5,C7,
+10 | 4 |C17,C19_|caP CERM .O1UF 10% SOV X7R 0603 AVX Corporation |06035C103KAT2A__|DigiKe) 478-1227-1-ND y|_+ |y[n{n} e
+C8, CTT,
+C12, C13,
+Ic14, C20,
+c22, C24,
+C25, C26,
+41_| 11 |c27 ICAP CERM 1UF 10% 25V X7R 1206 AVX Corporation |12063C105KAT2A__|DigiKey 478-1567-1-ND y{_ 1 |y[n{n} e
+12 | 2 |C15,C16_|CAP CER 10UF 16V X7R 10% 1208 AVX Corporation |1206YC106KAT2A _|DigiKey 478-5725-1-ND y|_ + |y[n{n} e
+13 | 1 \y2 CONN MINI USB RCPT RA TYPE B SMD ITE Connectivity |1734035-2 Digikey |A31727CT-ND y|_ + |y[n{n} e
+Molex Connector
+14 | 1 |yP1 CONN HDR DUAL 6POS .100 SRT AU [Corporation 10-89-7062 Digikey WM26806-ND y| + |y{n{n} e
+

@@ -1,0 +1,52 @@
+‘onsemi, ONSEMI, and other names, marks, and brands are registered andior common law trademarks of Semiconductor Components Industries, LLG dba “onsemi” or is afliates|
+andjor subsidiaries in the United States and/or other countries. onsemi owns the rights to a number of patents, trademarks, copyrights, trade secrets, and other intellectual property. A
+listing of onsemi’s product/patent coverage may be accessed at www.onsemi.com/site/pd/Patent-Marking.pdf. onsemi is an Equal Opportunity/Affirmative Action Employer. This
+literature is subject to all applicable copyright laws and is not for resale in any manner.
+
+‘The evaluation board\kit (research and development board/kit) (hereinafter the "board is nota finished product and is not available for sale to consumers. The board is only intended
+{for research, development, demonstration and evaluation purposes and will oly be used in laboratory/development areas by persons with an engineering/technical training and familiar
+with the tisks associated with handling electrical/mechanical components, systems and subsystems. This person assumes full responsibiltyiabilty for proper and safe handling. Any
+other use, resale or redistribution for any other purpose is strictly prohibited
+
+‘THE BOARD IS PROVIDED BY ONSEMITO YOU “AS IS” AND WITHOUT ANY REPRESENTATIONS OR WARRANTIES WHATSOEVER. WITHOUT LIMITING THE FOREGOING,
+ONSEMI (AND ITS LICENSORS/SUPPLIERS) HEREBY DISCLAIMS ANY AND ALL REPRESENTATIONS AND WARRANTIES IN RELATION TO THE BOARD, ANY
+MODIFICATIONS, OR THIS AGREEMENT, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING WITHOUT LIMITATION ANY AND ALL
+REPRESENTATIONS AND WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, AND THOSE ARISING FROM A
+COURSE OF DEALING, TRADE USAGE, TRADE CUSTOM OR TRADE PRACTICE.
+
+‘onsemi reserves the right to make changes without further notice to any board,
+
+You are responsible for determining whether the board will be suitable for your intended use or application or will achieve your intended results. Prior to using or distributing any systems
+that have been evaluated, designed or tested using the board, you agree to test and validate your design to confirm the functionality for your application. Any technical, applications or
+design information or advice, quality characterization, reliability data or other services provided by onsemi shall not constitute any representation or warranty by onsemi, and no additional
+obligations or labilties shall arise from onsemi having provided such information or services,
+
+‘onsemi products including the boards are not designed, intended, or authorized for use in life support systems, or any FDA Class 3 medical devices or medical devices with a similar
+or equivalent classification in a foreign jurisdiction, or any devices intended for implantation in the human body. You agree to indemnify, defend and hold harmless onsemi, its directors,
+officers, employees, representatives, agents, subsidiaries, affiliates, distributors, and assigns, against any and all labilties, losses, costs, damages, judgments, and expenses, arising
+out of any claim, demand, investigation, lawsuit, regulatory action or cause of action arising out of or associated with any unauthorized use, even if such claim alleges that onsemi was
+negligent regarding the design or manufacture of any products andjor the board.
+
+‘This evaluation boardikit does not fall within the scope of the European Union directives regarding electromagnetic compatibility, restricted substances (RoHS), recycling (WEEE), FCC,
+CE or UL, and may not meet the technical requirements of these or other related directives.
+
+FCC WARNING — This evaluation board/kt is intended for use for engineering development, demonstration, or evaluation purposes only and is not considered by onsemi to be a finished
+tend product fit for general consumer use. It may generate, use, or radiate radio frequency energy and has not been tested for compliance withthe limits of computing devices pursuant
+to part 15 of FCC rules, which are designed to provide reasonable protection against radio frequency interference. Operation of this equipment may cause interference with radio
+communications, in which case the user shall be responsible, at its expense, to take whatever measures may be required to correct this interference.
+
+‘onsemi does not convey any license under its patent rights nor the rights of others.
+LIMITATIONS OF LIABILITY: onsemi shall not be liable for any special, consequential, incidental, indirect or punitive damages, including, but not limited to the costs of requalifcation,
+delay, loss of profits or goodwil, arising out of or in connection with the board, even if onsemi is advised of the possiblity of such damages. In no event shall onsemi's aggregate liability
+{rom any obligation arising out of or in connection with the board, under any theory of liability, exceed the purchase price paid for the board, if any.
+
+‘The board is provided to you subject to the license and other terms per onsemi's standard terms and conditions of sale. For more information and documentation, please visit
+‘wwew.onsemi.com,
+
+ADDITIONAL INFORMATION
+
+TECHNICAL PUBLICATIONS: ONLINE SUPPORT: www. onsemi.com/support
+Technical Library: www.onsemi.com/designiresourcesjtechnical-documentation For additional information, please contact your local Sales Representative at
+
+febsite: vww.onsemi.com ‘wwww.onsemi.com/support/sales
+

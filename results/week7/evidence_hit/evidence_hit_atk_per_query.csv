@@ -1,0 +1,61 @@
+Method,query_id,gold_page_id,rank_found,Evidence Hit@1,Evidence Hit@5,Evidence Hit@10,status,run_file
+BM25,q001,doc001_p001,2,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+BM25,q002,doc001_p002,2,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+BM25,q004,doc001_p004,1,1,1,1,PASSED,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+BM25,q006,doc002_p001,1,1,1,1,PASSED,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+BM25,q007,doc002_p001,2,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+BM25,q008,doc003_p007,1,1,1,1,PASSED,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+BM25,q009,doc003_p008,1,1,1,1,PASSED,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+BM25,q010,doc003_p009,3,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+BM25,q011,doc003_p010,2,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+BM25,q012,doc003_p011,2,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_fullmv_N50_alpha1p0_run.tsv
+Single-vector Visual,q001,doc001_p001,,,,,MISSING_RUN,
+Single-vector Visual,q002,doc001_p002,,,,,MISSING_RUN,
+Single-vector Visual,q004,doc001_p004,,,,,MISSING_RUN,
+Single-vector Visual,q006,doc002_p001,,,,,MISSING_RUN,
+Single-vector Visual,q007,doc002_p001,,,,,MISSING_RUN,
+Single-vector Visual,q008,doc003_p007,,,,,MISSING_RUN,
+Single-vector Visual,q009,doc003_p008,,,,,MISSING_RUN,
+Single-vector Visual,q010,doc003_p009,,,,,MISSING_RUN,
+Single-vector Visual,q011,doc003_p010,,,,,MISSING_RUN,
+Single-vector Visual,q012,doc003_p011,,,,,MISSING_RUN,
+Full MV,q001,doc001_p001,10,0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Full MV,q002,doc001_p002,1,1,1,1,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Full MV,q004,doc001_p004,10,0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Full MV,q006,doc002_p001,10,0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Full MV,q007,doc002_p001,10,0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Full MV,q008,doc003_p007,3,0,1,1,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Full MV,q009,doc003_p008,6,0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Full MV,q010,doc003_p009,4,0,1,1,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Full MV,q011,doc003_p010,9,0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Full MV,q012,doc003_p011,5,0,1,1,PASSED,results\week7\c2f_fixed_N\bm25_fullmv_N10_run.tsv
+Budgeted MV,q001,doc001_p001,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Budgeted MV,q002,doc001_p002,6,0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Budgeted MV,q004,doc001_p004,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Budgeted MV,q006,doc002_p001,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Budgeted MV,q007,doc002_p001,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Budgeted MV,q008,doc003_p007,1,1,1,1,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Budgeted MV,q009,doc003_p008,6,0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Budgeted MV,q010,doc003_p009,4,0,1,1,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Budgeted MV,q011,doc003_p010,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Budgeted MV,q012,doc003_p011,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q001,doc001_p001,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q002,doc001_p002,6,0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q004,doc001_p004,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q006,doc002_p001,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q007,doc002_p001,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q008,doc003_p007,1,1,1,1,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q009,doc003_p008,6,0,0,1,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q010,doc003_p009,4,0,1,1,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q011,doc003_p010,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+BM25 + Budgeted MV,q012,doc003_p011,,0,0,0,PASSED,results\week7\c2f_fixed_N\bm25_budgetmv_N20_M8_none_run.tsv
+Hybrid Fusion,q001,doc001_p001,2,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv
+Hybrid Fusion,q002,doc001_p002,2,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv
+Hybrid Fusion,q004,doc001_p004,1,1,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv
+Hybrid Fusion,q006,doc002_p001,1,1,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv
+Hybrid Fusion,q007,doc002_p001,2,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv
+Hybrid Fusion,q008,doc003_p007,1,1,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv
+Hybrid Fusion,q009,doc003_p008,1,1,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv
+Hybrid Fusion,q010,doc003_p009,3,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv
+Hybrid Fusion,q011,doc003_p010,2,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv
+Hybrid Fusion,q012,doc003_p011,2,0,1,1,PASSED,results\week7\hybrid_fusion\hybrid_budgetmv_N50_M24_alpha1p0_run.tsv

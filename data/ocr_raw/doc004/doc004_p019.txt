@@ -1,0 +1,130 @@
+NXP Semiconductors
+
+AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+15. Legal information
+
+15.1 Definitions
+
+Draft — The document is a draft version only. The content is still under
+internal review and subject to formal approval, which may result in
+modifications or additions. NXP Semiconductors does not give any
+representations or warranties as to the accuracy or completeness of
+information included herein and shall have no liability for the consequences of
+Use of such information.
+
+15.2 Disclaimers
+
+Limited warranty and liability — Information in this document is believed to
+be accurate and reliable. However, NXP Semiconductors does not give any
+representations or warranties, expressed or implied, as to the accuracy or
+‘completeness of such information and shall have no liability for the
+‘consequences of use of such information. NXP Semiconductors takes no
+responsibility for the content in this document if provided by an information
+source outside of NXP Semiconductors.
+
+In no event shall NXP Semiconductors be liable for any indirect, incidental,
+punitive, special or consequential damages (including - without limitation - lost
+profits, lost savings, business interruption, costs related to the removal or
+replacement of any products or rework charges) whether or not such
+damages are based on tort (including negligence), warranty, breach of
+contract or any other legal theory.
+
+Notwithstanding any damages that customer might incur for any reason
+whatsoever, NXP Semiconductors’ aggregate and cumulative liability towards
+‘customer for the products described herein shall be limited in accordance
+with the Terms and conaitions of commercial sale of NXP Semiconductors.
+
+Right to make changes — NXP Semiconductors reserves the right to make
+changes to information published in this document, including without
+limitation specifications and product descriptions, at any time and without
+notice. This document supersedes and replaces all information supplied prior
+to the publication hereof.
+
+Suitability for use — NXP Semiconductors products are not designed,
+authorized or warranted to be suitable for use in life support, life-critical or
+safety-critical systems or equipment, nor in applications where failure or
+malfunction of an NXP Semiconductors product can reasonably be expected
+to result in personal injury, death or severe property or environmental
+damage. NXP Semiconductors and its suppliers accept no liability for
+inclusion and/or use of NXP Semiconductors products in such equipment or
+applications and therefore such inclusion and/or use is at the customer's own
+risk.
+
+Applications — Applications that are described herein for any of these
+products are for illustrative purposes only. NXP Semiconductors makes no
+representation or warranty that such applications will be suitable for the
+specified use without further testing or modification.
+
+Customers are responsible for the design and operation of their applications
+and products using NXP Semiconductors products, and NXP Semiconductors
+accepts no liability for any assistance with applications or customer product
+
+aNi1590
+
+Application note
+
+Allinformaton provided in this document is subject to legal disclaimers,
+
+Rev. 1 — 29 January 2015
+
+design. It is customer's sole responsibilty to determine whether the NXP
+Semiconductors product is suitable and fit for the customer's applications and
+products planned, as well as for the planned application and use of
+customer's third party customer(s). Customers should provide appropriate
+design and operating safeguards to minimize the risks associated with their
+applications and products.
+
+NXP Semiconductors does not accept any liability related to any default,
+damage, costs or problem which is based on any weakness or default in the
+customer's applications or products, or the application or use by customer's
+third party customer(s). Customer is responsible for doing all necessary
+testing for the customer's applications and products using NXP
+Semiconductors products in order to avoid a default of the applications and
+the products or of the application or use by customer's third party
+customer(s). NXP does not accept any liability in this respect.
+
+Export control — This document as well as the item(s) described herein
+may be subject to export control regulations. Export might require a prior
+authorization from competent authorities.
+
+Evaluation products — This product is provided on an “as is” and “with alll
+faults” basis for evaluation purposes only. NXP Semiconductors, its affiliates
+and their suppliers expressly disclaim all warranties, whether express, implied
+or statutory, including but not limited to the implied warranties of
+non-infringement, merchantability and fitness for a particular purpose. The
+entire risk as to the quality, or arising out of the use or performance, of this
+product remains with customer.
+
+Inno event shall NXP Semiconductors, its affiliates or their suppliers be liable
+to customer for any special, indirect, consequential, punitive or incidental
+damages (including without limitation damages for loss of business, business
+interruption, loss of use, loss of data or information, and the like) arising out
+the use of or inability to use the product, whether or not based on tort
+(including negligence), strict liability, breach of contract, breach of warranty or
+any other theory, even if advised of the possibility of such damages.
+
+Notwithstanding any damages that customer might incur for any reason
+whatsoever (including without limitation, all damages referenced above and
+all direct or general damages), the entire liability of NXP Semiconductors, its
+affiliates and their suppliers and customer's exclusive remedy for all of the
+foregoing shall be limited to actual damages incurred by customer based on
+reasonable reliance up to the greater of the amount actually paid by customer
+for the product or five dollars (US$5.00). The foregoing limitations, exclusions
+and disclaimers shall apply to the maximum extent permitted by applicable
+law, even if any remedy fails of its essential purpose.
+
+Translations — A non-English (translated) version of a document is for
+reference only. The English version shall prevail in case of any discrepancy
+between the translated and English versions.
+
+15.3 Trademarks
+
+Notice: All referenced brands, product names, service names and trademarks
+are the property of their respective owners.
+
+(© NXP Semiconductors N.V. 2016, Al rights reserved
+
+19 of 20

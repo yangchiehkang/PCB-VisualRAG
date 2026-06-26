@@ -1,0 +1,18 @@
+{
+  "run_name": "w6_N10_M16_pq",
+  "compression": "PQ",
+  "N": 10,
+  "M": 16,
+  "input_query_count": 30,
+  "valid_query_count": 30,
+  "input_candidate_rows": 300,
+  "valid_candidate_count": 300,
+  "avg_input_candidates_per_query": 10.0,
+  "avg_valid_candidates_per_valid_query": 10.0,
+  "rerank_time_seconds": 0.1485757827758789,
+  "per_query_latency_ms": 4.952526092529297,
+  "run_file": "results\\budgeted\\joint_compression\\runs\\w6_N10_M16_pq_run.tsv",
+  "score_file": "results\\budgeted\\joint_compression\\scores\\w6_N10_M16_pq_scores.csv",
+  "missing_file": null,
+  "page_dir": "artifacts\\embeddings\\joint_compression\\pages_M16_pq"
+}

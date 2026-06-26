@@ -1,0 +1,18 @@
+1 Overview
+
+Figure 1-2 shows the 4x4 crosspoint switch EVM (part number
+SN65LVDS125A or SN65LVDS250). The EVM comes with either the
+SN65LVDS125A or SN65LVDS250 installed and a copy of the data sheet.
+The latest version of the data sheet is also available from www.ti.com.
+
+ABT exAs
+INSTRUMENTS
+
+SN65LVDS125A
+~SN65EVDS250
+
+4x4 Crosspoint beh EVM,
+
+ie
+
+Figure 1-2. 4x4 Crosspoint Switch EVM

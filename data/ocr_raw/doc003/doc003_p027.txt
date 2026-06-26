@@ -1,0 +1,29 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+6.6 866MHz LNA using BFUS550W
+
+Voc 3.6V
+rn
+
+5.6 nF
+
+220 pF
+
+220
+
+100
+8.2nH
+Murata
+LOW series:
+8.2 pF RF output
+(SMA)
+RF input
+(sma) bur
+1.5pF
+I 900-010456
+Fig 33. 866MHz LNA using BFUS50W
+uniorre ‘Ainermain provided nhs docu is subject oa diainer. ONXP BV. 2014. Al ight sored
+
+User manual Rev. 1 — 21 January 2014 27 of 29

@@ -1,0 +1,39 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+1. Introduction
+
+The BFU5xxx transistor family is designed to meet the latest requirements on high frequency
+applications (up to approximately 1.5 GHz) such as communication, automotive and industrial
+equipment.
+
+As soon as fast, low noise analogue signal processing is required, combined with medium to high
+voltage swings, the BFU5xxxX transistors are the perfect choice. Due to the high gain at low supply
+current those types can also be applied very well in battery fed equipment.
+
+Compared to previous Philips / NXP transistor generations and competitor products, improvements
+on gain, noise and thermal properties are realized. BFU5xxxX transistors will be available in various
+packages.
+
+The transistors will be promoted with a full promotion package, called “starter kits” (one kit type per
+package-type). Those kits include two PCB's (one with grounded emitter, one with emitter
+degeneration provision), RF connectors, transistors and simulation model parameters required to
+perform simulations. See the overview of available starter kits in the table below.
+
+Table 1. Customer evaluation kits
+Transistor Types Evaluation Kit
+BFU520, BFU530, BFU550 OM7962, starter kit SOT143
+
+BFU520X, BFU530X, BFU550X OM7963, starter kit SOT143X
+
+BFU520XR, BFU530XR, BFU550XR | OM7964, starter kit SOT143XR
+
+BFU520A, BFU530A, BFU550A OM7961, starter kit SOT23
+
+BFU520W, BFU530W, BFUS50W OM7960, starter kit SOT323
+
+umto772 All iformation provided in this dacument is subject legal disclaimers NXP BLY. 2014. Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 3 of 29
+

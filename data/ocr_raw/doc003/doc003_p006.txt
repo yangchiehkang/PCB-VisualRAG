@@ -1,0 +1,19 @@
+NXP Semiconductors UM10772
+
+How to use BFU5xx starter-kit
+
+2.2 PCB’s example for BFU5xx series LNA
+
+Fig 2. PCB’s BFUS-- series populated board, example 433MHz LNA in SOT143 package
+
+3. Target applications for starter kit PCB’s
+Basically the PCB’s are designed to accommodate an RF amplifier. These could be:
+1) LNA’s
+2) Generic RF Amplifiers, small signal, small band
+3) Wide band amplifiers (by applying feedback)
+4) Amplifiers for large signal (using for example BFU550 types).
+
+umto772 All iformation provided inthis dacument is subject legal disclaimers. NXP BLY. 2014. Al rights reserved.
+
+User manual Rev. 1 — 21 January 2014 6 of 29
+

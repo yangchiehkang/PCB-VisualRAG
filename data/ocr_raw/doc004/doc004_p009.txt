@@ -1,0 +1,41 @@
+NXP Semiconductors AN11590
+
+PTN3356 PCB Layout Guideline, Reference Schematics and BOM
+
+3. Buck converter
+
+aNi1590
+
+Application note
+
+3.1. Buck converter layout guideline
+
+PTN3355 utilizes a switch mode power supply to deliver the power needed with
+highefficiency. Switch mode power supplies require careful attention to the PC board
+layout.
+
+There are two switching high-current loops formed by the switching action of the buck
+converter. One loop is formed by the current that flows from the input capacitor through
+the PVDD pin of the part, through the internal PMOS High-side switch, out the SW pin,
+through the inductor and the load capacitor to the analog ground, and through the ground
+plane back to the ground connection of the input capacitor. A second switching high
+current loop is formed when the low-side NMOS switch is on.
+
+The current flows from the PGND pin of the part through the internal NMOS switch, out
+the SW pin, through the inductor and the load capacitor, to the analog ground, and
+through the ground plane back to the PGND pin of the part.
+
+Below is a minimum BOM design for embedded or dongle design.
+
+. PVDD
+Vin
+
+Vout
+
+PGND
+
+Fig 4. Switching High-current Loop1: PVDD - LC - PMOS -- GND
+
+Allinformaton provided in this document is subject to legal disclaimers, (© NXP Semiconductors N.V. 2015. Al rights reserved
+
+Rev. 1 — 29 January 2015 9 of 20

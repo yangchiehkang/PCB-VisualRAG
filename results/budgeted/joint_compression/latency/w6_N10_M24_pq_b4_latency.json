@@ -1,0 +1,17 @@
+{
+  "run_name": "w6_N10_M24_pq_b4",
+  "N": 10,
+  "M": 24,
+  "Compression": "PQ-b4",
+  "bits": 4,
+  "input_query_count": 30,
+  "valid_query_count": 30,
+  "input_candidate_rows": 300,
+  "valid_candidate_count": 300,
+  "rerank_time_seconds": 0.14717578887939453,
+  "per_query_latency_ms": 4.905859629313151,
+  "run_file": "results\\budgeted\\joint_compression\\runs\\w6_N10_M24_pq_b4_run.tsv",
+  "score_file": "results\\budgeted\\joint_compression\\scores\\w6_N10_M24_pq_b4_scores.csv",
+  "missing_file": null,
+  "page_dir": "artifacts\\embeddings\\joint_compression\\pages_M24_pq_b4"
+}
