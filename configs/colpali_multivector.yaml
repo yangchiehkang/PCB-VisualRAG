@@ -1,0 +1,50 @@
+experiment_name: colpali_multivector_week3
+
+# Data section copied verbatim from configs/full_multivector.yaml
+# (same corpus / queries / qrels / page inventory / subset).
+data:
+  corpus_file: data/metadata/corpus.jsonl
+  query_file: data/metadata/queries.jsonl
+  qrels_file: data/metadata/qrels.tsv
+  page_inventory_file: data/metadata/page_inventory.csv
+  image_root: data/images
+  subset_file: data/metadata/full_mv_small_subset.json
+
+model:
+  # ColPali v1.3 (PaliGemma-3B backbone) — preferred for MPS stability.
+  # ColQwen2 (vidore/colqwen2-v1.0) kept as a follow-up comparison only.
+  name: vidore/colpali-v1.3
+  type: colpali          # consumed by the ColPali scripts to pick model/processor class
+  device: mps            # M5 Max; scripts fall back to cpu if mps unavailable
+  # ColPali native late interaction uses RAW (un-normalized) token vectors:
+  # each token's norm encodes learned importance. L2-normalizing would turn the
+  # score into cosine MaxSim (a scoring the model was NOT trained for) and unfairly
+  # weaken the ColPali baseline. So we keep the raw vectors here.
+  normalize_embeddings: false
+
+page_embedding:
+  representation: colpali_patch_multivector
+  source: colpali_late_interaction
+  save_dir: artifacts/embeddings/colpali_multivector/pages
+
+query_embedding:
+  representation: colpali_query_multivector
+  source: colpali_late_interaction
+  save_dir: artifacts/embeddings/colpali_multivector/queries
+
+scoring:
+  similarity: cosine
+  aggregation: sum_maxsim
+  topk: 10
+
+outputs:
+  page_meta_file: artifacts/embeddings/colpali_multivector/page_embedding_meta.jsonl
+  query_meta_file: artifacts/embeddings/colpali_multivector/query_embedding_meta.jsonl
+
+  full_run_file: results/colpali_multivector/colpali_mv_run.tsv
+  full_metrics_file: results/colpali_multivector/colpali_mv_metrics.json
+
+  small_run_file: results/colpali_multivector/colpali_mv_small_run.tsv
+  small_metrics_file: results/colpali_multivector/colpali_mv_small_metrics.json
+
+  comparison_csv_file: results/comparisons/clip_vs_colpali_multivector.md
