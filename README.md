@@ -110,7 +110,7 @@ Full corpus (101 pages, 30 queries), page-level, k = 10.
 | Full MV — CLIP (ViT-B/32) | 0.1333 | 0.0807 |
 | **Full MV — ColPali v1.3** | **0.9333** | **0.6832** |
 
-With the CLIP encoder, OCR BM25 is the strongest baseline and the visual multi-vector branch trails badly. After swapping the encoder to ColPali v1.3 (a late-interaction-native model), the visual multi-vector branch becomes the strongest page-level retriever in this corpus, overtaking BM25.
+With the CLIP encoder, OCR BM25 is the strongest baseline and the visual multi-vector branch trails badly. After swapping the encoder to ColPali v1.3 (a late-interaction-native model), the visual multi-vector branch moves from far behind BM25 to on par with it on this corpus. At this pilot scale (n = 30 queries) the remaining gap falls within noise, so the robust claim is parity with BM25, not that the visual branch surpasses it.
 
 ---
 
@@ -124,7 +124,7 @@ Same evaluation script, same qrels, same MaxSim scoring, same run format; only t
 | **Full MV — ColPali v1.3** | **0.4333** | **0.8333** | **0.9333** | **0.6228** | **0.6832** |
 | BM25 (reference) | — | — | 0.8833 | — | 0.5241 |
 
-ColPali improves Recall@10 by roughly 7× (0.1333 → 0.9333) and nDCG@10 by roughly 8× (0.0807 → 0.6832) over CLIP, and surpasses the BM25 reference on both available metrics (Recall@10 +0.05, nDCG@10 +0.159). CLIP token vectors are L2-normalized (cosine MaxSim); ColPali vectors are stored as the model's native, un-normalized output (native dot-product MaxSim), since ColPali token norms encode learned importance. See `results/comparisons/clip_vs_colpali_multivector.md`.
+ColPali improves Recall@10 by roughly 7× (0.1333 → 0.9333) and nDCG@10 by roughly 8× (0.0807 → 0.6832) over CLIP, reaching parity with the BM25 reference (Recall@10 0.9333 vs 0.8833, nDCG@10 0.6832 vs 0.5241). At n = 30 the Recall@10 gap (+0.05, about 1.5 queries) is within noise, and the nDCG@10 gap (+0.159), while larger, is still uncertain without confidence intervals; the robust takeaway is that the encoder swap moves the visual branch from ~7× behind BM25 to on par with it, and any claim of surpassing BM25 would need the larger qep_v1 benchmark. CLIP token vectors are L2-normalized (cosine MaxSim); ColPali vectors are stored as the model's native, un-normalized output (native dot-product MaxSim), since ColPali token norms encode learned importance. See `results/comparisons/clip_vs_colpali_multivector.md`.
 
 ---
 
@@ -140,7 +140,7 @@ ColPali improves Recall@10 by roughly 7× (0.1333 → 0.9333) and nDCG@10 by rou
 | C2F-Budgeted N10 M24 | 24 | 0.2667 | 0.1145 | 4.7344 MB |
 | C2F-Full N10 M49 | 49 | 0.2667 | 0.1033 | 9.6660 MB |
 
-The results show that many visual tokens are redundant. Keeping only 8 visual tokens per page preserves comparable retrieval quality while greatly reducing storage cost.
+These runs use the CLIP encoder, whose full multi-vector Recall@10 (0.1333) is already near-noise, so the apparent "budgeting matches full" effect should not be over-read as evidence of redundancy. Whether visual tokens are truly redundant, and where the optimal budget lies, must be re-verified on ColPali v1.3, where each page has ~1000+ patch tokens and the redundancy structure may differ.
 
 ---
 
@@ -163,9 +163,9 @@ The best compressed setting reaches nDCG@10 of 0.1296 with only 0.0185 MB visual
 |---|---:|---:|---:|
 | Gold Evidence | 1.0000 | 1.0000 | 0 |
 | BM25 | 0.4000 | 0.4000 | 1 |
-| Full MV | 0.1000 | 0.1000 | 4 |
+| Full MV (CLIP) | 0.1000 | 0.1000 | 4 |
 | Hybrid Fusion | 0.4000 | 0.4000 | 1 |
-| Budgeted MV | 0.1000 | 0.1000 | 6 |
+| Budgeted MV (CLIP) | 0.1000 | 0.1000 | 6 |
 
 The Visual RAG results show that downstream answer quality is strongly controlled by retrieval quality. When the correct page is retrieved, the VLM can answer correctly. When retrieval fails, the model is more likely to produce wrong or hallucinated answers.
 
@@ -173,13 +173,13 @@ The Visual RAG results show that downstream answer quality is strongly controlle
 
 ## Key Findings
 
-- With a late-interaction-native encoder (ColPali v1.3), visual multi-vector retrieval is the strongest page-level retriever, surpassing BM25 (Recall@10 0.9333 vs 0.8833, nDCG@10 0.6832 vs 0.5241).
+- With a late-interaction-native encoder (ColPali v1.3), visual multi-vector retrieval reaches parity with OCR BM25 (Recall@10 0.9333 vs 0.8833, nDCG@10 0.6832 vs 0.5241); at n = 30 the gap is within noise, so the robust claim is parity, not surpassing BM25.
 - The encoder, not the late-interaction method, was the bottleneck: raw CLIP tokens are not token-aligned, so under CLIP the multi-vector branch scored only Recall@10 0.1333; swapping to ColPali lifts it ~7× with no other changes.
 - OCR BM25 remains a very strong page-level baseline and the best text-only method (Dense text retrieval performs well but does not outperform BM25).
 - Coarse-to-fine and token-budgeted retrieval improve the CLIP-based visual branch and greatly reduce storage.
-- Retaining only a small number of visual tokens can preserve useful retrieval quality.
+- Retaining only a small number of visual tokens preserved retrieval quality under the CLIP encoder, but this was measured on a near-noise CLIP baseline and must be re-verified on ColPali v1.3.
 - Product quantization greatly reduces visual vector payload size.
-- Evidence-region occlusion confirms that annotated visual regions can be important for retrieval scoring.
+- Evidence-region occlusion is currently a motivating illustration only, not causal evidence: the occlusion score is an edge/ink-density proxy and the gold regions are auto-generated by the same saliency, making the two circular. True retrieval-level occlusion (mask, then re-encode the page, re-run retrieval, and observe the gold-page rank change) is future work.
 - Visual RAG answer accuracy closely follows retrieval gold-page hit rate.
 
 ---

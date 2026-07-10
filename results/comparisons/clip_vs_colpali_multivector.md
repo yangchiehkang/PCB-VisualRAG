@@ -30,9 +30,12 @@ n/a = not available in the provided reference, not zero.
   and nDCG@10 from 0.0807 to 0.6832 (**~8.5×**); MRR@10 rises from 0.0644 to 0.6228. The gain is
   consistent across all cutoffs (Recall@1: 0.0333 → 0.4333). This is the expected direction: ColPali
   is trained with a late-interaction objective and token-level alignment, whereas raw CLIP tokens are not.
-- **ColPali vs BM25:** ColPali now **surpasses** the BM25 reference on both available metrics —
-  Recall@10 0.9333 vs 0.8833 (**+0.05**) and nDCG@10 0.6832 vs 0.5241 (**+0.159**). Under CLIP the
-  visual multi-vector retriever was far below BM25; after the encoder swap the gap is not just closed but reversed.
+- **ColPali vs BM25:** ColPali reaches **parity** with the BM25 reference on both available metrics —
+  Recall@10 0.9333 vs 0.8833 (**+0.05**) and nDCG@10 0.6832 vs 0.5241 (**+0.159**). At this pilot scale
+  (n = 30) the Recall@10 gap (+0.05, about 1.5 queries) is within noise, and the nDCG@10 gap (+0.159),
+  while larger, is uncertain without confidence intervals. The robust statement is that the encoder swap
+  moves the visual multi-vector retriever from far below BM25 to on par with it; establishing a true win
+  over BM25 would need the larger qep_v1 benchmark.
 
 Auxiliary (not the headline metric): ColPali document-level Recall@10 = 1.0 vs CLIP 0.90.
 
